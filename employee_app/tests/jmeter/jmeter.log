@@ -1,0 +1,115 @@
+2026-07-31 00:17:40,721 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2026-07-31 00:17:40,767 INFO o.a.j.JMeter: Loading user properties from: C:\Users\Thomas\Desktop\apache-jmeter-5.6.3\bin\user.properties
+2026-07-31 00:17:40,777 INFO o.a.j.JMeter: Loading system properties from: C:\Users\Thomas\Desktop\apache-jmeter-5.6.3\bin\system.properties
+2026-07-31 00:17:40,782 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2026-07-31 00:17:40,782 INFO o.a.j.JMeter: Version 5.6.3
+2026-07-31 00:17:40,782 INFO o.a.j.JMeter: java.version=21.0.11.0.11
+2026-07-31 00:17:40,782 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2026-07-31 00:17:40,782 INFO o.a.j.JMeter: os.name=Windows 11
+2026-07-31 00:17:40,782 INFO o.a.j.JMeter: os.arch=amd64
+2026-07-31 00:17:40,782 INFO o.a.j.JMeter: os.version=10.0
+2026-07-31 00:17:40,782 INFO o.a.j.JMeter: file.encoding=UTF-8
+2026-07-31 00:17:40,782 INFO o.a.j.JMeter: java.awt.headless=true
+2026-07-31 00:17:40,782 INFO o.a.j.JMeter: Max memory     =1073741824
+2026-07-31 00:17:40,783 INFO o.a.j.JMeter: Available Processors =12
+2026-07-31 00:17:40,789 INFO o.a.j.JMeter: Default Locale=English (EN)
+2026-07-31 00:17:40,789 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2026-07-31 00:17:40,789 INFO o.a.j.JMeter: JMeterHome=C:\Users\Thomas\Desktop\apache-jmeter-5.6.3
+2026-07-31 00:17:40,789 INFO o.a.j.JMeter: user.dir  =C:\Users\Thomas\P1\P1-Group3\employee_app\tests\jmeter
+2026-07-31 00:17:40,789 INFO o.a.j.JMeter: PWD       =C:\Users\Thomas\P1\P1-Group3\employee_app\tests\jmeter
+2026-07-31 00:17:40,791 INFO o.a.j.JMeter: IP: 100.110.96.117 Name: DESKTOP-767VFQ6 FullName: desktop-767vfq6.tail1821af.ts.net.
+2026-07-31 00:17:40,800 INFO o.a.j.s.FileServer: Default base='C:\Users\Thomas\P1\P1-Group3\employee_app\tests\jmeter'
+2026-07-31 00:17:40,801 INFO o.a.j.s.FileServer: Set new base='C:\Users\Thomas\P1\P1-Group3\employee_app\tests\jmeter\.'
+2026-07-31 00:17:40,924 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2026-07-31 00:17:40,955 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2026-07-31 00:17:40,957 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2026-07-31 00:17:40,960 INFO o.a.j.s.SaveService: Loading file: .\expense_manager_test_plan.jmx
+2026-07-31 00:17:41,009 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-07-31 00:17:41,009 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-07-31 00:17:41,009 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-07-31 00:17:41,009 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-07-31 00:17:41,009 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2026-07-31 00:17:41,009 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2026-07-31 00:17:41,048 INFO o.a.j.JMeter: Creating summariser <summary>
+2026-07-31 00:17:41,056 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2026-07-31 00:17:41,056 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-07-31 00:17:41,057 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-07-31 00:17:41,059 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2026-07-31 00:17:41,059 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2026-07-31 00:17:41,110 INFO o.a.j.JMeter: Running test (1785471461110)
+2026-07-31 00:17:41,122 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Employee Users
+2026-07-31 00:17:41,122 INFO o.a.j.e.StandardJMeterEngine: Starting 20 threads for group Employee Users.
+2026-07-31 00:17:41,122 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-07-31 00:17:41,122 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=20 ramp-up=5 delayedStart=false
+2026-07-31 00:17:41,130 INFO o.a.j.t.JMeterThread: Thread started: Employee Users 1-1
+2026-07-31 00:17:41,142 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2026-07-31 00:17:41,142 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2026-07-31 00:17:41,377 INFO o.a.j.t.JMeterThread: Thread started: Employee Users 1-2
+2026-07-31 00:17:41,387 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = DESKTOP-767VFQ6
+2026-07-31 00:17:41,391 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2026-07-31 00:17:41,392 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2026-07-31 00:17:41,392 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2026-07-31 00:17:41,392 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2026-07-31 00:17:41,392 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2026-07-31 00:17:41,627 INFO o.a.j.t.JMeterThread: Thread started: Employee Users 1-3
+2026-07-31 00:17:41,877 INFO o.a.j.t.JMeterThread: Thread started: Employee Users 1-4
+2026-07-31 00:17:42,127 INFO o.a.j.t.JMeterThread: Thread started: Employee Users 1-5
+2026-07-31 00:17:42,374 INFO o.a.j.t.JMeterThread: Thread started: Employee Users 1-6
+2026-07-31 00:17:42,624 INFO o.a.j.t.JMeterThread: Thread started: Employee Users 1-7
+2026-07-31 00:17:42,874 INFO o.a.j.t.JMeterThread: Thread started: Employee Users 1-8
+2026-07-31 00:17:43,124 INFO o.a.j.t.JMeterThread: Thread started: Employee Users 1-9
+2026-07-31 00:17:43,374 INFO o.a.j.t.JMeterThread: Thread started: Employee Users 1-10
+2026-07-31 00:17:43,624 INFO o.a.j.t.JMeterThread: Thread started: Employee Users 1-11
+2026-07-31 00:17:43,875 INFO o.a.j.t.JMeterThread: Thread started: Employee Users 1-12
+2026-07-31 00:17:44,124 INFO o.a.j.t.JMeterThread: Thread started: Employee Users 1-13
+2026-07-31 00:17:44,374 INFO o.a.j.t.JMeterThread: Thread started: Employee Users 1-14
+2026-07-31 00:17:44,623 INFO o.a.j.t.JMeterThread: Thread started: Employee Users 1-15
+2026-07-31 00:17:44,874 INFO o.a.j.t.JMeterThread: Thread started: Employee Users 1-16
+2026-07-31 00:17:45,124 INFO o.a.j.t.JMeterThread: Thread started: Employee Users 1-17
+2026-07-31 00:17:45,373 INFO o.a.j.t.JMeterThread: Thread started: Employee Users 1-18
+2026-07-31 00:17:45,623 INFO o.a.j.t.JMeterThread: Thread started: Employee Users 1-19
+2026-07-31 00:17:45,873 INFO o.a.j.t.JMeterThread: Thread started: Employee Users 1-20
+2026-07-31 00:18:00,005 INFO o.a.j.r.Summariser: summary +   1607 in 00:00:19 =   85.0/s Avg:     3 Min:     1 Max:    33 Err:     0 (0.00%) Active: 20 Started: 20 Finished: 0
+2026-07-31 00:18:12,081 INFO o.a.j.t.JMeterThread: Thread is done: Employee Users 1-1
+2026-07-31 00:18:12,081 INFO o.a.j.t.JMeterThread: Thread finished: Employee Users 1-1
+2026-07-31 00:18:12,233 INFO o.a.j.t.JMeterThread: Thread is done: Employee Users 1-2
+2026-07-31 00:18:12,233 INFO o.a.j.t.JMeterThread: Thread finished: Employee Users 1-2
+2026-07-31 00:18:12,287 INFO o.a.j.t.JMeterThread: Thread is done: Employee Users 1-6
+2026-07-31 00:18:12,287 INFO o.a.j.t.JMeterThread: Thread finished: Employee Users 1-6
+2026-07-31 00:18:12,554 INFO o.a.j.t.JMeterThread: Thread is done: Employee Users 1-7
+2026-07-31 00:18:12,554 INFO o.a.j.t.JMeterThread: Thread finished: Employee Users 1-7
+2026-07-31 00:18:12,756 INFO o.a.j.t.JMeterThread: Thread is done: Employee Users 1-9
+2026-07-31 00:18:12,756 INFO o.a.j.t.JMeterThread: Thread finished: Employee Users 1-9
+2026-07-31 00:18:13,085 INFO o.a.j.t.JMeterThread: Thread is done: Employee Users 1-13
+2026-07-31 00:18:13,085 INFO o.a.j.t.JMeterThread: Thread finished: Employee Users 1-13
+2026-07-31 00:18:13,175 INFO o.a.j.t.JMeterThread: Thread is done: Employee Users 1-4
+2026-07-31 00:18:13,175 INFO o.a.j.t.JMeterThread: Thread finished: Employee Users 1-4
+2026-07-31 00:18:13,277 INFO o.a.j.t.JMeterThread: Thread is done: Employee Users 1-5
+2026-07-31 00:18:13,277 INFO o.a.j.t.JMeterThread: Thread finished: Employee Users 1-5
+2026-07-31 00:18:13,381 INFO o.a.j.t.JMeterThread: Thread is done: Employee Users 1-3
+2026-07-31 00:18:13,381 INFO o.a.j.t.JMeterThread: Thread finished: Employee Users 1-3
+2026-07-31 00:18:13,955 INFO o.a.j.t.JMeterThread: Thread is done: Employee Users 1-8
+2026-07-31 00:18:13,956 INFO o.a.j.t.JMeterThread: Thread finished: Employee Users 1-8
+2026-07-31 00:18:14,072 INFO o.a.j.t.JMeterThread: Thread is done: Employee Users 1-11
+2026-07-31 00:18:14,072 INFO o.a.j.t.JMeterThread: Thread finished: Employee Users 1-11
+2026-07-31 00:18:14,125 INFO o.a.j.t.JMeterThread: Thread is done: Employee Users 1-10
+2026-07-31 00:18:14,125 INFO o.a.j.t.JMeterThread: Thread finished: Employee Users 1-10
+2026-07-31 00:18:14,765 INFO o.a.j.t.JMeterThread: Thread is done: Employee Users 1-15
+2026-07-31 00:18:14,765 INFO o.a.j.t.JMeterThread: Thread finished: Employee Users 1-15
+2026-07-31 00:18:15,156 INFO o.a.j.t.JMeterThread: Thread is done: Employee Users 1-14
+2026-07-31 00:18:15,156 INFO o.a.j.t.JMeterThread: Thread finished: Employee Users 1-14
+2026-07-31 00:18:15,821 INFO o.a.j.t.JMeterThread: Thread is done: Employee Users 1-12
+2026-07-31 00:18:15,821 INFO o.a.j.t.JMeterThread: Thread finished: Employee Users 1-12
+2026-07-31 00:18:15,922 INFO o.a.j.t.JMeterThread: Thread is done: Employee Users 1-17
+2026-07-31 00:18:15,922 INFO o.a.j.t.JMeterThread: Thread finished: Employee Users 1-17
+2026-07-31 00:18:16,006 INFO o.a.j.t.JMeterThread: Thread is done: Employee Users 1-19
+2026-07-31 00:18:16,007 INFO o.a.j.t.JMeterThread: Thread finished: Employee Users 1-19
+2026-07-31 00:18:16,390 INFO o.a.j.t.JMeterThread: Thread is done: Employee Users 1-20
+2026-07-31 00:18:16,390 INFO o.a.j.t.JMeterThread: Thread finished: Employee Users 1-20
+2026-07-31 00:18:16,656 INFO o.a.j.t.JMeterThread: Thread is done: Employee Users 1-16
+2026-07-31 00:18:16,656 INFO o.a.j.t.JMeterThread: Thread finished: Employee Users 1-16
+2026-07-31 00:18:16,749 INFO o.a.j.t.JMeterThread: Thread is done: Employee Users 1-18
+2026-07-31 00:18:16,749 INFO o.a.j.t.JMeterThread: Thread finished: Employee Users 1-18
+2026-07-31 00:18:16,749 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2026-07-31 00:18:16,750 INFO o.a.j.r.Summariser: summary +   1393 in 00:00:17 =   83.2/s Avg:     3 Min:     1 Max:    35 Err:     0 (0.00%) Active: 0 Started: 20 Finished: 20
+2026-07-31 00:18:16,750 INFO o.a.j.r.Summariser: summary =   3000 in 00:00:36 =   84.2/s Avg:     3 Min:     1 Max:    35 Err:     0 (0.00%)

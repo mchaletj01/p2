@@ -1,0 +1,1301 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1785520766790,72,GET All User Request,200,,Manager Users 2-2,text,true,,708,159,4,8,http://127.0.0.1:9090/users,72,0,49
+1785520766815,36,Login Request,200,OK,Employee Users 1-2,text,true,,268,243,4,8,http://127.0.0.1:8080/users/login,33,0,24
+1785520766790,61,Login Request,200,OK,Employee Users 1-1,text,true,,268,243,4,8,http://127.0.0.1:8080/users/login,58,0,49
+1785520766799,52,GET All User Request,200,,Manager Users 2-1,text,true,,708,159,4,8,http://127.0.0.1:9090/users,49,0,40
+1785520766878,3,Login Request,200,OK,Employee Users 1-4,text,true,,268,243,5,9,http://127.0.0.1:8080/users/login,3,0,1
+1785520766885,3,Login Request,200,OK,Employee Users 1-3,text,true,,268,243,5,9,http://127.0.0.1:8080/users/login,3,0,1
+1785520766940,3,GET All User Request,200,,Manager Users 2-3,text,true,,708,159,5,10,http://127.0.0.1:9090/users,3,0,1
+1785520766991,3,GET All User Request,200,OK,Employee Users 1-4,text,true,,644,159,6,11,http://127.0.0.1:8080/users,3,0,1
+1785520766995,3,GET All User Request,200,,Manager Users 2-4,text,true,,708,159,5,11,http://127.0.0.1:9090/users,3,0,1
+1785520767011,2,GET User By Id Request,200,,Manager Users 2-2,text,true,,332,161,6,12,http://127.0.0.1:9090/users/1,2,0,0
+1785520767029,2,GET User By Id Request,200,,Manager Users 2-1,text,true,,332,161,6,12,http://127.0.0.1:9090/users/1,2,0,0
+1785520767031,3,Login Request,200,OK,Employee Users 1-5,text,true,,268,243,6,12,http://127.0.0.1:8080/users/login,3,0,1
+1785520767074,3,GET All User Request,200,OK,Employee Users 1-2,text,true,,644,159,7,13,http://127.0.0.1:8080/users,3,0,0
+1785520767082,3,GET All User Request,200,OK,Employee Users 1-3,text,true,,644,159,7,13,http://127.0.0.1:8080/users,2,0,1
+1785520767084,3,Login Request,200,OK,Employee Users 1-6,text,true,,268,243,7,13,http://127.0.0.1:8080/users/login,2,0,0
+1785520767090,2,GET User By Id Request,200,,Manager Users 2-3,text,true,,332,161,6,13,http://127.0.0.1:9090/users/1,2,0,0
+1785520767128,3,GET All User Request,200,OK,Employee Users 1-1,text,true,,644,159,7,14,http://127.0.0.1:8080/users,3,0,1
+1785520767139,3,GET All User Request,200,OK,Employee Users 1-5,text,true,,644,159,7,14,http://127.0.0.1:8080/users,3,0,1
+1785520767182,2,GET User By Username Request,200,,Manager Users 2-2,text,true,,332,174,7,15,http://127.0.0.1:9090/users/username/alice,2,0,0
+1785520767195,3,GET All User Request,200,,Manager Users 2-5,text,true,,708,159,7,15,http://127.0.0.1:9090/users,3,0,1
+1785520767213,3,GET All User Request,200,OK,Employee Users 1-6,text,true,,644,159,8,16,http://127.0.0.1:8080/users,3,0,1
+1785520767249,2,GET User By Username Request,200,,Manager Users 2-1,text,true,,332,174,8,16,http://127.0.0.1:9090/users/username/alice,2,0,0
+1785520767277,3,Login Request,200,OK,Employee Users 1-7,text,true,,268,243,9,17,http://127.0.0.1:8080/users/login,2,0,0
+1785520767286,2,Login Request,200,,Manager Users 2-2,text,true,,330,242,8,17,http://127.0.0.1:9090/users/login,2,0,0
+1785520767286,3,GET User By Id Request,200,OK,Employee Users 1-4,text,true,,268,161,9,17,http://127.0.0.1:8080/users/1,3,0,1
+1785520767295,3,GET All User Request,200,,Manager Users 2-6,text,true,,708,159,8,17,http://127.0.0.1:9090/users,3,0,1
+1785520767296,6,GET User By Id Request,200,,Manager Users 2-4,text,true,,332,161,8,17,http://127.0.0.1:9090/users/1,6,0,0
+1785520767326,3,GET User By Id Request,200,OK,Employee Users 1-5,text,true,,268,161,9,18,http://127.0.0.1:8080/users/1,3,0,1
+1785520767335,2,GET User By Id Request,200,OK,Employee Users 1-2,text,true,,268,161,9,18,http://127.0.0.1:8080/users/1,2,0,0
+1785520767346,2,GET User By Username Request,200,,Manager Users 2-3,text,true,,332,174,9,18,http://127.0.0.1:9090/users/username/alice,2,0,0
+1785520767370,3,GET All User Request,200,,Manager Users 2-7,text,true,,708,159,9,18,http://127.0.0.1:9090/users,3,0,1
+1785520767373,3,GET User By Id Request,200,OK,Employee Users 1-3,text,true,,268,161,10,19,http://127.0.0.1:8080/users/1,3,0,1
+1785520767395,3,GET User By Id Request,200,OK,Employee Users 1-1,text,true,,268,161,10,19,http://127.0.0.1:8080/users/1,3,0,1
+1785520767414,3,GET All User Request,200,,Manager Users 2-8,text,true,,708,159,10,20,http://127.0.0.1:9090/users,3,0,1
+1785520767448,2,GET User By Username Request,200,,Manager Users 2-4,text,true,,332,174,10,20,http://127.0.0.1:9090/users/username/alice,2,0,0
+1785520767448,4,POST Create Expense Request,201,CREATED,Employee Users 1-2,text,true,,296,291,10,20,http://127.0.0.1:8080/expenses,4,0,1
+1785520767464,2,GET User By Id Request,200,,Manager Users 2-5,text,true,,332,161,10,20,http://127.0.0.1:9090/users/1,2,0,0
+1785520767466,3,Login Request,200,OK,Employee Users 1-8,text,true,,268,243,10,20,http://127.0.0.1:8080/users/login,3,0,1
+1785520767475,3,GET User By Id Request,200,OK,Employee Users 1-6,text,true,,268,161,11,21,http://127.0.0.1:8080/users/1,3,0,1
+1785520767481,2,Login Request,200,,Manager Users 2-1,text,true,,330,242,10,21,http://127.0.0.1:9090/users/login,2,0,0
+1785520767501,3,GET All User Request,200,,Manager Users 2-9,text,true,,708,159,10,21,http://127.0.0.1:9090/users,3,0,1
+1785520767503,2,GET All Approvals Request,200,,Manager Users 2-2,text,true,,4744,163,10,21,http://127.0.0.1:9090/approvals,2,0,0
+1785520767540,3,GET All User Request,200,OK,Employee Users 1-7,text,true,,644,159,11,22,http://127.0.0.1:8080/users,3,0,1
+1785520767555,4,POST Create Expense Request,201,CREATED,Employee Users 1-4,text,true,,296,291,11,22,http://127.0.0.1:8080/expenses,4,0,1
+1785520767563,3,Login Request,200,,Manager Users 2-3,text,true,,330,242,11,22,http://127.0.0.1:9090/users/login,3,0,0
+1785520767572,3,Login Request,200,OK,Employee Users 1-9,text,true,,268,243,12,23,http://127.0.0.1:8080/users/login,3,0,1
+1785520767578,2,GET User By Id Request,200,,Manager Users 2-6,text,true,,332,161,11,23,http://127.0.0.1:9090/users/1,2,0,0
+1785520767581,3,Login Request,200,OK,Employee Users 1-11,text,true,,268,243,12,23,http://127.0.0.1:8080/users/login,3,0,1
+1785520767605,2,GET User By Username Request,200,,Manager Users 2-5,text,true,,332,174,11,23,http://127.0.0.1:9090/users/username/alice,2,0,0
+1785520767605,4,POST Create Expense Request,201,CREATED,Employee Users 1-5,text,true,,296,291,12,23,http://127.0.0.1:8080/expenses,4,0,1
+1785520767608,2,GET User By Id Request,200,,Manager Users 2-7,text,true,,332,161,11,23,http://127.0.0.1:9090/users/1,2,0,0
+1785520767614,2,Login Request,200,OK,Employee Users 1-10,text,true,,268,243,12,24,http://127.0.0.1:8080/users/login,2,0,1
+1785520767624,2,GET Approval By Id Request,200,,Manager Users 2-2,text,true,,386,165,12,24,http://127.0.0.1:9090/approvals/1,2,0,0
+1785520767631,3,GET All User Request,200,,Manager Users 2-10,text,true,,708,159,12,24,http://127.0.0.1:9090/users,3,0,1
+1785520767634,3,POST Approval Request,201,CREATED,Employee Users 1-2,text,true,,321,319,12,24,http://127.0.0.1:8080/approvals,3,0,0
+1785520767645,4,POST Create Expense Request,201,CREATED,Employee Users 1-3,text,true,,296,291,12,24,http://127.0.0.1:8080/expenses,4,0,1
+1785520767662,2,Login Request,200,,Manager Users 2-4,text,true,,330,242,12,24,http://127.0.0.1:9090/users/login,2,0,0
+1785520767675,4,GET All User Request,200,,Manager Users 2-11,text,true,,708,159,12,25,http://127.0.0.1:9090/users,4,0,1
+1785520767675,5,POST Approval Request,201,CREATED,Employee Users 1-4,text,true,,321,319,13,25,http://127.0.0.1:8080/approvals,5,0,1
+1785520767683,4,POST Create Expense Request,201,CREATED,Employee Users 1-1,text,true,,296,291,13,25,http://127.0.0.1:8080/expenses,4,0,1
+1785520767675,20,POST Create Expense Request,201,CREATED,Employee Users 1-6,text,true,,296,291,13,25,http://127.0.0.1:8080/expenses,20,0,1
+1785520767695,3,GET User By Id Request,200,,Manager Users 2-8,text,true,,332,161,12,25,http://127.0.0.1:9090/users/1,2,0,0
+1785520767698,3,GET All User Request,200,OK,Employee Users 1-9,text,true,,644,159,13,25,http://127.0.0.1:8080/users,3,0,1
+1785520767711,2,GET All Approvals Request,200,,Manager Users 2-3,text,true,,4980,163,13,26,http://127.0.0.1:9090/approvals,2,0,0
+1785520767712,2,GET User By Id Request,200,,Manager Users 2-9,text,true,,332,161,13,26,http://127.0.0.1:9090/users/1,2,0,0
+1785520767756,2,GET All Approvals Request,200,,Manager Users 2-1,text,true,,4980,163,13,26,http://127.0.0.1:9090/approvals,2,0,0
+1785520767761,3,Login Request,200,OK,Employee Users 1-12,text,true,,268,243,13,26,http://127.0.0.1:8080/users/login,3,0,1
+1785520767764,2,GET All User Request,200,OK,Employee Users 1-8,text,true,,644,159,13,26,http://127.0.0.1:8080/users,2,0,0
+1785520767766,2,GET User By Id Request,200,,Manager Users 2-10,text,true,,332,161,13,26,http://127.0.0.1:9090/users/1,2,0,0
+1785520767811,3,GET User By Id Request,200,OK,Employee Users 1-7,text,true,,268,161,14,28,http://127.0.0.1:8080/users/1,3,0,1
+1785520767816,2,GET All Expenses Request,200,,Manager Users 2-2,text,true,,8721,162,14,28,http://127.0.0.1:9090/expenses,2,0,0
+1785520767820,2,GET User By Username Request,200,,Manager Users 2-8,text,true,,332,174,14,28,http://127.0.0.1:9090/users/username/alice,2,0,0
+1785520767825,2,GET User By Username Request,200,,Manager Users 2-7,text,true,,332,174,14,28,http://127.0.0.1:9090/users/username/alice,2,0,0
+1785520767831,1,GET User By Username Request,200,,Manager Users 2-6,text,true,,332,174,14,28,http://127.0.0.1:9090/users/username/alice,1,0,0
+1785520767837,3,GET User By Id Request,200,OK,Employee Users 1-9,text,true,,268,161,14,28,http://127.0.0.1:8080/users/1,3,0,1
+1785520767819,20,GET All Approvals Request,200,OK,Employee Users 1-4,text,true,,4940,163,14,28,http://127.0.0.1:8080/approvals,20,0,1
+1785520767841,4,POST Approval Request,201,CREATED,Employee Users 1-5,text,true,,321,319,14,28,http://127.0.0.1:8080/approvals,4,0,1
+1785520767849,4,POST Approval Request,201,CREATED,Employee Users 1-1,text,true,,321,319,14,28,http://127.0.0.1:8080/approvals,4,0,1
+1785520767860,4,POST Approval Request,201,CREATED,Employee Users 1-3,text,true,,321,319,14,28,http://127.0.0.1:8080/approvals,4,0,1
+1785520767862,3,GET All User Request,200,,Manager Users 2-13,text,true,,708,159,14,28,http://127.0.0.1:9090/users,2,0,1
+1785520767865,2,Login Request,200,,Manager Users 2-5,text,true,,330,242,14,28,http://127.0.0.1:9090/users/login,2,0,0
+1785520767867,2,GET All User Request,200,,Manager Users 2-12,text,true,,708,159,14,28,http://127.0.0.1:9090/users,2,0,1
+1785520767881,2,GET All Approvals Request,200,,Manager Users 2-4,text,true,,5334,163,14,29,http://127.0.0.1:9090/approvals,2,0,0
+1785520767880,3,GET All Approvals Request,200,OK,Employee Users 1-2,text,true,,5294,163,15,29,http://127.0.0.1:8080/approvals,3,0,1
+1785520767883,3,GET All User Request,200,OK,Employee Users 1-11,text,true,,644,159,15,29,http://127.0.0.1:8080/users,3,0,1
+1785520767905,3,GET All User Request,200,OK,Employee Users 1-10,text,true,,644,159,15,29,http://127.0.0.1:8080/users,3,0,1
+1785520767935,2,GET User By Id Request,200,,Manager Users 2-11,text,true,,332,161,15,30,http://127.0.0.1:9090/users/1,2,0,0
+1785520767950,3,GET All User Request,200,OK,Employee Users 1-12,text,true,,644,159,15,30,http://127.0.0.1:8080/users,3,0,1
+1785520767962,4,POST Approval Request,201,CREATED,Employee Users 1-6,text,true,,321,319,15,30,http://127.0.0.1:8080/approvals,4,0,1
+1785520767965,3,Login Request,200,OK,Employee Users 1-13,text,true,,268,243,15,30,http://127.0.0.1:8080/users/login,3,0,1
+1785520767975,2,GET All Approvals Request,200,OK,Employee Users 1-5,text,true,,5412,163,16,31,http://127.0.0.1:8080/approvals,2,0,1
+1785520767978,2,GET User By Username Request,200,,Manager Users 2-9,text,true,,332,174,15,31,http://127.0.0.1:9090/users/username/alice,2,0,0
+1785520767989,2,GET Approval By Id Request,200,,Manager Users 2-1,text,true,,386,165,15,31,http://127.0.0.1:9090/approvals/1,2,0,0
+1785520768001,2,GET User By Username Request,200,,Manager Users 2-10,text,true,,332,174,15,31,http://127.0.0.1:9090/users/username/alice,2,0,0
+1785520768002,2,Login Request,200,,Manager Users 2-6,text,true,,330,242,15,31,http://127.0.0.1:9090/users/login,2,0,0
+1785520768002,2,GET Approval By Id Request,200,,Manager Users 2-3,text,true,,386,165,15,31,http://127.0.0.1:9090/approvals/1,2,0,0
+1785520768007,1,GET User By Id Request,200,,Manager Users 2-12,text,true,,332,161,15,31,http://127.0.0.1:9090/users/1,1,0,0
+1785520768014,2,Login Request,200,,Manager Users 2-8,text,true,,330,242,16,32,http://127.0.0.1:9090/users/login,2,0,0
+1785520768029,2,Login Request,200,OK,Employee Users 1-14,text,true,,268,243,16,32,http://127.0.0.1:8080/users/login,2,0,0
+1785520768027,4,POST Create Expense Request,201,CREATED,Employee Users 1-7,text,true,,296,291,16,32,http://127.0.0.1:8080/expenses,4,0,1
+1785520768031,3,Login Request,200,OK,Employee Users 1-15,text,true,,268,243,16,32,http://127.0.0.1:8080/users/login,3,0,1
+1785520768036,2,Login Request,200,,Manager Users 2-7,text,true,,330,242,16,32,http://127.0.0.1:9090/users/login,2,0,0
+1785520768039,2,GET User By Id Request,200,OK,Employee Users 1-8,text,true,,268,161,16,32,http://127.0.0.1:8080/users/1,2,0,0
+1785520768040,2,GET All Approvals Request,200,,Manager Users 2-5,text,true,,5452,163,16,32,http://127.0.0.1:9090/approvals,2,0,0
+1785520768052,2,GET User By Username Request,200,,Manager Users 2-11,text,true,,332,174,16,32,http://127.0.0.1:9090/users/username/alice,2,0,0
+1785520768058,2,GET User By Id Request,200,OK,Employee Users 1-10,text,true,,268,161,16,32,http://127.0.0.1:8080/users/1,2,0,0
+1785520768065,2,GET Approval By Id Request,200,OK,Employee Users 1-2,text,true,,316,168,16,32,http://127.0.0.1:8080/approvals/2750,2,0,0
+1785520768094,3,GET All User Request,200,,Manager Users 2-14,text,true,,708,159,16,33,http://127.0.0.1:9090/users,3,0,0
+1785520768103,2,GET One Expense Request,200,,Manager Users 2-2,text,true,,346,164,16,33,http://127.0.0.1:9090/expenses/1,2,0,0
+1785520768114,2,GET All Expenses Request,200,,Manager Users 2-3,text,true,,8815,162,17,34,http://127.0.0.1:9090/expenses,2,0,0
+1785520768117,2,GET User By Id Request,200,,Manager Users 2-13,text,true,,332,161,17,34,http://127.0.0.1:9090/users/1,2,0,0
+1785520768127,3,GET All Approvals Request,200,OK,Employee Users 1-1,text,true,,5412,163,17,34,http://127.0.0.1:8080/approvals,3,0,1
+1785520768126,4,POST Create Expense Request,201,CREATED,Employee Users 1-9,text,true,,296,291,17,34,http://127.0.0.1:8080/expenses,4,0,1
+1785520768132,2,Login Request,200,OK,Employee Users 1-16,text,true,,268,243,17,34,http://127.0.0.1:8080/users/login,2,0,0
+1785520768135,2,Login Request,200,,Manager Users 2-9,text,true,,330,242,17,34,http://127.0.0.1:9090/users/login,2,0,0
+1785520768140,2,GET Approval By Id Request,200,OK,Employee Users 1-4,text,true,,316,168,17,34,http://127.0.0.1:8080/approvals/2751,2,0,1
+1785520768149,2,GET User By Id Request,200,OK,Employee Users 1-11,text,true,,268,161,17,34,http://127.0.0.1:8080/users/1,2,0,1
+1785520768155,2,GET All Approvals Request,200,OK,Employee Users 1-3,text,true,,5412,163,17,34,http://127.0.0.1:8080/approvals,2,0,0
+1785520768160,2,GET Approval By Id Request,200,,Manager Users 2-4,text,true,,386,165,17,34,http://127.0.0.1:9090/approvals/1,2,0,0
+1785520768162,2,GET All User Request,200,,Manager Users 2-16,text,true,,708,159,17,34,http://127.0.0.1:9090/users,2,0,1
+1785520768164,1,Login Request,200,,Manager Users 2-10,text,true,,330,242,17,34,http://127.0.0.1:9090/users/login,1,0,0
+1785520768170,2,GET All User Request,200,,Manager Users 2-15,text,true,,708,159,17,34,http://127.0.0.1:9090/users,2,0,0
+1785520768171,3,GET All User Request,200,OK,Employee Users 1-15,text,true,,644,159,18,35,http://127.0.0.1:8080/users,3,0,1
+1785520768171,3,GET Approval By Id Request,200,OK,Employee Users 1-5,text,true,,316,168,18,35,http://127.0.0.1:8080/approvals/2752,3,0,1
+1785520768177,2,GET All Approvals Request,200,,Manager Users 2-8,text,true,,5452,163,17,35,http://127.0.0.1:9090/approvals,2,0,0
+1785520768197,4,POST Create Expense Request,201,CREATED,Employee Users 1-10,text,true,,296,291,18,35,http://127.0.0.1:8080/expenses,4,0,1
+1785520768210,3,GET All Expenses Request,200,,Manager Users 2-1,text,true,,9003,162,18,36,http://127.0.0.1:9090/expenses,3,0,0
+1785520768210,4,GET All Approvals Request,200,,Manager Users 2-6,text,true,,5452,163,18,36,http://127.0.0.1:9090/approvals,4,0,0
+1785520768233,3,GET Approval By Id Request,200,,Manager Users 2-5,text,true,,386,165,18,36,http://127.0.0.1:9090/approvals/1,3,0,0
+1785520768237,3,GET Approval By Id Request,200,OK,Employee Users 1-1,text,true,,316,168,18,36,http://127.0.0.1:8080/approvals/2753,3,0,1
+1785520768240,3,GET All User Request,200,OK,Employee Users 1-14,text,true,,644,159,18,36,http://127.0.0.1:8080/users,3,0,1
+1785520768241,3,GET Expense By User Request,200,,Manager Users 2-2,text,true,,8236,169,18,36,http://127.0.0.1:9090/expenses/user/1,3,0,0
+1785520768241,4,GET All User Request,200,,Manager Users 2-17,text,true,,708,159,18,36,http://127.0.0.1:9090/users,4,0,1
+1785520768246,3,GET All Approvals Request,200,OK,Employee Users 1-6,text,true,,5412,163,18,36,http://127.0.0.1:8080/approvals,3,0,1
+1785520768246,3,GET All User Request,200,OK,Employee Users 1-13,text,true,,644,159,18,36,http://127.0.0.1:8080/users,3,0,1
+1785520768247,2,GET User By Id Request,200,OK,Employee Users 1-12,text,true,,268,161,18,36,http://127.0.0.1:8080/users/1,2,0,1
+1785520768250,3,Login Request,200,,Manager Users 2-11,text,true,,330,242,18,36,http://127.0.0.1:9090/users/login,3,0,0
+1785520768260,4,POST Create Expense Request,201,CREATED,Employee Users 1-11,text,true,,296,291,18,36,http://127.0.0.1:8080/expenses,4,0,1
+1785520768268,2,GET User By Id Request,200,,Manager Users 2-16,text,true,,332,161,18,36,http://127.0.0.1:9090/users/1,2,0,0
+1785520768270,2,GET One Expense Request,200,,Manager Users 2-3,text,true,,346,164,18,36,http://127.0.0.1:9090/expenses/1,2,0,0
+1785520768275,5,POST Approval Request,201,CREATED,Employee Users 1-7,text,true,,321,319,19,37,http://127.0.0.1:8080/approvals,4,0,1
+1785520768285,2,GET User By Username Request,200,,Manager Users 2-12,text,true,,332,174,18,37,http://127.0.0.1:9090/users/username/alice,2,0,0
+1785520768290,2,GET Approval by Expense Id Request,200,OK,Employee Users 1-4,text,true,,316,176,19,37,http://127.0.0.1:8080/approvals/expense/2766,2,0,0
+1785520768299,3,GET User By Id Request,200,OK,Employee Users 1-15,text,true,,268,161,19,37,http://127.0.0.1:8080/users/1,3,0,1
+1785520768303,3,GET User By Id Request,200,,Manager Users 2-15,text,true,,332,161,18,37,http://127.0.0.1:9090/users/1,3,0,0
+1785520768315,3,GET All User Request,200,OK,Employee Users 1-16,text,true,,644,159,19,38,http://127.0.0.1:8080/users,3,0,1
+1785520768317,3,GET All Approvals Request,200,,Manager Users 2-7,text,true,,5570,163,19,38,http://127.0.0.1:9090/approvals,3,0,0
+1785520768316,4,POST Create Expense Request,201,CREATED,Employee Users 1-8,text,true,,296,291,19,38,http://127.0.0.1:8080/expenses,4,0,0
+1785520768318,3,Login Request,200,OK,Employee Users 1-17,text,true,,268,243,19,38,http://127.0.0.1:8080/users/login,3,0,1
+1785520768337,4,GET All User Request,200,,Manager Users 2-18,text,true,,708,159,19,38,http://127.0.0.1:9090/users,3,0,1
+1785520768342,2,GET Approval By Id Request,200,,Manager Users 2-8,text,true,,386,165,19,38,http://127.0.0.1:9090/approvals/1,2,0,0
+1785520768345,3,GET Approval by Expense Id Request,200,OK,Employee Users 1-2,text,true,,316,176,19,38,http://127.0.0.1:8080/approvals/expense/2765,3,0,1
+1785520768353,3,GET User By Id Request,200,OK,Employee Users 1-13,text,true,,268,161,19,38,http://127.0.0.1:8080/users/1,3,0,1
+1785520768356,4,POST Create Expense Request,201,CREATED,Employee Users 1-12,text,true,,296,291,19,38,http://127.0.0.1:8080/expenses,4,0,1
+1785520768359,3,GET All Approvals Request,200,,Manager Users 2-9,text,true,,5570,163,19,38,http://127.0.0.1:9090/approvals,3,0,0
+1785520768363,2,GET Approval By Id Request,200,,Manager Users 2-6,text,true,,386,165,19,38,http://127.0.0.1:9090/approvals/1,2,0,0
+1785520768380,2,GET User By Username Request,200,,Manager Users 2-13,text,true,,332,174,19,39,http://127.0.0.1:9090/users/username/alice,2,0,0
+1785520768381,2,GET One Expense Request,200,,Manager Users 2-1,text,true,,346,164,19,39,http://127.0.0.1:9090/expenses/1,2,0,0
+1785520768384,2,GET User By Id Request,200,,Manager Users 2-14,text,true,,332,161,19,39,http://127.0.0.1:9090/users/1,2,0,0
+1785520768384,3,GET All Approvals Request,200,OK,Employee Users 1-7,text,true,,5530,163,20,39,http://127.0.0.1:8080/approvals,3,0,0
+1785520768385,4,Login Request,200,OK,Employee Users 1-18,text,true,,268,243,20,39,http://127.0.0.1:8080/users/login,4,0,1
+1785520768384,5,POST Approval Request,201,CREATED,Employee Users 1-9,text,true,,321,319,20,39,http://127.0.0.1:8080/approvals,5,0,0
+1785520768406,3,GET Approval By Id Request,200,OK,Employee Users 1-3,text,true,,316,168,20,39,http://127.0.0.1:8080/approvals/2754,3,0,1
+1785520768410,3,GET Expense by Status,200,,Manager Users 2-2,text,true,,768,178,20,40,http://127.0.0.1:9090/expenses/status/approved,3,0,0
+1785520768418,3,GET Approval by Expense Id Request,200,OK,Employee Users 1-5,text,true,,316,176,20,40,http://127.0.0.1:8080/approvals/expense/2767,3,0,1
+1785520768428,3,GET All User Request,200,OK,Employee Users 1-17,text,true,,644,159,20,40,http://127.0.0.1:8080/users,3,0,1
+1785520768429,2,GET All Expenses Request,200,,Manager Users 2-4,text,true,,9285,162,20,40,http://127.0.0.1:9090/expenses,2,0,0
+1785520768431,4,POST Approval Request,201,CREATED,Employee Users 1-10,text,true,,321,319,20,40,http://127.0.0.1:8080/approvals,4,0,1
+1785520768435,3,GET All Approvals Request,200,,Manager Users 2-10,text,true,,5806,163,20,40,http://127.0.0.1:9090/approvals,3,0,0
+1785520768439,2,GET User By Id Request,200,OK,Employee Users 1-14,text,true,,268,161,20,40,http://127.0.0.1:8080/users/1,2,0,1
+1785520768450,4,POST Create Expense Request,201,CREATED,Employee Users 1-15,text,true,,296,291,20,40,http://127.0.0.1:8080/expenses,4,0,0
+1785520768464,3,GET Approval By Id Request,200,,Manager Users 2-7,text,true,,386,165,20,40,http://127.0.0.1:9090/approvals/1,3,0,0
+1785520768470,4,GET User By Id Request,200,OK,Employee Users 1-16,text,true,,268,161,21,41,http://127.0.0.1:8080/users/1,4,0,1
+1785520768471,3,GET All Expenses Request,200,,Manager Users 2-5,text,true,,9379,162,20,41,http://127.0.0.1:9090/expenses,3,0,0
+1785520768471,5,POST Create Expense Request,201,CREATED,Employee Users 1-13,text,true,,296,291,21,41,http://127.0.0.1:8080/expenses,5,0,0
+1785520768485,3,Login Request,200,,Manager Users 2-12,text,true,,330,242,20,41,http://127.0.0.1:9090/users/login,3,0,0
+1785520768495,3,GET User By Username Request,200,,Manager Users 2-16,text,true,,332,174,20,41,http://127.0.0.1:9090/users/username/alice,3,0,0
+1785520768496,2,GET All Approvals Request,200,,Manager Users 2-11,text,true,,5806,163,20,41,http://127.0.0.1:9090/approvals,2,0,0
+1785520768501,3,GET Approval by Expense Id Request,200,OK,Employee Users 1-1,text,true,,316,176,21,41,http://127.0.0.1:8080/approvals/expense/2769,3,0,1
+1785520768503,3,Login Request,200,,Manager Users 2-13,text,true,,330,242,20,41,http://127.0.0.1:9090/users/login,3,0,0
+1785520768507,2,GET All Expenses Request,200,,Manager Users 2-8,text,true,,9473,162,21,42,http://127.0.0.1:9090/expenses,2,0,0
+1785520768516,3,GET All User Request,200,,Manager Users 2-19,text,true,,708,159,21,42,http://127.0.0.1:9090/users,3,0,1
+1785520768515,5,POST Approval Request,201,CREATED,Employee Users 1-8,text,true,,321,319,21,42,http://127.0.0.1:8080/approvals,5,0,1
+1785520768525,6,DELETE Approval Request,200,OK,Employee Users 1-2,text,true,,252,190,21,42,http://127.0.0.1:8080/approvals/2750,6,0,1
+1785520768532,3,GET Approval By Id Request,200,OK,Employee Users 1-6,text,true,,316,168,21,42,http://127.0.0.1:8080/approvals/2755,3,0,1
+1785520768538,3,GET All User Request,200,OK,Employee Users 1-18,text,true,,644,159,21,42,http://127.0.0.1:8080/users,3,0,1
+1785520768538,3,GET User By Username Request,200,,Manager Users 2-15,text,true,,332,174,21,42,http://127.0.0.1:9090/users/username/alice,3,0,0
+1785520768542,2,GET User By Id Request,200,,Manager Users 2-17,text,true,,332,161,21,42,http://127.0.0.1:9090/users/1,2,0,0
+1785520768544,4,POST Approval Request,201,CREATED,Employee Users 1-12,text,true,,321,319,21,42,http://127.0.0.1:8080/approvals,4,0,0
+1785520768549,3,GET Approval by Expense Id Request,200,OK,Employee Users 1-3,text,true,,316,176,21,42,http://127.0.0.1:8080/approvals/expense/2768,3,0,1
+1785520768549,4,Login Request,200,OK,Employee Users 1-19,text,true,,268,243,21,42,http://127.0.0.1:8080/users/login,4,0,1
+1785520768549,7,DELETE Approval Request,200,OK,Employee Users 1-4,text,true,,252,190,21,42,http://127.0.0.1:8080/approvals/2751,7,0,1
+1785520768538,19,GET User By Id Request,200,,Manager Users 2-18,text,true,,332,161,21,42,http://127.0.0.1:9090/users/1,19,0,0
+1785520768558,4,POST Approval Request,201,CREATED,Employee Users 1-11,text,true,,321,319,21,42,http://127.0.0.1:8080/approvals,4,0,1
+1785520768561,4,POST Approval Request,201,CREATED,Employee Users 1-15,text,true,,321,319,21,42,http://127.0.0.1:8080/approvals,4,0,1
+1785520768563,3,GET Expense By User Request,200,,Manager Users 2-1,text,true,,8712,169,21,42,http://127.0.0.1:9090/expenses/user/1,3,0,0
+1785520768567,2,GET All Approvals Request,200,OK,Employee Users 1-10,text,true,,6002,163,21,42,http://127.0.0.1:8080/approvals,2,0,0
+1785520768563,12,GET Expense By User Request,200,,Manager Users 2-3,text,true,,8712,169,21,42,http://127.0.0.1:9090/expenses/user/1,12,0,0
+1785520768602,3,GET All Expenses Request,200,,Manager Users 2-6,text,true,,9473,162,21,43,http://127.0.0.1:9090/expenses,3,0,0
+1785520768605,2,GET User By Username Request,200,,Manager Users 2-14,text,true,,332,174,21,43,http://127.0.0.1:9090/users/username/alice,2,0,0
+1785520768608,4,POST Create Expense Request,201,CREATED,Employee Users 1-14,text,true,,296,291,22,44,http://127.0.0.1:8080/expenses,4,0,1
+1785520768613,3,GET All Approvals Request,200,OK,Employee Users 1-9,text,true,,6002,163,22,44,http://127.0.0.1:8080/approvals,3,0,1
+1785520768605,16,GET Expense by Date,200,,Manager Users 2-2,text,true,,348,178,22,44,http://127.0.0.1:9090/expenses/date/2026-06-01,16,0,0
+1785520768624,4,POST Create Expense Request,201,CREATED,Employee Users 1-16,text,true,,296,291,22,43,http://127.0.0.1:8080/expenses,4,0,0
+1785520768626,4,Login Request,200,OK,Employee Users 1-20,text,true,,268,243,22,43,http://127.0.0.1:8080/users/login,4,0,1
+1785520768634,2,GET All Approvals Request,200,,Manager Users 2-13,text,true,,6042,163,21,43,http://127.0.0.1:9090/approvals,2,0,0
+1785520768636,2,GET Approval By Id Request,200,,Manager Users 2-10,text,true,,386,165,21,43,http://127.0.0.1:9090/approvals/1,2,0,0
+1785520768644,3,GET User By Id Request,200,OK,Employee Users 1-18,text,true,,268,161,22,43,http://127.0.0.1:8080/users/1,3,0,1
+1785520768644,4,GET All User Request,200,,Manager Users 2-20,text,true,,708,159,21,43,http://127.0.0.1:9090/users,3,0,1
+1785520768645,3,Login Request,200,OK,Employee Users 1-21,text,true,,268,243,22,43,http://127.0.0.1:8080/users/login,3,0,1
+1785520768650,3,GET Approval By Id Request,200,,Manager Users 2-9,text,true,,386,165,21,43,http://127.0.0.1:9090/approvals/1,3,0,0
+1785520768650,3,GET Approval By Id Request,200,OK,Employee Users 1-7,text,true,,316,168,22,43,http://127.0.0.1:8080/approvals/2756,3,0,1
+1785520768658,2,GET One Expense Request,200,,Manager Users 2-8,text,true,,346,164,21,43,http://127.0.0.1:9090/expenses/1,2,0,0
+1785520768662,3,GET All User Request,200,OK,Employee Users 1-19,text,true,,644,159,22,43,http://127.0.0.1:8080/users,3,0,1
+1785520768663,3,GET One Expense Request,200,,Manager Users 2-5,text,true,,346,164,21,43,http://127.0.0.1:9090/expenses/1,3,0,0
+1785520768670,2,Login Request,200,,Manager Users 2-16,text,true,,330,242,21,43,http://127.0.0.1:9090/users/login,2,0,0
+1785520768675,2,GET Approval By Id Request,200,OK,Employee Users 1-10,text,true,,316,168,23,44,http://127.0.0.1:8080/approvals/2758,2,0,0
+1785520768677,4,DELETE Approval Request,200,OK,Employee Users 1-1,text,true,,252,190,23,44,http://127.0.0.1:8080/approvals/2753,4,0,0
+1785520768680,2,GET One Expense Request,200,,Manager Users 2-4,text,true,,346,164,21,44,http://127.0.0.1:9090/expenses/1,2,0,0
+1785520768692,2,GET All Expenses Request,200,,Manager Users 2-7,text,true,,9661,162,21,44,http://127.0.0.1:9090/expenses,2,0,0
+1785520768691,5,DELETE Approval Request,200,OK,Employee Users 1-5,text,true,,252,190,23,44,http://127.0.0.1:8080/approvals/2752,5,0,1
+1785520768697,2,GET All Approvals Request,200,OK,Employee Users 1-15,text,true,,5766,163,23,44,http://127.0.0.1:8080/approvals,2,0,1
+1785520768712,2,GET All Approvals Request,200,,Manager Users 2-12,text,true,,5806,163,22,45,http://127.0.0.1:9090/approvals,2,0,0
+1785520768712,2,GET User By Id Request,200,OK,Employee Users 1-17,text,true,,268,161,23,45,http://127.0.0.1:8080/users/1,2,0,0
+1785520768723,4,POST Approval Request,201,CREATED,Employee Users 1-13,text,true,,321,319,23,45,http://127.0.0.1:8080/approvals,4,0,1
+1785520768741,4,DELETE Approval Request,200,OK,Employee Users 1-3,text,true,,252,190,23,45,http://127.0.0.1:8080/approvals/2754,4,0,1
+1785520768748,2,GET Approval By Id Request,200,,Manager Users 2-11,text,true,,386,165,22,45,http://127.0.0.1:9090/approvals/1,2,0,0
+1785520768757,2,GET All Expenses Request,200,OK,Employee Users 1-2,text,true,,9590,162,23,45,http://127.0.0.1:8080/expenses,2,0,0
+1785520768759,2,GET One Expense Request,200,,Manager Users 2-6,text,true,,346,164,22,45,http://127.0.0.1:9090/expenses/1,2,0,0
+1785520768763,3,GET Approval By Id Request,200,OK,Employee Users 1-9,text,true,,316,168,23,45,http://127.0.0.1:8080/approvals/2757,2,0,1
+1785520768773,3,Login Request,200,,Manager Users 2-15,text,true,,330,242,22,46,http://127.0.0.1:9090/users/login,3,0,0
+1785520768778,3,GET User By Username Request,200,,Manager Users 2-17,text,true,,332,174,22,46,http://127.0.0.1:9090/users/username/alice,3,0,0
+1785520768785,3,GET All User Request,200,,Manager Users 2-21,text,true,,708,159,22,46,http://127.0.0.1:9090/users,3,0,1
+1785520768786,9,GET User By Id Request,200,,Manager Users 2-19,text,true,,332,161,22,46,http://127.0.0.1:9090/users/1,9,0,0
+1785520768796,2,GET Expense By User Request,200,,Manager Users 2-8,text,true,,8901,169,22,46,http://127.0.0.1:9090/expenses/user/1,2,0,0
+1785520768805,2,GET User By Username Request,200,,Manager Users 2-18,text,true,,332,174,22,46,http://127.0.0.1:9090/users/username/alice,2,0,0
+1785520768805,3,GET All User Request,200,OK,Employee Users 1-20,text,true,,644,159,24,46,http://127.0.0.1:8080/users,2,0,1
+1785520768808,3,GET All User Request,200,,Manager Users 2-22,text,true,,708,159,22,46,http://127.0.0.1:9090/users,3,0,1
+1785520768814,2,Login Request,200,OK,Employee Users 1-22,text,true,,268,243,24,47,http://127.0.0.1:8080/users/login,2,0,0
+1785520768819,2,GET All Approvals Request,200,OK,Employee Users 1-8,text,true,,5766,163,24,47,http://127.0.0.1:8080/approvals,2,0,0
+1785520768821,3,GET All Expenses Request,200,OK,Employee Users 1-4,text,true,,9590,162,24,47,http://127.0.0.1:8080/expenses,2,0,0
+1785520768823,3,GET Expense by Status,200,,Manager Users 2-3,text,true,,768,178,23,47,http://127.0.0.1:9090/expenses/status/approved,3,0,0
+1785520768826,2,GET All Expenses Request,200,,Manager Users 2-9,text,true,,9661,162,23,47,http://127.0.0.1:9090/expenses,2,0,0
+1785520768826,2,GET Approval By Id Request,200,OK,Employee Users 1-15,text,true,,316,168,24,47,http://127.0.0.1:8080/approvals/2762,2,0,1
+1785520768827,3,GET All Approvals Request,200,OK,Employee Users 1-11,text,true,,5766,163,24,47,http://127.0.0.1:8080/approvals,3,0,0
+1785520768829,3,GET All Approvals Request,200,OK,Employee Users 1-12,text,true,,5766,163,24,47,http://127.0.0.1:8080/approvals,3,0,1
+1785520768830,3,GET Approval by Expense Id Request,200,OK,Employee Users 1-6,text,true,,316,176,24,47,http://127.0.0.1:8080/approvals/expense/2770,3,0,1
+1785520768832,4,POST Create Expense Request,201,CREATED,Employee Users 1-17,text,true,,296,291,24,47,http://127.0.0.1:8080/expenses,4,0,1
+1785520768838,3,GET All Expenses Request,200,,Manager Users 2-10,text,true,,9755,162,23,47,http://127.0.0.1:9090/expenses,3,0,0
+1785520768840,2,GET Expense by Status,200,,Manager Users 2-1,text,true,,768,178,23,47,http://127.0.0.1:9090/expenses/status/approved,2,0,0
+1785520768845,3,GET All User Request,200,OK,Employee Users 1-21,text,true,,644,159,24,47,http://127.0.0.1:8080/users,3,0,1
+1785520768854,3,POST Create Expense Request,201,CREATED,Employee Users 1-18,text,true,,296,291,24,47,http://127.0.0.1:8080/expenses,3,0,0
+1785520768855,3,GET All Expenses Request,200,OK,Employee Users 1-3,text,true,,9778,162,24,47,http://127.0.0.1:8080/expenses,3,0,0
+1785520768858,3,GET All Expenses Request,200,,Manager Users 2-11,text,true,,9849,162,23,47,http://127.0.0.1:9090/expenses,3,0,0
+1785520768859,2,GET All User Request,200,,Manager Users 2-23,text,true,,708,159,23,47,http://127.0.0.1:9090/users,2,0,0
+1785520768864,4,POST Approval Request,201,CREATED,Employee Users 1-14,text,true,,321,319,24,47,http://127.0.0.1:8080/approvals,4,0,0
+1785520768866,3,GET All Expenses Request,200,OK,Employee Users 1-5,text,true,,9778,162,24,47,http://127.0.0.1:8080/expenses,3,0,1
+1785520768868,3,GET Approval By Id Request,200,,Manager Users 2-13,text,true,,386,165,23,47,http://127.0.0.1:9090/approvals/1,3,0,0
+1785520768870,3,Login Request,200,OK,Employee Users 1-23,text,true,,268,243,24,47,http://127.0.0.1:8080/users/login,3,0,1
+1785520768870,4,POST Approval Request,201,CREATED,Employee Users 1-16,text,true,,321,319,24,47,http://127.0.0.1:8080/approvals,4,0,1
+1785520768873,3,GET User By Id Request,200,OK,Employee Users 1-19,text,true,,268,161,25,48,http://127.0.0.1:8080/users/1,3,0,1
+1785520768885,2,GET Approval by Expense Id Request,200,OK,Employee Users 1-7,text,true,,316,176,25,48,http://127.0.0.1:8080/approvals/expense/2771,2,0,1
+1785520768890,2,GET Expense By User Request,200,,Manager Users 2-4,text,true,,9089,169,23,48,http://127.0.0.1:9090/expenses/user/1,2,0,0
+1785520768893,2,Login Request,200,,Manager Users 2-14,text,true,,330,242,23,48,http://127.0.0.1:9090/users/login,2,0,0
+1785520768896,1,GET User By Id Request,200,,Manager Users 2-21,text,true,,332,161,23,48,http://127.0.0.1:9090/users/1,1,0,0
+1785520768921,2,GET User By Id Request,200,,Manager Users 2-20,text,true,,332,161,24,49,http://127.0.0.1:9090/users/1,2,0,0
+1785520768921,3,Login Request,200,OK,Employee Users 1-24,text,true,,268,243,25,49,http://127.0.0.1:8080/users/login,3,0,1
+1785520768930,2,GET Expense By User Request,200,,Manager Users 2-5,text,true,,9089,169,24,49,http://127.0.0.1:9090/expenses/user/1,2,0,0
+1785520768933,2,GET User By Username Request,200,,Manager Users 2-19,text,true,,332,174,24,49,http://127.0.0.1:9090/users/username/alice,2,0,0
+1785520768934,2,GET Approval by Expense Id Request,200,OK,Employee Users 1-10,text,true,,316,176,25,49,http://127.0.0.1:8080/approvals/expense/2773,2,0,1
+1785520768940,1,GET User By Id Request,200,,Manager Users 2-22,text,true,,332,161,24,49,http://127.0.0.1:9090/users/1,1,0,0
+1785520768941,2,GET All Approvals Request,200,,Manager Users 2-16,text,true,,6042,163,24,49,http://127.0.0.1:9090/approvals,2,0,0
+1785520768944,2,Login Request,200,,Manager Users 2-17,text,true,,330,242,24,49,http://127.0.0.1:9090/users/login,2,0,0
+1785520768946,2,GET Approval By Id Request,200,OK,Employee Users 1-11,text,true,,316,168,25,49,http://127.0.0.1:8080/approvals/2761,2,0,0
+1785520768947,3,POST Approval Request,201,CREATED,Employee Users 1-17,text,true,,321,319,25,49,http://127.0.0.1:8080/approvals,3,0,0
+1785520768957,2,GET Approval by Expense Id Request,200,OK,Employee Users 1-9,text,true,,316,176,25,49,http://127.0.0.1:8080/approvals/expense/2772,2,0,1
+1785520768967,2,GET One Expense Request,200,OK,Employee Users 1-3,text,true,,291,167,25,49,http://127.0.0.1:8080/expenses/2768,2,0,0
+1785520768969,3,GET All Approvals Request,200,OK,Employee Users 1-13,text,true,,6120,163,25,49,http://127.0.0.1:8080/approvals,3,0,0
+1785520768975,2,GET All Expenses Request,200,OK,Employee Users 1-1,text,true,,9778,162,26,50,http://127.0.0.1:8080/expenses,2,0,0
+1785520768979,2,GET One Expense Request,200,,Manager Users 2-11,text,true,,346,164,24,50,http://127.0.0.1:9090/expenses/1,2,0,0
+1785520768981,2,GET All User Request,200,OK,Employee Users 1-22,text,true,,644,159,26,50,http://127.0.0.1:8080/users,2,0,0
+1785520768982,2,GET Approval By Id Request,200,,Manager Users 2-12,text,true,,386,165,24,50,http://127.0.0.1:9090/approvals/1,2,0,0
+1785520768983,3,GET One Expense Request,200,,Manager Users 2-7,text,true,,346,164,24,50,http://127.0.0.1:9090/expenses/1,3,0,0
+1785520768986,3,POST Create Expense Request,201,CREATED,Employee Users 1-19,text,true,,296,291,26,50,http://127.0.0.1:8080/expenses,3,0,0
+1785520768988,2,GET One Expense Request,200,,Manager Users 2-9,text,true,,346,164,24,50,http://127.0.0.1:9090/expenses/1,2,0,0
+1785520768989,2,Login Request,200,,Manager Users 2-18,text,true,,330,242,24,50,http://127.0.0.1:9090/users/login,2,0,0
+1785520768993,2,GET Expense by Date,200,,Manager Users 2-1,text,true,,348,178,24,50,http://127.0.0.1:9090/expenses/date/2026-06-01,2,0,0
+1785520768992,4,DELETE Approval Request,200,OK,Employee Users 1-7,text,true,,252,190,26,49,http://127.0.0.1:8080/approvals/2756,4,0,0
+1785520768995,2,GET Approval By Id Request,200,OK,Employee Users 1-12,text,true,,316,168,26,49,http://127.0.0.1:8080/approvals/2760,2,0,0
+1785520769000,2,GET One Expense Request,200,OK,Employee Users 1-4,text,true,,291,167,26,49,http://127.0.0.1:8080/expenses/2766,2,0,0
+1785520769002,3,Login Request,200,OK,Employee Users 1-25,text,true,,268,243,26,49,http://127.0.0.1:8080/users/login,3,0,1
+1785520769003,3,GET User By Id Request,200,OK,Employee Users 1-21,text,true,,268,161,26,49,http://127.0.0.1:8080/users/1,3,0,1
+1785520769007,2,GET Expense by Date,200,,Manager Users 2-3,text,true,,348,178,23,49,http://127.0.0.1:9090/expenses/date/2026-06-01,2,0,0
+1785520769010,2,GET All Approvals Request,200,OK,Employee Users 1-14,text,true,,6002,163,26,49,http://127.0.0.1:8080/approvals,2,0,0
+1785520769015,2,GET All Approvals Request,200,,Manager Users 2-15,text,true,,6042,163,23,49,http://127.0.0.1:9090/approvals,2,0,0
+1785520769019,2,GET User By Id Request,200,,Manager Users 2-23,text,true,,332,161,23,49,http://127.0.0.1:9090/users/1,2,0,0
+1785520769021,3,GET One Expense Request,200,OK,Employee Users 1-2,text,true,,291,167,26,49,http://127.0.0.1:8080/expenses/2765,3,0,0
+1785520769021,3,GET Approval by Expense Id Request,200,OK,Employee Users 1-15,text,true,,316,176,26,49,http://127.0.0.1:8080/approvals/expense/2777,3,0,0
+1785520769022,11,GET User By Id Request,200,OK,Employee Users 1-20,text,true,,268,161,26,49,http://127.0.0.1:8080/users/1,10,0,0
+1785520769042,3,GET Expense by Status,200,,Manager Users 2-8,text,true,,768,178,23,49,http://127.0.0.1:9090/expenses/status/approved,3,0,0
+1785520769042,7,GET All Approvals Request,200,,Manager Users 2-14,text,true,,6042,163,23,49,http://127.0.0.1:9090/approvals,7,0,0
+1785520769049,2,GET Expense By User Request,200,,Manager Users 2-6,text,true,,9183,169,23,49,http://127.0.0.1:9090/expenses/user/1,2,0,0
+1785520769064,2,GET All User Request,200,,Manager Users 2-24,text,true,,708,159,23,49,http://127.0.0.1:9090/users,2,0,1
+1785520769071,3,GET All Approvals Request,200,OK,Employee Users 1-17,text,true,,6002,163,27,50,http://127.0.0.1:8080/approvals,3,0,1
+1785520769074,2,GET User By Username Request,200,,Manager Users 2-21,text,true,,332,174,23,50,http://127.0.0.1:9090/users/username/alice,2,0,0
+1785520769071,5,DELETE Approval Request,200,OK,Employee Users 1-6,text,true,,252,190,27,50,http://127.0.0.1:8080/approvals/2755,5,0,1
+1785520769078,2,GET All Expenses Request,200,,Manager Users 2-13,text,true,,9943,162,23,50,http://127.0.0.1:9090/expenses,2,0,0
+1785520769071,10,DELETE Approval Request,200,OK,Employee Users 1-9,text,true,,252,190,27,50,http://127.0.0.1:8080/approvals/2757,10,0,1
+1785520769089,5,DELETE Approval Request,200,OK,Employee Users 1-10,text,true,,252,190,27,50,http://127.0.0.1:8080/approvals/2758,5,0,1
+1785520769094,2,GET One Expense Request,200,,Manager Users 2-10,text,true,,346,164,23,50,http://127.0.0.1:9090/expenses/1,2,0,0
+1785520769096,3,GET All User Request,200,,Manager Users 2-25,text,true,,708,159,23,50,http://127.0.0.1:9090/users,3,0,1
+1785520769101,2,GET Approval By Id Request,200,OK,Employee Users 1-8,text,true,,316,168,27,50,http://127.0.0.1:8080/approvals/2759,2,0,0
+1785520769103,3,Login Request,200,OK,Employee Users 1-26,text,true,,268,243,27,50,http://127.0.0.1:8080/users/login,3,0,1
+1785520769105,2,GET Expense by Status,200,,Manager Users 2-4,text,true,,768,178,23,50,http://127.0.0.1:9090/expenses/status/approved,2,0,0
+1785520769105,3,GET One Expense Request,200,OK,Employee Users 1-5,text,true,,291,167,27,50,http://127.0.0.1:8080/expenses/2767,3,0,0
+1785520769120,4,GET Approval By Id Request,200,OK,Employee Users 1-14,text,true,,316,168,27,51,http://127.0.0.1:8080/approvals/2764,4,0,1
+1785520769120,5,POST Approval Request,201,CREATED,Employee Users 1-18,text,true,,321,319,27,51,http://127.0.0.1:8080/approvals,5,0,1
+1785520769125,3,GET All User Request,200,OK,Employee Users 1-23,text,true,,644,159,27,51,http://127.0.0.1:8080/users,3,0,1
+1785520769128,3,GET User By Username Request,200,,Manager Users 2-20,text,true,,332,174,24,51,http://127.0.0.1:9090/users/username/alice,3,0,0
+1785520769129,2,GET All Expenses Request,200,,Manager Users 2-12,text,true,,9943,162,24,51,http://127.0.0.1:9090/expenses,2,0,0
+1785520769128,4,POST Approval Request,201,CREATED,Employee Users 1-19,text,true,,321,319,27,51,http://127.0.0.1:8080/approvals,4,0,1
+1785520769135,3,GET All Approvals Request,200,OK,Employee Users 1-16,text,true,,5884,163,27,51,http://127.0.0.1:8080/approvals,2,0,1
+1785520769139,2,GET All User Request,200,,Manager Users 2-26,text,true,,708,159,24,51,http://127.0.0.1:9090/users,2,0,0
+1785520769141,2,GET Expense by Status,200,,Manager Users 2-5,text,true,,768,178,24,51,http://127.0.0.1:9090/expenses/status/approved,2,0,0
+1785520769151,3,GET User By Username Request,200,,Manager Users 2-22,text,true,,332,174,24,51,http://127.0.0.1:9090/users/username/alice,3,0,0
+1785520769152,2,GET Approval By Id Request,200,,Manager Users 2-15,text,true,,386,165,24,51,http://127.0.0.1:9090/approvals/1,2,0,0
+1785520769151,3,GET Expense By User Request,200,OK,Employee Users 1-4,text,true,,9112,169,27,51,http://127.0.0.1:8080/expenses/user/1,3,0,1
+1785520769154,2,GET All User Request,200,OK,Employee Users 1-24,text,true,,644,159,27,51,http://127.0.0.1:8080/users,2,0,0
+1785520769157,2,GET Approval By Id Request,200,,Manager Users 2-16,text,true,,386,165,24,51,http://127.0.0.1:9090/approvals/1,2,0,0
+1785520769165,2,Login Request,200,,Manager Users 2-19,text,true,,330,242,24,51,http://127.0.0.1:9090/users/login,2,0,0
+1785520769168,2,GET Expense by Status,200,,Manager Users 2-6,text,true,,768,178,24,51,http://127.0.0.1:9090/expenses/status/approved,2,0,0
+1785520769188,4,POST Create Expense Request,201,CREATED,Employee Users 1-20,text,true,,296,291,28,52,http://127.0.0.1:8080/expenses,4,0,1
+1785520769193,3,GET Approval by Expense Id Request,200,OK,Employee Users 1-11,text,true,,316,176,28,52,http://127.0.0.1:8080/approvals/expense/2774,3,0,1
+1785520769202,2,GET Expense By User Request,200,,Manager Users 2-7,text,true,,9277,169,24,52,http://127.0.0.1:9090/expenses/user/1,2,0,0
+1785520769203,2,GET One Expense Request,200,OK,Employee Users 1-1,text,true,,291,167,28,52,http://127.0.0.1:8080/expenses/2769,2,0,1
+1785520769207,2,GET All Expenses Request,200,OK,Employee Users 1-7,text,true,,9966,162,28,52,http://127.0.0.1:8080/expenses,2,0,0
+1785520769208,2,GET One Expense Request,200,,Manager Users 2-13,text,true,,346,164,24,52,http://127.0.0.1:9090/expenses/1,2,0,0
+1785520769210,2,GET All Expenses Request,200,OK,Employee Users 1-9,text,true,,9966,162,28,53,http://127.0.0.1:8080/expenses,2,0,1
+1785520769212,2,GET All Approvals Request,200,,Manager Users 2-17,text,true,,5924,163,25,53,http://127.0.0.1:9090/approvals,2,0,0
+1785520769213,2,GET Approval By Id Request,200,,Manager Users 2-14,text,true,,386,165,25,53,http://127.0.0.1:9090/approvals/1,2,0,0
+1785520769218,2,GET Approval by Expense Id Request,200,OK,Employee Users 1-12,text,true,,316,176,28,53,http://127.0.0.1:8080/approvals/expense/2776,2,0,1
+1785520769230,2,GET All User Request,200,OK,Employee Users 1-25,text,true,,644,159,28,53,http://127.0.0.1:8080/users,2,0,1
+1785520769233,2,GET Expense by Date,200,,Manager Users 2-8,text,true,,348,178,25,53,http://127.0.0.1:9090/expenses/date/2026-06-01,2,0,0
+1785520769238,2,Login Request,200,,Manager Users 2-20,text,true,,330,242,24,52,http://127.0.0.1:9090/users/login,2,0,0
+1785520769242,2,GET Expense By User Request,200,,Manager Users 2-10,text,true,,9277,169,24,52,http://127.0.0.1:9090/expenses/user/1,2,0,0
+1785520769248,3,GET Expense By User Request,200,OK,Employee Users 1-5,text,true,,9206,169,28,52,http://127.0.0.1:8080/expenses/user/1,3,0,1
+1785520769251,4,POST Create Expense Request,201,CREATED,Employee Users 1-21,text,true,,296,291,28,52,http://127.0.0.1:8080/expenses,4,0,1
+1785520769258,3,GET Approval By Id Request,200,OK,Employee Users 1-13,text,true,,316,168,28,52,http://127.0.0.1:8080/approvals/2763,3,0,1
+1785520769258,3,Login Request,200,OK,Employee Users 1-27,text,true,,268,243,28,52,http://127.0.0.1:8080/users/login,3,0,1
+1785520769262,3,GET Expense By User Request,200,OK,Employee Users 1-3,text,true,,9300,169,28,52,http://127.0.0.1:8080/expenses/user/1,3,0,1
+1785520769262,6,GET User By Id Request,200,OK,Employee Users 1-22,text,true,,268,161,28,52,http://127.0.0.1:8080/users/1,3,0,1
+1785520769259,10,GET User By Id Request,200,OK,Employee Users 1-24,text,true,,268,161,28,52,http://127.0.0.1:8080/users/1,10,0,1
+1785520769268,3,GET User By Username Request,200,,Manager Users 2-23,text,true,,332,174,24,52,http://127.0.0.1:9090/users/username/alice,3,0,0
+1785520769268,3,GET All Approvals Request,200,,Manager Users 2-18,text,true,,5924,163,24,52,http://127.0.0.1:9090/approvals,3,0,0
+1785520769272,2,Login Request,200,,Manager Users 2-22,text,true,,330,242,24,53,http://127.0.0.1:9090/users/login,2,0,0
+1785520769276,2,GET Expense By User Request,200,,Manager Users 2-11,text,true,,9371,169,24,53,http://127.0.0.1:9090/expenses/user/1,2,0,0
+1785520769281,2,GET Expense By User Request,200,,Manager Users 2-9,text,true,,9371,169,24,53,http://127.0.0.1:9090/expenses/user/1,2,0,0
+1785520769281,3,GET All User Request,200,,Manager Users 2-27,text,true,,708,159,24,53,http://127.0.0.1:9090/users,3,0,1
+1785520769288,1,GET User By Id Request,200,,Manager Users 2-24,text,true,,332,161,24,53,http://127.0.0.1:9090/users/1,1,0,0
+1785520769287,3,GET Expense By User Request,200,OK,Employee Users 1-2,text,true,,9300,169,29,53,http://127.0.0.1:8080/expenses/user/1,3,0,0
+1785520769302,5,DELETE Approval Request,200,OK,Employee Users 1-15,text,true,,252,190,29,53,http://127.0.0.1:8080/approvals/2762,5,0,1
+1785520769304,3,GET One Expense Request,200,,Manager Users 2-12,text,true,,346,164,24,53,http://127.0.0.1:9090/expenses/1,3,0,0
+1785520769307,2,GET Approval by Expense Id Request,200,OK,Employee Users 1-8,text,true,,316,176,29,53,http://127.0.0.1:8080/approvals/expense/2775,2,0,0
+1785520769310,2,GET Approval By Id Request,200,OK,Employee Users 1-17,text,true,,316,168,29,54,http://127.0.0.1:8080/approvals/2766,2,0,0
+1785520769304,13,GET User By Id Request,200,,Manager Users 2-25,text,true,,332,161,25,54,http://127.0.0.1:9090/users/1,13,0,0
+1785520769320,2,GET User By Id Request,200,OK,Employee Users 1-23,text,true,,268,161,29,54,http://127.0.0.1:8080/users/1,2,0,0
+1785520769326,2,GET One Expense Request,200,OK,Employee Users 1-7,text,true,,291,167,29,54,http://127.0.0.1:8080/expenses/2771,2,0,0
+1785520769342,3,GET User By Id Request,200,,Manager Users 2-26,text,true,,332,161,25,54,http://127.0.0.1:9090/users/1,3,0,0
+1785520769349,2,GET All Expenses Request,200,,Manager Users 2-15,text,true,,10131,162,25,54,http://127.0.0.1:9090/expenses,2,0,0
+1785520769349,3,Login Request,200,OK,Employee Users 1-28,text,true,,268,243,29,54,http://127.0.0.1:8080/users/login,3,0,1
+1785520769351,3,GET Approval by Expense Id Request,200,OK,Employee Users 1-14,text,true,,316,176,29,54,http://127.0.0.1:8080/approvals/expense/2779,3,0,0
+1785520769350,4,GET All Expenses Request,200,OK,Employee Users 1-6,text,true,,10060,162,29,54,http://127.0.0.1:8080/expenses,4,0,0
+1785520769353,5,POST Approval Request,201,CREATED,Employee Users 1-20,text,true,,321,319,29,54,http://127.0.0.1:8080/approvals,5,0,1
+1785520769359,2,Login Request,200,,Manager Users 2-21,text,true,,330,242,25,54,http://127.0.0.1:9090/users/login,2,0,0
+1785520769361,2,GET Expense By User Non Pending Request,200,OK,Employee Users 1-5,text,true,,456,177,29,54,http://127.0.0.1:8080/expenses/user/1/history,2,0,0
+1785520769362,3,GET All Expenses Request,200,OK,Employee Users 1-10,text,true,,10060,162,29,54,http://127.0.0.1:8080/expenses,3,0,0
+1785520769368,2,GET All User Request,200,OK,Employee Users 1-26,text,true,,644,159,29,54,http://127.0.0.1:8080/users,2,0,1
+1785520769369,2,GET Expense By User Non Pending Request,200,OK,Employee Users 1-3,text,true,,456,177,29,54,http://127.0.0.1:8080/expenses/user/1/history,2,0,0
+1785520769373,3,GET All Expenses Request,200,,Manager Users 2-16,text,true,,10131,162,25,55,http://127.0.0.1:9090/expenses,3,0,0
+1785520769376,2,Login Request,200,,Manager Users 2-23,text,true,,330,242,25,55,http://127.0.0.1:9090/users/login,2,0,0
+1785520769386,2,GET Approval By Id Request,200,,Manager Users 2-17,text,true,,386,165,25,55,http://127.0.0.1:9090/approvals/1,2,0,0
+1785520769386,9,GET Expense by Date,200,,Manager Users 2-4,text,true,,348,178,25,55,http://127.0.0.1:9090/expenses/date/2026-06-01,9,0,0
+1785520769399,2,GET Expense by Date,200,,Manager Users 2-5,text,true,,348,178,24,54,http://127.0.0.1:9090/expenses/date/2026-06-01,2,0,0
+1785520769399,3,GET Expense By User Request,200,OK,Employee Users 1-1,text,true,,9300,169,30,53,http://127.0.0.1:8080/expenses/user/1,3,0,1
+1785520769404,2,GET Expense By User Request,200,,Manager Users 2-13,text,true,,9371,169,23,53,http://127.0.0.1:9090/expenses/user/1,2,0,0
+1785520769406,3,GET Expense By User Non Pending Request,200,OK,Employee Users 1-2,text,true,,456,177,30,53,http://127.0.0.1:8080/expenses/user/1/history,3,0,1
+1785520769411,3,GET Expense by Status,200,,Manager Users 2-7,text,true,,768,178,24,54,http://127.0.0.1:9090/expenses/status/approved,3,0,0
+1785520769411,3,GET All User Request,200,,Manager Users 2-28,text,true,,708,159,24,54,http://127.0.0.1:9090/users,3,0,1
+1785520769414,3,GET All Approvals Request,200,OK,Employee Users 1-19,text,true,,5884,163,30,54,http://127.0.0.1:8080/approvals,3,0,0
+1785520769415,3,GET All Approvals Request,200,OK,Employee Users 1-18,text,true,,5884,163,30,54,http://127.0.0.1:8080/approvals,3,0,1
+1785520769415,5,POST Create Expense Request,201,CREATED,Employee Users 1-24,text,true,,296,291,30,54,http://127.0.0.1:8080/expenses,5,0,1
+1785520769419,3,GET All User Request,200,,Manager Users 2-29,text,true,,708,159,24,54,http://127.0.0.1:9090/users,3,0,0
+1785520769421,2,GET Approval By Id Request,200,OK,Employee Users 1-16,text,true,,316,168,30,54,http://127.0.0.1:8080/approvals/2765,2,0,1
+1785520769426,4,POST Create Expense Request,201,CREATED,Employee Users 1-23,text,true,,296,291,30,54,http://127.0.0.1:8080/expenses,4,0,1
+1785520769429,3,GET One Expense Request,200,OK,Employee Users 1-9,text,true,,291,167,30,54,http://127.0.0.1:8080/expenses/2772,3,0,1
+1785520769435,2,GET All Approvals Request,200,,Manager Users 2-19,text,true,,5924,163,24,54,http://127.0.0.1:9090/approvals,2,0,0
+1785520769434,3,DELETE Approval Request,200,OK,Employee Users 1-8,text,true,,252,190,30,54,http://127.0.0.1:8080/approvals/2759,3,0,0
+1785520769437,4,DELETE Approval Request,200,OK,Employee Users 1-11,text,true,,252,190,30,54,http://127.0.0.1:8080/approvals/2761,4,0,1
+1785520769441,3,GET Expense By User Non Pending Request,200,OK,Employee Users 1-4,text,true,,456,177,30,54,http://127.0.0.1:8080/expenses/user/1/history,3,0,1
+1785520769448,2,GET Expense by Date,200,,Manager Users 2-6,text,true,,348,178,24,54,http://127.0.0.1:9090/expenses/date/2026-06-01,2,0,0
+1785520769457,2,GET Approval by Expense Id Request,200,OK,Employee Users 1-13,text,true,,316,176,30,53,http://127.0.0.1:8080/approvals/expense/2778,2,0,0
+1785520769464,2,Login Request,200,OK,Employee Users 1-29,text,true,,268,243,30,53,http://127.0.0.1:8080/users/login,2,0,0
+1785520769469,2,GET All Expenses Request,200,OK,Employee Users 1-15,text,true,,10249,162,30,53,http://127.0.0.1:8080/expenses,2,0,0
+1785520769475,2,GET User By Username Request,200,,Manager Users 2-24,text,true,,332,174,23,54,http://127.0.0.1:9090/users/username/alice,2,0,0
+1785520769472,5,PUT Expense Request,201,CREATED,Employee Users 1-5,text,true,,304,301,31,54,http://127.0.0.1:8080/expenses/2767,5,0,1
+1785520769477,2,GET All Approvals Request,200,,Manager Users 2-21,text,true,,5688,163,23,54,http://127.0.0.1:9090/approvals,2,0,0
+1785520769477,2,GET User By Id Request,200,OK,Employee Users 1-25,text,true,,268,161,31,54,http://127.0.0.1:8080/users/1,2,0,0
+1785520769486,2,GET User By Username Request,200,,Manager Users 2-26,text,true,,332,174,23,54,http://127.0.0.1:9090/users/username/alice,2,0,0
+1785520769496,2,GET Expense by Status,200,,Manager Users 2-9,text,true,,768,178,23,54,http://127.0.0.1:9090/expenses/status/approved,2,0,0
+1785520769495,3,GET All Approvals Request,200,OK,Employee Users 1-20,text,true,,5648,163,31,54,http://127.0.0.1:8080/approvals,3,0,1
+1785520769499,2,GET Expense By User Request,200,,Manager Users 2-12,text,true,,9566,169,23,54,http://127.0.0.1:9090/expenses/user/1,2,0,0
+1785520769500,3,GET One Expense Request,200,OK,Employee Users 1-10,text,true,,291,167,31,54,http://127.0.0.1:8080/expenses/2773,3,0,1
+1785520769500,4,POST Create Expense Request,201,CREATED,Employee Users 1-22,text,true,,296,291,31,54,http://127.0.0.1:8080/expenses,4,0,1
+1785520769505,2,GET All Approvals Request,200,,Manager Users 2-20,text,true,,5688,163,23,54,http://127.0.0.1:9090/approvals,2,0,0
+1785520769506,2,GET All Approvals Request,200,,Manager Users 2-23,text,true,,5688,163,23,54,http://127.0.0.1:9090/approvals,2,0,0
+1785520769507,2,GET All Expenses Request,200,,Manager Users 2-14,text,true,,10420,162,23,54,http://127.0.0.1:9090/expenses,2,0,0
+1785520769511,5,DELETE Approval Request,200,OK,Employee Users 1-12,text,true,,252,190,31,55,http://127.0.0.1:8080/approvals/2760,5,0,1
+1785520769505,17,PUT Expense Request,201,CREATED,Employee Users 1-3,text,true,,304,301,31,55,http://127.0.0.1:8080/expenses/2768,17,0,0
+1785520769520,4,POST Approval Request,201,CREATED,Employee Users 1-21,text,true,,321,319,31,55,http://127.0.0.1:8080/approvals,4,0,0
+1785520769523,5,PUT Expense Request,201,CREATED,Employee Users 1-2,text,true,,304,301,31,55,http://127.0.0.1:8080/expenses/2765,5,0,1
+1785520769529,2,GET User By Id Request,200,OK,Employee Users 1-26,text,true,,268,161,31,55,http://127.0.0.1:8080/users/1,2,0,1
+1785520769530,2,GET All User Request,200,OK,Employee Users 1-27,text,true,,644,159,31,55,http://127.0.0.1:8080/users,2,0,0
+1785520769533,3,GET User By Username Request,200,,Manager Users 2-25,text,true,,332,174,24,55,http://127.0.0.1:9090/users/username/alice,2,0,0
+1785520769535,3,Login Request,200,OK,Employee Users 1-30,text,true,,268,243,31,55,http://127.0.0.1:8080/users/login,3,0,1
+1785520769541,2,GET Expense by Status,200,,Manager Users 2-10,text,true,,768,178,24,55,http://127.0.0.1:9090/expenses/status/approved,2,0,0
+1785520769541,2,GET User By Id Request,200,,Manager Users 2-28,text,true,,332,161,24,55,http://127.0.0.1:9090/users/1,2,0,0
+1785520769541,2,GET All Approvals Request,200,,Manager Users 2-22,text,true,,5688,163,24,55,http://127.0.0.1:9090/approvals,2,0,0
+1785520769548,2,GET Expense by Status,200,,Manager Users 2-13,text,true,,768,178,24,55,http://127.0.0.1:9090/expenses/status/approved,2,0,0
+1785520769551,3,GET All Expenses Request,200,OK,Employee Users 1-11,text,true,,10364,162,31,55,http://127.0.0.1:8080/expenses,3,0,1
+1785520769553,3,GET Approval by Expense Id Request,200,OK,Employee Users 1-17,text,true,,316,176,31,55,http://127.0.0.1:8080/approvals/expense/2781,3,0,1
+1785520769559,2,GET One Expense Request,200,OK,Employee Users 1-6,text,true,,291,167,31,55,http://127.0.0.1:8080/expenses/2770,2,0,0
+1785520769560,5,PUT Expense Request,201,CREATED,Employee Users 1-4,text,true,,304,301,31,55,http://127.0.0.1:8080/expenses/2766,5,0,0
+1785520769565,2,GET Approval By Id Request,200,,Manager Users 2-18,text,true,,386,165,24,55,http://127.0.0.1:9090/approvals/1,2,0,0
+1785520769566,2,GET User By Id Request,200,,Manager Users 2-27,text,true,,332,161,24,55,http://127.0.0.1:9090/users/1,2,0,0
+1785520769573,3,GET Expense By User Request,200,OK,Employee Users 1-7,text,true,,9610,169,32,56,http://127.0.0.1:8080/expenses/user/1,3,0,1
+1785520769576,2,GET Expense by Status,200,,Manager Users 2-11,text,true,,768,178,24,56,http://127.0.0.1:9090/expenses/status/approved,2,0,0
+1785520769577,4,POST Approval Request,201,CREATED,Employee Users 1-23,text,true,,321,319,32,56,http://127.0.0.1:8080/approvals,4,0,1
+1785520769585,2,Login Request,200,,Manager Users 2-24,text,true,,330,242,24,56,http://127.0.0.1:9090/users/login,2,0,0
+1785520769589,2,GET Approval By Id Request,200,OK,Employee Users 1-19,text,true,,316,168,32,56,http://127.0.0.1:8080/approvals/2768,2,0,1
+1785520769596,2,GET All Expenses Request,200,,Manager Users 2-17,text,true,,10441,162,24,56,http://127.0.0.1:9090/expenses,2,0,0
+1785520769593,6,DELETE Approval Request,200,OK,Employee Users 1-14,text,true,,252,190,32,56,http://127.0.0.1:8080/approvals/2764,6,0,1
+1785520769599,2,GET Approval By Id Request,200,,Manager Users 2-19,text,true,,386,165,24,56,http://127.0.0.1:9090/approvals/1,2,0,0
+1785520769602,3,GET Expense By User Request,200,OK,Employee Users 1-9,text,true,,9610,169,32,56,http://127.0.0.1:8080/expenses/user/1,2,0,1
+1785520769615,3,GET Approval By Id Request,200,OK,Employee Users 1-20,text,true,,316,168,32,57,http://127.0.0.1:8080/approvals/2769,3,0,1
+1785520769616,2,GET One Expense Request,200,,Manager Users 2-16,text,true,,346,164,25,57,http://127.0.0.1:9090/expenses/1,2,0,0
+1785520769618,2,GET One Expense Request,200,,Manager Users 2-15,text,true,,346,164,25,57,http://127.0.0.1:9090/expenses/1,2,0,0
+1785520769620,2,Login Request,200,,Manager Users 2-26,text,true,,330,242,25,57,http://127.0.0.1:9090/users/login,2,0,0
+1785520769628,3,Login Request,200,OK,Employee Users 1-31,text,true,,268,243,32,57,http://127.0.0.1:8080/users/login,3,0,1
+1785520769634,2,GET Approval By Id Request,200,,Manager Users 2-20,text,true,,386,165,25,57,http://127.0.0.1:9090/approvals/1,2,0,0
+1785520769634,2,GET All User Request,200,OK,Employee Users 1-28,text,true,,644,159,32,57,http://127.0.0.1:8080/users,2,0,0
+1785520769634,5,POST Create Expense Request,201,CREATED,Employee Users 1-26,text,true,,296,291,32,57,http://127.0.0.1:8080/expenses,5,0,0
+1785520769643,2,GET All Expenses Request,200,OK,Employee Users 1-8,text,true,,10465,162,32,57,http://127.0.0.1:8080/expenses,2,0,0
+1785520769634,13,GET One Expense Request,200,,Manager Users 2-14,text,true,,346,164,25,57,http://127.0.0.1:9090/expenses/1,13,0,0
+1785520769648,4,DELETE Approval Request,200,OK,Employee Users 1-13,text,true,,252,190,32,57,http://127.0.0.1:8080/approvals/2763,4,0,1
+1785520769654,4,POST Create Expense Request,201,CREATED,Employee Users 1-25,text,true,,296,291,32,57,http://127.0.0.1:8080/expenses,3,0,1
+1785520769657,3,GET Approval By Id Request,200,OK,Employee Users 1-18,text,true,,316,168,32,57,http://127.0.0.1:8080/approvals/2767,2,0,0
+1785520769663,3,GET All User Request,200,,Manager Users 2-30,text,true,,708,159,25,57,http://127.0.0.1:9090/users,3,0,1
+1785520769675,2,GET Approval By Id Request,200,,Manager Users 2-21,text,true,,386,165,25,58,http://127.0.0.1:9090/approvals/1,2,0,0
+1785520769685,2,GET One Expense Request,200,OK,Employee Users 1-15,text,true,,291,167,33,58,http://127.0.0.1:8080/expenses/2777,2,0,0
+1785520769691,3,POST Approval Request,201,CREATED,Employee Users 1-24,text,true,,321,319,33,58,http://127.0.0.1:8080/approvals,3,0,0
+1785520769696,2,GET Expense By User Non Pending Request,200,OK,Employee Users 1-1,text,true,,456,177,33,58,http://127.0.0.1:8080/expenses/user/1/history,2,0,0
+1785520769702,2,GET Approval by Expense Id Request,200,OK,Employee Users 1-16,text,true,,316,176,33,58,http://127.0.0.1:8080/approvals/expense/2780,2,0,0
+1785520769702,6,GET All Expenses Request,200,OK,Employee Users 1-12,text,true,,10559,162,33,58,http://127.0.0.1:8080/expenses,6,0,0
+1785520769705,6,GET All User Request,200,,Manager Users 2-31,text,true,,708,159,26,59,http://127.0.0.1:9090/users,6,0,1
+1785520769711,3,GET User By Id Request,200,OK,Employee Users 1-27,text,true,,268,161,33,59,http://127.0.0.1:8080/users/1,3,0,0
+1785520769713,3,GET All Expenses Request,200,,Manager Users 2-18,text,true,,10629,162,26,59,http://127.0.0.1:9090/expenses,3,0,0
+1785520769717,3,GET Approval by Expense Id Request,200,OK,Employee Users 1-19,text,true,,316,176,33,59,http://127.0.0.1:8080/approvals/expense/2783,3,0,0
+1785520769709,18,GET User By Id Request,200,,Manager Users 2-29,text,true,,332,161,26,59,http://127.0.0.1:9090/users/1,18,0,0
+1785520769725,4,GET Expense By User Request,200,OK,Employee Users 1-10,text,true,,9798,169,33,59,http://127.0.0.1:8080/expenses/user/1,4,0,0
+1785520769729,8,DELETE Expense Request,201,CREATED,Employee Users 1-3,text,true,,250,189,33,59,http://127.0.0.1:8080/expenses/2768,8,0,0
+1785520769736,3,GET All User Request,200,OK,Employee Users 1-29,text,true,,644,159,32,58,http://127.0.0.1:8080/users,2,0,0
+1785520769735,5,DELETE Expense Request,201,CREATED,Employee Users 1-5,text,true,,250,189,32,58,http://127.0.0.1:8080/expenses/2767,5,0,0
+1785520769735,9,Login Request,200,OK,Employee Users 1-32,text,true,,268,243,31,57,http://127.0.0.1:8080/users/login,9,0,1
+1785520769746,4,GET All User Request,200,OK,Employee Users 1-30,text,true,,644,159,31,57,http://127.0.0.1:8080/users,4,0,1
+1785520769749,4,GET One Expense Request,200,OK,Employee Users 1-11,text,true,,291,167,31,57,http://127.0.0.1:8080/expenses/2774,4,0,1
+1785520769750,9,DELETE Expense Request,201,CREATED,Employee Users 1-2,text,true,,250,189,31,57,http://127.0.0.1:8080/expenses/2765,9,0,1
+1785520769741,21,Login Request,200,,Manager Users 2-25,text,true,,330,242,26,56,http://127.0.0.1:9090/users/login,21,0,0
+1785520769762,3,GET Expense by Status,200,,Manager Users 2-12,text,true,,768,178,26,56,http://127.0.0.1:9090/expenses/status/approved,3,0,0
+1785520769762,3,GET All User Request,200,,Manager Users 2-32,text,true,,708,159,26,56,http://127.0.0.1:9090/users,3,0,1
+1785520769765,2,GET Approval By Id Request,200,,Manager Users 2-23,text,true,,386,165,26,56,http://127.0.0.1:9090/approvals/1,2,0,0
+1785520769765,9,GET Expense by Date,200,,Manager Users 2-9,text,true,,348,178,26,57,http://127.0.0.1:9090/expenses/date/2026-06-01,9,0,0
+1785520769709,66,GET Expense by Date,200,,Manager Users 2-7,text,true,,348,178,25,56,http://127.0.0.1:9090/expenses/date/2026-06-01,66,0,0
+1785520769773,4,GET User By Username Request,200,,Manager Users 2-27,text,true,,332,174,24,55,http://127.0.0.1:9090/users/username/alice,4,0,0
+1785520769773,5,GET Expense By User Non Pending Request,200,OK,Employee Users 1-9,text,true,,456,177,31,55,http://127.0.0.1:8080/expenses/user/1/history,5,0,1
+1785520769772,10,POST Approval Request,201,CREATED,Employee Users 1-22,text,true,,321,319,31,55,http://127.0.0.1:8080/approvals,10,0,1
+1785520769782,4,GET All Approvals Request,200,OK,Employee Users 1-21,text,true,,5766,163,31,55,http://127.0.0.1:8080/approvals,4,0,0
+1785520769785,3,GET All Approvals Request,200,,Manager Users 2-26,text,true,,5806,163,24,55,http://127.0.0.1:9090/approvals,3,0,0
+1785520769788,3,GET User By Username Request,200,,Manager Users 2-28,text,true,,332,174,24,55,http://127.0.0.1:9090/users/username/alice,3,0,0
+1785520769796,7,DELETE Approval Request,200,OK,Employee Users 1-17,text,true,,252,190,31,55,http://127.0.0.1:8080/approvals/2766,7,0,1
+1785520769780,26,GET All Expenses Request,200,,Manager Users 2-20,text,true,,10326,162,24,55,http://127.0.0.1:9090/expenses,26,0,0
+1785520769779,27,GET All Approvals Request,200,OK,Employee Users 1-23,text,true,,5648,163,31,55,http://127.0.0.1:8080/approvals,27,0,1
+1785520769778,31,POST Approval Request,201,CREATED,Employee Users 1-25,text,true,,321,319,31,55,http://127.0.0.1:8080/approvals,31,0,1
+1785520769807,4,GET Approval by Expense Id Request,200,OK,Employee Users 1-18,text,true,,316,176,31,56,http://127.0.0.1:8080/approvals/expense/2782,3,0,1
+1785520769815,3,GET User By Id Request,200,,Manager Users 2-30,text,true,,332,161,25,56,http://127.0.0.1:9090/users/1,3,0,0
+1785520769817,2,GET Expense by Date,200,,Manager Users 2-10,text,true,,348,178,25,56,http://127.0.0.1:9090/expenses/date/2026-06-01,2,0,0
+1785520769822,4,GET One Expense Request,200,OK,Employee Users 1-8,text,true,,291,167,31,55,http://127.0.0.1:8080/expenses/2775,4,0,1
+1785520769825,3,GET Expense By User Request,200,,Manager Users 2-15,text,true,,9566,169,24,55,http://127.0.0.1:9090/expenses/user/1,3,0,0
+1785520769825,3,GET Expense By User Request,200,OK,Employee Users 1-6,text,true,,9495,169,31,55,http://127.0.0.1:8080/expenses/user/1,3,0,1
+1785520769806,24,DELETE Expense Request,201,CREATED,Employee Users 1-4,text,true,,250,189,31,55,http://127.0.0.1:8080/expenses/2766,24,0,1
+1785520769831,3,GET Approval By Id Request,200,,Manager Users 2-22,text,true,,386,165,24,54,http://127.0.0.1:9090/approvals/1,3,0,0
+1785520769831,3,GET All Expenses Request,200,,Manager Users 2-19,text,true,,10225,162,24,54,http://127.0.0.1:9090/expenses,3,0,0
+1785520769840,3,GET Expense by Date,200,,Manager Users 2-11,text,true,,348,178,24,54,http://127.0.0.1:9090/expenses/date/2026-06-01,3,0,0
+1785520769844,4,Login Request,200,OK,Employee Users 1-33,text,true,,268,243,30,53,http://127.0.0.1:8080/users/login,4,0,1
+1785520769845,3,GET Expense by Date,200,,Manager Users 2-13,text,true,,348,178,23,53,http://127.0.0.1:9090/expenses/date/2026-06-01,3,0,0
+1785520769846,7,POST Create Expense Request,201,CREATED,Employee Users 1-27,text,true,,296,291,30,52,http://127.0.0.1:8080/expenses,7,0,1
+1785520769857,2,GET One Expense Request,200,OK,Employee Users 1-12,text,true,,291,167,30,52,http://127.0.0.1:8080/expenses/2776,2,0,0
+1785520769860,2,GET All User Request,200,OK,Employee Users 1-31,text,true,,644,159,30,52,http://127.0.0.1:8080/users,2,0,1
+1785520769863,3,GET All Expenses Request,200,,Manager Users 2-21,text,true,,10319,162,22,52,http://127.0.0.1:9090/expenses,3,0,0
+1785520769865,2,GET User By Username Request,200,,Manager Users 2-29,text,true,,332,174,22,52,http://127.0.0.1:9090/users/username/alice,2,0,0
+1785520769865,3,GET One Expense Request,200,,Manager Users 2-18,text,true,,346,164,22,52,http://127.0.0.1:9090/expenses/1,3,0,0
+1785520769869,2,GET All Expenses Request,200,OK,Employee Users 1-14,text,true,,10249,162,30,52,http://127.0.0.1:8080/expenses,2,0,0
+1785520769875,2,GET Expense By User Non Pending Request,200,OK,Employee Users 1-7,text,true,,456,177,31,53,http://127.0.0.1:8080/expenses/user/1/history,2,0,0
+1785520769877,2,GET One Expense Request,200,,Manager Users 2-17,text,true,,346,164,22,53,http://127.0.0.1:9090/expenses/1,2,0,0
+1785520769878,2,GET All User Request,200,OK,Employee Users 1-32,text,true,,644,159,31,53,http://127.0.0.1:8080/users,2,0,1
+1785520769879,4,POST Approval Request,201,CREATED,Employee Users 1-26,text,true,,321,319,31,53,http://127.0.0.1:8080/approvals,4,0,1
+1785520769885,2,GET All Expenses Request,200,,Manager Users 2-23,text,true,,10319,162,22,53,http://127.0.0.1:9090/expenses,2,0,0
+1785520769887,2,GET All Approvals Request,200,,Manager Users 2-24,text,true,,5924,163,22,53,http://127.0.0.1:9090/approvals,2,0,0
+1785520769889,5,PUT Expense Request,201,CREATED,Employee Users 1-1,text,true,,304,301,31,53,http://127.0.0.1:8080/expenses/2769,5,0,1
+1785520769895,3,GET Expense By User Request,200,,Manager Users 2-14,text,true,,9566,169,22,53,http://127.0.0.1:9090/expenses/user/1,3,0,0
+1785520769898,2,GET User By Id Request,200,OK,Employee Users 1-30,text,true,,268,161,31,53,http://127.0.0.1:8080/users/1,2,0,1
+1785520769903,3,GET Expense By User Request,200,,Manager Users 2-16,text,true,,9566,169,22,53,http://127.0.0.1:9090/expenses/user/1,3,0,0
+1785520769908,3,GET All Approvals Request,200,OK,Employee Users 1-22,text,true,,5884,163,31,54,http://127.0.0.1:8080/approvals,3,0,1
+1785520769909,2,GET Approval by Expense Id Request,200,OK,Employee Users 1-20,text,true,,316,176,31,54,http://127.0.0.1:8080/approvals/expense/2784,2,0,0
+1785520769916,5,PUT Expense Request,201,CREATED,Employee Users 1-9,text,true,,304,301,31,54,http://127.0.0.1:8080/expenses/2772,5,0,1
+1785520769920,4,GET All Approvals Request,200,OK,Employee Users 1-24,text,true,,5884,163,31,54,http://127.0.0.1:8080/approvals,4,0,1
+1785520769921,3,GET All Approvals Request,200,OK,Employee Users 1-25,text,true,,5884,163,31,54,http://127.0.0.1:8080/approvals,3,0,0
+1785520769922,4,GET Expense By User Request,200,OK,Employee Users 1-15,text,true,,9502,169,31,54,http://127.0.0.1:8080/expenses/user/1,4,0,1
+1785520769925,3,GET One Expense Request,200,,Manager Users 2-20,text,true,,346,164,23,54,http://127.0.0.1:9090/expenses/1,3,0,0
+1785520769927,1,GET User By Id Request,200,,Manager Users 2-31,text,true,,332,161,23,54,http://127.0.0.1:9090/users/1,1,0,0
+1785520769930,2,GET User By Id Request,200,OK,Employee Users 1-29,text,true,,268,161,31,54,http://127.0.0.1:8080/users/1,2,0,0
+1785520769935,2,GET User By Id Request,200,OK,Employee Users 1-28,text,true,,268,161,31,54,http://127.0.0.1:8080/users/1,2,0,1
+1785520769943,2,Login Request,200,,Manager Users 2-27,text,true,,330,242,23,54,http://127.0.0.1:9090/users/login,2,0,0
+1785520769943,3,GET All Expenses Request,200,OK,Employee Users 1-13,text,true,,10263,162,31,54,http://127.0.0.1:8080/expenses,3,0,1
+1785520769935,12,GET Expense by Status,200,,Manager Users 2-15,text,true,,768,178,23,54,http://127.0.0.1:9090/expenses/status/approved,12,0,0
+1785520769957,2,Login Request,200,,Manager Users 2-28,text,true,,330,242,23,54,http://127.0.0.1:9090/users/login,2,0,0
+1785520769961,3,GET Expense By User Non Pending Request,200,OK,Employee Users 1-10,text,true,,456,177,31,54,http://127.0.0.1:8080/expenses/user/1/history,3,0,0
+1785520769962,2,GET Approval By Id Request,200,,Manager Users 2-26,text,true,,386,165,23,54,http://127.0.0.1:9090/approvals/1,2,0,0
+1785520769961,3,Login Request,200,OK,Employee Users 1-34,text,true,,268,243,31,54,http://127.0.0.1:8080/users/login,3,0,1
+1785520769963,4,GET All Expenses Request,200,OK,Employee Users 1-17,text,true,,10263,162,31,54,http://127.0.0.1:8080/expenses,4,0,1
+1785520769963,6,DELETE Approval Request,200,OK,Employee Users 1-19,text,true,,252,190,31,54,http://127.0.0.1:8080/approvals/2768,6,0,1
+1785520769968,3,GET Expense By User Non Pending Request,200,OK,Employee Users 1-6,text,true,,456,177,31,54,http://127.0.0.1:8080/expenses/user/1/history,3,0,1
+1785520769969,2,Login Request,200,,Manager Users 2-29,text,true,,330,242,23,54,http://127.0.0.1:9090/users/login,2,0,0
+1785520769973,2,GET All Expenses Request,200,,Manager Users 2-22,text,true,,10333,162,23,55,http://127.0.0.1:9090/expenses,2,0,0
+1785520769977,3,GET All User Request,200,,Manager Users 2-33,text,true,,708,159,23,55,http://127.0.0.1:9090/users,2,0,1
+1785520769995,5,DELETE Approval Request,200,OK,Employee Users 1-16,text,true,,252,190,32,55,http://127.0.0.1:8080/approvals/2765,5,0,1
+1785520770002,2,GET Expense By User Request,200,OK,Employee Users 1-8,text,true,,9502,169,32,55,http://127.0.0.1:8080/expenses/user/1,2,0,0
+1785520770009,2,GET User By Id Request,200,,Manager Users 2-32,text,true,,332,161,24,56,http://127.0.0.1:9090/users/1,2,0,0
+1785520770011,2,GET All Approvals Request,200,OK,Employee Users 1-26,text,true,,5648,163,32,56,http://127.0.0.1:8080/approvals,2,0,0
+1785520770025,3,Login Request,200,OK,Employee Users 1-35,text,true,,268,243,32,56,http://127.0.0.1:8080/users/login,3,0,1
+1785520770028,3,GET Expense By User Request,200,OK,Employee Users 1-11,text,true,,9502,169,32,56,http://127.0.0.1:8080/expenses/user/1,3,0,0
+1785520770031,2,GET Expense by Date,200,,Manager Users 2-12,text,true,,348,178,24,56,http://127.0.0.1:9090/expenses/date/2026-06-01,2,0,0
+1785520770032,3,POST Create Expense Request,201,CREATED,Employee Users 1-30,text,true,,296,291,32,55,http://127.0.0.1:8080/expenses,3,0,0
+1785520770037,2,GET Approval By Id Request,200,OK,Employee Users 1-21,text,true,,316,168,32,55,http://127.0.0.1:8080/approvals/2770,2,0,0
+1785520770038,3,GET All User Request,200,,Manager Users 2-34,text,true,,708,159,23,55,http://127.0.0.1:9090/users,3,0,1
+1785520770044,2,GET User By Username Request,200,,Manager Users 2-30,text,true,,332,174,23,55,http://127.0.0.1:9090/users/username/alice,2,0,0
+1785520770048,3,GET Expense By User Request,200,OK,Employee Users 1-12,text,true,,9596,169,32,55,http://127.0.0.1:8080/expenses/user/1,2,0,0
+1785520770051,2,GET All Approvals Request,200,,Manager Users 2-25,text,true,,5688,163,23,55,http://127.0.0.1:9090/approvals,2,0,0
+1785520770056,2,GET Approval By Id Request,200,OK,Employee Users 1-23,text,true,,316,168,32,55,http://127.0.0.1:8080/approvals/2771,2,0,0
+1785520770062,2,GET One Expense Request,200,,Manager Users 2-23,text,true,,346,164,23,55,http://127.0.0.1:9090/expenses/1,2,0,0
+1785520770071,2,GET User By Id Request,200,OK,Employee Users 1-31,text,true,,268,161,32,55,http://127.0.0.1:8080/users/1,2,0,0
+1785520770071,5,DELETE Expense Request,201,CREATED,Employee Users 1-1,text,true,,250,189,33,56,http://127.0.0.1:8080/expenses/2769,5,0,0
+1785520770075,2,GET All Approvals Request,200,,Manager Users 2-28,text,true,,5688,163,23,55,http://127.0.0.1:9090/approvals,2,0,0
+1785520770073,6,PUT Expense Request,201,CREATED,Employee Users 1-6,text,true,,304,301,32,55,http://127.0.0.1:8080/expenses/2770,6,0,1
+1785520770080,2,GET All User Request,200,OK,Employee Users 1-33,text,true,,644,159,32,55,http://127.0.0.1:8080/users,2,0,1
+1785520770093,3,GET All Expenses Request,200,,Manager Users 2-26,text,true,,10333,162,23,55,http://127.0.0.1:9090/expenses,3,0,0
+1785520770095,1,GET One Expense Request,200,,Manager Users 2-19,text,true,,346,164,23,55,http://127.0.0.1:9090/expenses/1,1,0,0
+1785520770095,4,POST Approval Request,201,CREATED,Employee Users 1-27,text,true,,321,319,32,55,http://127.0.0.1:8080/approvals,3,0,0
+1785520770099,2,GET All Approvals Request,200,,Manager Users 2-29,text,true,,5806,163,23,55,http://127.0.0.1:9090/approvals,2,0,0
+1785520770099,2,GET Expense By User Request,200,,Manager Users 2-17,text,true,,9573,169,23,55,http://127.0.0.1:9090/expenses/user/1,2,0,0
+1785520770100,2,GET Expense By User Non Pending Request,200,OK,Employee Users 1-15,text,true,,456,177,32,55,http://127.0.0.1:8080/expenses/user/1/history,2,0,0
+1785520770101,2,GET Expense By User Request,200,,Manager Users 2-20,text,true,,9573,169,23,55,http://127.0.0.1:9090/expenses/user/1,2,0,0
+1785520770093,14,DELETE Expense Request,201,CREATED,Employee Users 1-9,text,true,,250,189,32,55,http://127.0.0.1:8080/expenses/2772,14,0,1
+1785520770108,2,GET Expense by Status,200,,Manager Users 2-14,text,true,,768,178,23,54,http://127.0.0.1:9090/expenses/status/approved,2,0,0
+1785520770109,3,GET One Expense Request,200,OK,Employee Users 1-13,text,true,,291,167,31,55,http://127.0.0.1:8080/expenses/2778,2,0,0
+1785520770107,5,DELETE Approval Request,200,OK,Employee Users 1-18,text,true,,252,190,31,55,http://127.0.0.1:8080/approvals/2767,5,0,0
+1785520770111,3,GET One Expense Request,200,,Manager Users 2-22,text,true,,346,164,24,55,http://127.0.0.1:9090/expenses/1,3,0,0
+1785520770112,3,GET User By Id Request,200,,Manager Users 2-33,text,true,,332,161,24,55,http://127.0.0.1:9090/users/1,2,0,0
+1785520770115,2,GET Approval By Id Request,200,,Manager Users 2-24,text,true,,386,165,24,55,http://127.0.0.1:9090/approvals/1,2,0,0
+1785520770120,3,Login Request,200,OK,Employee Users 1-36,text,true,,268,243,31,55,http://127.0.0.1:8080/users/login,3,0,1
+1785520770122,3,GET Expense By User Non Pending Request,200,OK,Employee Users 1-8,text,true,,456,177,31,55,http://127.0.0.1:8080/expenses/user/1/history,3,0,0
+1785520770124,2,GET Expense By User Request,200,,Manager Users 2-18,text,true,,9472,169,24,55,http://127.0.0.1:9090/expenses/user/1,2,0,0
+1785520770128,2,GET User By Id Request,200,OK,Employee Users 1-32,text,true,,268,161,31,55,http://127.0.0.1:8080/users/1,2,0,1
+1785520770129,2,GET One Expense Request,200,OK,Employee Users 1-14,text,true,,291,167,31,55,http://127.0.0.1:8080/expenses/2779,2,0,0
+1785520770139,4,DELETE Approval Request,200,OK,Employee Users 1-20,text,true,,252,190,31,55,http://127.0.0.1:8080/approvals/2769,4,0,1
+1785520770144,2,GET All User Request,200,,Manager Users 2-35,text,true,,708,159,24,55,http://127.0.0.1:9090/users,2,0,1
+1785520770146,2,GET Approval By Id Request,200,OK,Employee Users 1-22,text,true,,316,168,31,55,http://127.0.0.1:8080/approvals/2773,2,0,1
+1785520770147,2,GET User By Username Request,200,,Manager Users 2-32,text,true,,332,174,24,55,http://127.0.0.1:9090/users/username/alice,2,0,0
+1785520770149,2,GET One Expense Request,200,,Manager Users 2-21,text,true,,346,164,24,55,http://127.0.0.1:9090/expenses/1,2,0,0
+1785520770149,3,GET All Expenses Request,200,OK,Employee Users 1-19,text,true,,10161,162,31,55,http://127.0.0.1:8080/expenses,2,0,1
+1785520770161,2,GET Expense By User Non Pending Request,200,OK,Employee Users 1-11,text,true,,456,177,31,55,http://127.0.0.1:8080/expenses/user/1/history,2,0,1
+1785520770164,2,GET User By Username Request,200,,Manager Users 2-31,text,true,,332,174,24,55,http://127.0.0.1:9090/users/username/alice,2,0,0
+1785520770165,2,GET One Expense Request,200,OK,Employee Users 1-17,text,true,,291,167,31,55,http://127.0.0.1:8080/expenses/2781,2,0,1
+1785520770170,2,GET Expense by Date,200,,Manager Users 2-15,text,true,,348,178,24,55,http://127.0.0.1:9090/expenses/date/2026-06-01,2,0,0
+1785520770171,2,GET User By Id Request,200,,Manager Users 2-34,text,true,,332,161,23,54,http://127.0.0.1:9090/users/1,2,0,0
+1785520770176,5,PUT Expense Request,201,CREATED,Employee Users 1-7,text,true,,304,301,32,55,http://127.0.0.1:8080/expenses/2771,5,0,0
+1785520770180,2,GET Approval By Id Request,200,OK,Employee Users 1-24,text,true,,316,168,32,55,http://127.0.0.1:8080/approvals/2772,2,0,0
+1785520770179,4,POST Create Expense Request,201,CREATED,Employee Users 1-29,text,true,,296,291,32,55,http://127.0.0.1:8080/expenses,4,0,0
+1785520770188,2,GET All User Request,200,OK,Employee Users 1-34,text,true,,644,159,32,55,http://127.0.0.1:8080/users,2,0,1
+1785520770198,2,GET User By Id Request,200,OK,Employee Users 1-33,text,true,,268,161,32,55,http://127.0.0.1:8080/users/1,2,0,0
+1785520770197,4,POST Create Expense Request,201,CREATED,Employee Users 1-28,text,true,,296,291,32,55,http://127.0.0.1:8080/expenses,4,0,1
+1785520770199,2,Login Request,200,,Manager Users 2-30,text,true,,330,242,23,55,http://127.0.0.1:9090/users/login,2,0,0
+1785520770210,5,PUT Expense Request,201,CREATED,Employee Users 1-10,text,true,,304,301,32,56,http://127.0.0.1:8080/expenses/2773,5,0,1
+1785520770199,18,GET Expense by Status,200,,Manager Users 2-16,text,true,,768,178,24,56,http://127.0.0.1:9090/expenses/status/approved,18,0,0
+1785520770215,3,GET All Approvals Request,200,OK,Employee Users 1-27,text,true,,5530,163,32,56,http://127.0.0.1:8080/approvals,3,0,1
+1785520770218,2,GET Approval By Id Request,200,OK,Employee Users 1-25,text,true,,316,168,32,56,http://127.0.0.1:8080/approvals/2774,2,0,1
+1785520770230,2,GET Approval By Id Request,200,,Manager Users 2-25,text,true,,386,165,24,56,http://127.0.0.1:9090/approvals/1,2,0,0
+1785520770231,2,GET Expense by Status,200,,Manager Users 2-20,text,true,,768,178,24,56,http://127.0.0.1:9090/expenses/status/approved,2,0,0
+1785520770232,2,GET All User Request,200,OK,Employee Users 1-35,text,true,,644,159,32,56,http://127.0.0.1:8080/users,2,0,1
+1785520770238,2,GET Approval by Expense Id Request,200,OK,Employee Users 1-21,text,true,,316,176,32,56,http://127.0.0.1:8080/approvals/expense/2785,2,0,1
+1785520770240,2,GET Expense by Status,200,,Manager Users 2-18,text,true,,768,178,24,56,http://127.0.0.1:9090/expenses/status/approved,2,0,0
+1785520770244,2,GET All Approvals Request,200,,Manager Users 2-27,text,true,,5570,163,24,56,http://127.0.0.1:9090/approvals,2,0,0
+1785520770245,2,GET Approval By Id Request,200,OK,Employee Users 1-26,text,true,,316,168,32,56,http://127.0.0.1:8080/approvals/2775,2,0,1
+1785520770245,2,GET Expense By User Request,200,,Manager Users 2-23,text,true,,9674,169,24,56,http://127.0.0.1:9090/expenses/user/1,2,0,0
+1785520770247,2,GET One Expense Request,200,,Manager Users 2-26,text,true,,346,164,24,56,http://127.0.0.1:9090/expenses/1,2,0,0
+1785520770249,2,GET All Expenses Request,200,OK,Employee Users 1-16,text,true,,10364,162,32,56,http://127.0.0.1:8080/expenses,2,0,0
+1785520770253,2,GET Expense By User Request,200,,Manager Users 2-22,text,true,,9674,169,24,56,http://127.0.0.1:9090/expenses/user/1,2,0,0
+1785520770258,2,Login Request,200,OK,Employee Users 1-37,text,true,,268,243,32,56,http://127.0.0.1:8080/users/login,2,0,0
+1785520770256,6,DELETE Expense Request,201,CREATED,Employee Users 1-6,text,true,,250,189,32,56,http://127.0.0.1:8080/expenses/2770,6,0,1
+1785520770260,4,GET Expense By User Non Pending Request,200,OK,Employee Users 1-12,text,true,,456,177,31,55,http://127.0.0.1:8080/expenses/user/1/history,3,0,1
+1785520770256,9,PUT Expense Request,201,CREATED,Employee Users 1-8,text,true,,304,301,31,55,http://127.0.0.1:8080/expenses/2775,9,0,1
+1785520770274,2,GET All User Request,200,,Manager Users 2-36,text,true,,708,159,24,56,http://127.0.0.1:9090/users,2,0,0
+1785520770276,2,GET Expense By User Request,200,,Manager Users 2-21,text,true,,9580,169,24,56,http://127.0.0.1:9090/expenses/user/1,2,0,0
+1785520770278,2,GET All Expenses Request,200,,Manager Users 2-24,text,true,,10340,162,24,56,http://127.0.0.1:9090/expenses,2,0,0
+1785520770278,5,PUT Expense Request,201,CREATED,Employee Users 1-15,text,true,,304,301,32,56,http://127.0.0.1:8080/expenses/2777,5,0,0
+1785520770296,2,GET User By Username Request,200,,Manager Users 2-34,text,true,,332,174,24,56,http://127.0.0.1:9090/users/username/alice,2,0,0
+1785520770302,3,GET Expense By User Request,200,OK,Employee Users 1-13,text,true,,9516,169,32,56,http://127.0.0.1:8080/expenses/user/1,3,0,1
+1785520770303,2,GET Expense by Status,200,,Manager Users 2-17,text,true,,768,178,24,56,http://127.0.0.1:9090/expenses/status/approved,2,0,0
+1785520770306,2,GET Approval by Expense Id Request,200,OK,Employee Users 1-22,text,true,,316,176,32,56,http://127.0.0.1:8080/approvals/expense/2788,2,0,0
+1785520770306,4,POST Approval Request,201,CREATED,Employee Users 1-30,text,true,,321,319,32,57,http://127.0.0.1:8080/approvals,4,0,0
+1785520770309,4,POST Approval Request,201,CREATED,Employee Users 1-28,text,true,,321,319,32,57,http://127.0.0.1:8080/approvals,4,0,1
+1785520770315,2,GET User By Id Request,200,,Manager Users 2-35,text,true,,332,161,25,57,http://127.0.0.1:9090/users/1,2,0,0
+1785520770315,4,POST Create Expense Request,201,CREATED,Employee Users 1-31,text,true,,296,291,32,57,http://127.0.0.1:8080/expenses,3,0,1
+1785520770318,3,GET All Expenses Request,200,OK,Employee Users 1-20,text,true,,10371,162,32,57,http://127.0.0.1:8080/expenses,3,0,0
+1785520770325,5,POST Create Expense Request,201,CREATED,Employee Users 1-32,text,true,,296,291,32,57,http://127.0.0.1:8080/expenses,5,0,1
+1785520770331,3,GET Approval by Expense Id Request,200,OK,Employee Users 1-23,text,true,,316,176,32,57,http://127.0.0.1:8080/approvals/expense/2787,3,0,1
+1785520770336,2,GET All User Request,200,,Manager Users 2-38,text,true,,708,159,25,57,http://127.0.0.1:9090/users,2,0,0
+1785520770343,6,PUT Expense Request,201,CREATED,Employee Users 1-11,text,true,,304,301,32,57,http://127.0.0.1:8080/expenses/2774,6,0,1
+1785520770348,3,GET User By Username Request,200,,Manager Users 2-33,text,true,,332,174,25,57,http://127.0.0.1:9090/users/username/alice,3,0,0
+1785520770349,2,GET Expense By User Request,200,,Manager Users 2-19,text,true,,9782,169,25,57,http://127.0.0.1:9090/expenses/user/1,2,0,0
+1785520770355,3,GET Approval By Id Request,200,,Manager Users 2-28,text,true,,386,165,25,57,http://127.0.0.1:9090/approvals/1,3,0,0
+1785520770355,3,GET Expense By User Request,200,,Manager Users 2-26,text,true,,9782,169,25,57,http://127.0.0.1:9090/expenses/user/1,3,0,0
+1785520770355,5,GET Expense By User Request,200,OK,Employee Users 1-14,text,true,,9711,169,32,57,http://127.0.0.1:8080/expenses/user/1,4,0,1
+1785520770358,2,GET Expense by Date,200,,Manager Users 2-16,text,true,,348,178,25,57,http://127.0.0.1:9090/expenses/date/2026-06-01,2,0,0
+1785520770371,4,GET Approval by Expense Id Request,200,OK,Employee Users 1-24,text,true,,316,176,33,57,http://127.0.0.1:8080/approvals/expense/2786,4,0,1
+1785520770382,3,GET Approval By Id Request,200,,Manager Users 2-29,text,true,,386,165,24,57,http://127.0.0.1:9090/approvals/1,3,0,0
+1785520770387,3,GET One Expense Request,200,OK,Employee Users 1-16,text,true,,291,167,33,57,http://127.0.0.1:8080/expenses/2780,2,0,1
+1785520770390,2,GET All User Request,200,OK,Employee Users 1-36,text,true,,644,159,33,57,http://127.0.0.1:8080/users,2,0,1
+1785520770390,3,GET User By Id Request,200,OK,Employee Users 1-34,text,true,,268,161,33,57,http://127.0.0.1:8080/users/1,3,0,0
+1785520770397,3,Login Request,200,OK,Employee Users 1-38,text,true,,268,243,33,57,http://127.0.0.1:8080/users/login,3,0,1
+1785520770398,2,GET One Expense Request,200,OK,Employee Users 1-19,text,true,,291,167,33,57,http://127.0.0.1:8080/expenses/2783,2,0,0
+1785520770402,3,GET Expense By User Request,200,OK,Employee Users 1-17,text,true,,9711,169,33,57,http://127.0.0.1:8080/expenses/user/1,3,0,0
+1785520770402,4,POST Approval Request,201,CREATED,Employee Users 1-29,text,true,,321,319,33,57,http://127.0.0.1:8080/approvals,4,0,0
+1785520770405,4,GET All User Request,200,,Manager Users 2-37,text,true,,708,159,24,57,http://127.0.0.1:9090/users,4,0,1
+1785520770411,2,GET All Expenses Request,200,OK,Employee Users 1-18,text,true,,10472,162,33,58,http://127.0.0.1:8080/expenses,2,0,0
+1785520770413,2,GET All Approvals Request,200,,Manager Users 2-30,text,true,,5924,163,25,58,http://127.0.0.1:9090/approvals,2,0,0
+1785520770406,12,GET Expense by Date,200,,Manager Users 2-14,text,true,,348,178,25,58,http://127.0.0.1:9090/expenses/date/2026-06-01,12,0,0
+1785520770417,2,GET Expense by Status,200,,Manager Users 2-23,text,true,,768,178,24,57,http://127.0.0.1:9090/expenses/status/approved,2,0,0
+1785520770423,2,GET User By Id Request,200,OK,Employee Users 1-35,text,true,,268,161,33,57,http://127.0.0.1:8080/users/1,2,0,1
+1785520770426,4,DELETE Expense Request,201,CREATED,Employee Users 1-7,text,true,,250,189,33,57,http://127.0.0.1:8080/expenses/2771,4,0,1
+1785520770430,3,Login Request,200,,Manager Users 2-32,text,true,,330,242,24,56,http://127.0.0.1:9090/users/login,3,0,0
+1785520770413,21,GET Approval By Id Request,200,OK,Employee Users 1-27,text,true,,316,168,32,56,http://127.0.0.1:8080/approvals/2776,21,0,1
+1785520770430,6,PUT Expense Request,201,CREATED,Employee Users 1-12,text,true,,304,301,32,56,http://127.0.0.1:8080/expenses/2776,6,0,0
+1785520770443,3,GET Expense by Date,200,,Manager Users 2-20,text,true,,348,178,24,56,http://127.0.0.1:9090/expenses/date/2026-06-01,3,0,0
+1785520770448,2,GET All Approvals Request,200,OK,Employee Users 1-30,text,true,,5884,163,32,55,http://127.0.0.1:8080/approvals,2,0,1
+1785520770450,3,GET Approval by Expense Id Request,200,OK,Employee Users 1-25,text,true,,316,176,32,55,http://127.0.0.1:8080/approvals/expense/2790,2,0,0
+1785520770455,2,Login Request,200,,Manager Users 2-31,text,true,,330,242,23,55,http://127.0.0.1:9090/users/login,2,0,0
+1785520770455,2,GET Approval by Expense Id Request,200,OK,Employee Users 1-26,text,true,,316,176,32,55,http://127.0.0.1:8080/approvals/expense/2789,2,0,0
+1785520770457,2,GET Expense by Date,200,,Manager Users 2-18,text,true,,348,178,23,55,http://127.0.0.1:9090/expenses/date/2026-06-01,2,0,0
+1785520770460,2,GET User By Username Request,200,,Manager Users 2-35,text,true,,332,174,22,54,http://127.0.0.1:9090/users/username/alice,2,0,0
+1785520770459,3,POST Create Expense Request,201,CREATED,Employee Users 1-33,text,true,,296,291,32,54,http://127.0.0.1:8080/expenses,3,0,0
+1785520770467,4,DELETE Expense Request,201,CREATED,Employee Users 1-10,text,true,,250,189,32,54,http://127.0.0.1:8080/expenses/2773,4,0,0
+1785520770473,3,GET All Expenses Request,200,,Manager Users 2-25,text,true,,10441,162,22,54,http://127.0.0.1:9090/expenses,3,0,0
+1785520770475,2,GET Expense By User Non Pending Request,200,OK,Employee Users 1-13,text,true,,456,177,32,54,http://127.0.0.1:8080/expenses/user/1/history,2,0,1
+1785520770478,5,DELETE Expense Request,201,CREATED,Employee Users 1-15,text,true,,250,189,32,54,http://127.0.0.1:8080/expenses/2777,4,0,1
+1785520770482,2,GET Expense by Status,200,,Manager Users 2-22,text,true,,768,178,22,53,http://127.0.0.1:9090/expenses/status/approved,2,0,0
+1785520770483,2,GET User By Id Request,200,,Manager Users 2-36,text,true,,332,161,22,53,http://127.0.0.1:9090/users/1,2,0,0
+1785520770485,2,GET Expense By User Non Pending Request,200,OK,Employee Users 1-14,text,true,,456,177,31,53,http://127.0.0.1:8080/expenses/user/1/history,2,0,1
+1785520770488,2,GET User By Id Request,200,,Manager Users 2-38,text,true,,332,161,22,53,http://127.0.0.1:9090/users/1,2,0,0
+1785520770490,5,DELETE Expense Request,201,CREATED,Employee Users 1-8,text,true,,250,189,31,53,http://127.0.0.1:8080/expenses/2775,5,0,1
+1785520770490,8,DELETE Approval Request,200,OK,Employee Users 1-23,text,true,,252,190,30,52,http://127.0.0.1:8080/approvals/2771,8,0,1
+1785520770499,2,GET Expense by Status,200,,Manager Users 2-21,text,true,,768,178,22,52,http://127.0.0.1:9090/expenses/status/approved,2,0,0
+1785520770501,2,GET Expense By User Request,200,OK,Employee Users 1-16,text,true,,9408,169,30,52,http://127.0.0.1:8080/expenses/user/1,2,0,1
+1785520770505,2,GET All User Request,200,,Manager Users 2-39,text,true,,708,159,22,52,http://127.0.0.1:9090/users,2,0,1
+1785520770509,2,Login Request,200,OK,Employee Users 1-39,text,true,,268,243,30,53,http://127.0.0.1:8080/users/login,2,0,1
+1785520770512,2,GET User By Id Request,200,,Manager Users 2-37,text,true,,332,161,23,53,http://127.0.0.1:9090/users/1,2,0,0
+1785520770513,2,GET Expense by Status,200,,Manager Users 2-19,text,true,,768,178,23,53,http://127.0.0.1:9090/expenses/status/approved,2,0,0
+1785520770520,3,GET One Expense Request,200,OK,Employee Users 1-20,text,true,,291,167,30,53,http://127.0.0.1:8080/expenses/2784,3,0,1
+1785520770521,3,GET All Approvals Request,200,OK,Employee Users 1-28,text,true,,5766,163,30,53,http://127.0.0.1:8080/approvals,3,0,1
+1785520770524,2,GET Approval By Id Request,200,,Manager Users 2-27,text,true,,386,165,23,53,http://127.0.0.1:9090/approvals/1,2,0,0
+1785520770525,2,GET One Expense Request,200,OK,Employee Users 1-18,text,true,,291,167,30,53,http://127.0.0.1:8080/expenses/2782,2,0,0
+1785520770527,4,DELETE Approval Request,200,OK,Employee Users 1-21,text,true,,252,190,30,53,http://127.0.0.1:8080/approvals/2770,4,0,0
+1785520770539,2,GET One Expense Request,200,,Manager Users 2-24,text,true,,346,164,23,53,http://127.0.0.1:9090/expenses/1,2,0,0
+1785520770541,2,GET Expense by Date,200,,Manager Users 2-17,text,true,,348,178,23,53,http://127.0.0.1:9090/expenses/date/2026-06-01,2,0,0
+1785520770542,3,GET All User Request,200,OK,Employee Users 1-37,text,true,,644,159,30,52,http://127.0.0.1:8080/users,3,0,1
+1785520770543,2,GET All Expenses Request,200,,Manager Users 2-29,text,true,,10239,162,22,52,http://127.0.0.1:9090/expenses,2,0,0
+1785520770549,2,GET User By Id Request,200,OK,Employee Users 1-36,text,true,,268,161,30,52,http://127.0.0.1:8080/users/1,2,0,0
+1785520770548,4,POST Approval Request,201,CREATED,Employee Users 1-32,text,true,,321,319,30,52,http://127.0.0.1:8080/approvals,4,0,0
+1785520770550,4,DELETE Approval Request,200,OK,Employee Users 1-22,text,true,,252,190,30,52,http://127.0.0.1:8080/approvals/2773,4,0,0
+1785520770567,2,Login Request,200,,Manager Users 2-34,text,true,,330,242,22,52,http://127.0.0.1:9090/users/login,2,0,0
+1785520770570,4,DELETE Expense Request,201,CREATED,Employee Users 1-11,text,true,,250,189,30,52,http://127.0.0.1:8080/expenses/2774,4,0,0
+1785520770577,2,Login Request,200,,Manager Users 2-33,text,true,,330,242,22,52,http://127.0.0.1:9090/users/login,2,0,0
+1785520770583,2,GET Expense by Date,200,,Manager Users 2-23,text,true,,348,178,22,52,http://127.0.0.1:9090/expenses/date/2026-06-01,2,0,0
+1785520770590,5,DELETE Expense Request,201,CREATED,Employee Users 1-12,text,true,,250,189,30,51,http://127.0.0.1:8080/expenses/2776,5,0,1
+1785520770593,3,GET Approval by Expense Id Request,200,OK,Employee Users 1-27,text,true,,316,176,29,50,http://127.0.0.1:8080/approvals/expense/2791,3,0,1
+1785520770593,4,GET All User Request,200,OK,Employee Users 1-38,text,true,,644,159,29,50,http://127.0.0.1:8080/users,4,0,1
+1785520770598,2,GET All Expenses Request,200,,Manager Users 2-28,text,true,,10037,162,21,50,http://127.0.0.1:9090/expenses,2,0,0
+1785520770599,7,GET All Approvals Request,200,,Manager Users 2-32,text,true,,5688,163,21,50,http://127.0.0.1:9090/approvals,7,0,0
+1785520770609,4,POST Approval Request,201,CREATED,Employee Users 1-31,text,true,,321,319,29,51,http://127.0.0.1:8080/approvals,4,0,1
+1785520770613,3,GET All Expenses Request,200,OK,Employee Users 1-23,text,true,,9966,162,29,51,http://127.0.0.1:8080/expenses,3,0,1
+1785520770613,5,POST Create Expense Request,201,CREATED,Employee Users 1-35,text,true,,296,291,29,51,http://127.0.0.1:8080/expenses,5,0,1
+1785520770617,3,GET Approval By Id Request,200,,Manager Users 2-30,text,true,,386,165,22,51,http://127.0.0.1:9090/approvals/1,3,0,0
+1785520770621,2,GET Expense By User Request,200,OK,Employee Users 1-19,text,true,,9300,169,29,51,http://127.0.0.1:8080/expenses/user/1,2,0,0
+1785520770623,3,GET All User Request,200,OK,Employee Users 1-39,text,true,,644,159,29,51,http://127.0.0.1:8080/users,3,0,1
+1785520770643,3,Login Request,200,OK,Employee Users 1-40,text,true,,268,243,29,51,http://127.0.0.1:8080/users/login,3,0,1
+1785520770651,4,DELETE Approval Request,200,OK,Employee Users 1-25,text,true,,252,190,29,51,http://127.0.0.1:8080/approvals/2774,4,0,0
+1785520770653,5,GET Expense by Status,200,,Manager Users 2-26,text,true,,768,178,22,51,http://127.0.0.1:9090/expenses/status/approved,5,0,0
+1785520770655,5,DELETE Approval Request,200,OK,Employee Users 1-24,text,true,,252,190,29,51,http://127.0.0.1:8080/approvals/2772,5,0,0
+1785520770658,3,GET Expense By User Non Pending Request,200,OK,Employee Users 1-16,text,true,,456,177,29,51,http://127.0.0.1:8080/expenses/user/1/history,3,0,0
+1785520770659,4,GET All Expenses Request,200,OK,Employee Users 1-21,text,true,,10060,162,29,51,http://127.0.0.1:8080/expenses,3,0,0
+1785520770661,3,GET Expense By User Non Pending Request,200,OK,Employee Users 1-17,text,true,,456,177,29,51,http://127.0.0.1:8080/expenses/user/1/history,3,0,0
+1785520770666,2,GET Expense by Date,200,,Manager Users 2-22,text,true,,348,178,22,51,http://127.0.0.1:9090/expenses/date/2026-06-01,2,0,0
+1785520770666,2,GET All Approvals Request,200,OK,Employee Users 1-29,text,true,,5530,163,29,51,http://127.0.0.1:8080/approvals,2,0,0
+1785520770652,19,POST Create Expense Request,201,CREATED,Employee Users 1-34,text,true,,296,291,29,50,http://127.0.0.1:8080/expenses,19,0,0
+1785520770669,2,GET User By Id Request,200,OK,Employee Users 1-37,text,true,,268,161,29,50,http://127.0.0.1:8080/users/1,2,0,0
+1785520770658,16,PUT Expense Request,201,CREATED,Employee Users 1-14,text,true,,304,301,29,50,http://127.0.0.1:8080/expenses/2779,16,0,0
+1785520770673,3,GET Approval By Id Request,200,OK,Employee Users 1-28,text,true,,316,168,29,50,http://127.0.0.1:8080/approvals/2778,3,0,1
+1785520770675,3,GET All User Request,200,,Manager Users 2-40,text,true,,708,159,21,51,http://127.0.0.1:9090/users,3,0,1
+1785520770682,2,GET Approval By Id Request,200,OK,Employee Users 1-30,text,true,,316,168,30,51,http://127.0.0.1:8080/approvals/2777,2,0,0
+1785520770689,3,POST Create Expense Request,201,CREATED,Employee Users 1-36,text,true,,296,291,30,51,http://127.0.0.1:8080/expenses,3,0,0
+1785520770697,4,DELETE Approval Request,200,OK,Employee Users 1-27,text,true,,252,190,30,51,http://127.0.0.1:8080/approvals/2776,4,0,0
+1785520770689,14,DELETE Approval Request,200,OK,Employee Users 1-26,text,true,,252,190,30,51,http://127.0.0.1:8080/approvals/2775,14,0,0
+1785520770703,3,GET One Expense Request,200,,Manager Users 2-29,text,true,,346,164,21,51,http://127.0.0.1:9090/expenses/1,3,0,0
+1785520770705,4,PUT Expense Request,201,CREATED,Employee Users 1-13,text,true,,304,301,30,51,http://127.0.0.1:8080/expenses/2778,4,0,0
+1785520770711,3,GET User By Username Request,200,,Manager Users 2-37,text,true,,332,174,22,52,http://127.0.0.1:9090/users/username/alice,3,0,0
+1785520770711,3,GET All Expenses Request,200,,Manager Users 2-27,text,true,,10333,162,22,52,http://127.0.0.1:9090/expenses,3,0,0
+1785520770711,4,POST Approval Request,201,CREATED,Employee Users 1-33,text,true,,321,319,30,52,http://127.0.0.1:8080/approvals,4,0,0
+1785520770714,2,GET All User Request,200,,Manager Users 2-41,text,true,,708,159,22,52,http://127.0.0.1:9090/users,2,0,0
+1785520770703,14,GET Expense by Date,200,,Manager Users 2-21,text,true,,348,178,22,52,http://127.0.0.1:9090/expenses/date/2026-06-01,14,0,0
+1785520770715,3,GET Expense By User Request,200,OK,Employee Users 1-20,text,true,,9502,169,30,52,http://127.0.0.1:8080/expenses/user/1,3,0,0
+1785520770721,2,GET All Approvals Request,200,,Manager Users 2-31,text,true,,5452,163,21,51,http://127.0.0.1:9090/approvals,2,0,0
+1785520770728,1,GET User By Id Request,200,,Manager Users 2-39,text,true,,332,161,21,51,http://127.0.0.1:9090/users/1,1,0,0
+1785520770729,2,GET User By Username Request,200,,Manager Users 2-38,text,true,,332,174,21,51,http://127.0.0.1:9090/users/username/alice,2,0,0
+1785520770711,23,GET One Expense Request,200,,Manager Users 2-25,text,true,,346,164,21,51,http://127.0.0.1:9090/expenses/1,23,0,0
+1785520770736,1,Login Request,200,,Manager Users 2-35,text,true,,330,242,21,51,http://127.0.0.1:9090/users/login,1,0,0
+1785520770738,3,Login Request,200,OK,Employee Users 1-41,text,true,,268,243,30,51,http://127.0.0.1:8080/users/login,3,0,1
+1785520770745,2,GET Expense By User Request,200,,Manager Users 2-24,text,true,,9573,169,21,51,http://127.0.0.1:9090/expenses/user/1,2,0,0
+1785520770729,20,GET Expense by Date,200,,Manager Users 2-19,text,true,,348,178,21,51,http://127.0.0.1:9090/expenses/date/2026-06-01,20,0,0
+1785520770748,2,GET User By Username Request,200,,Manager Users 2-36,text,true,,332,174,20,50,http://127.0.0.1:9090/users/username/alice,2,0,0
+1785520770762,2,GET All Approvals Request,200,,Manager Users 2-33,text,true,,5452,163,20,50,http://127.0.0.1:9090/approvals,2,0,0
+1785520770765,3,GET User By Id Request,200,OK,Employee Users 1-38,text,true,,268,161,30,50,http://127.0.0.1:8080/users/1,3,0,1
+1785520770766,2,GET All User Request,200,,Manager Users 2-42,text,true,,708,159,20,50,http://127.0.0.1:9090/users,2,0,1
+1785520770766,2,GET All Expenses Request,200,,Manager Users 2-30,text,true,,10333,162,20,50,http://127.0.0.1:9090/expenses,2,0,0
+1785520770766,3,GET All Approvals Request,200,OK,Employee Users 1-31,text,true,,5412,163,30,50,http://127.0.0.1:8080/approvals,3,0,0
+1785520770767,3,GET One Expense Request,200,OK,Employee Users 1-23,text,true,,291,167,30,50,http://127.0.0.1:8080/expenses/2787,3,0,0
+1785520770774,3,Login Request,200,OK,Employee Users 1-42,text,true,,268,243,31,51,http://127.0.0.1:8080/users/login,3,0,0
+1785520770775,3,GET One Expense Request,200,,Manager Users 2-28,text,true,,346,164,20,51,http://127.0.0.1:9090/expenses/1,3,0,0
+1785520770774,4,POST Create Expense Request,201,CREATED,Employee Users 1-37,text,true,,296,291,31,51,http://127.0.0.1:8080/expenses,4,0,0
+1785520770775,4,GET All Approvals Request,200,OK,Employee Users 1-32,text,true,,5412,163,31,51,http://127.0.0.1:8080/approvals,4,0,0
+1785520770774,6,PUT Expense Request,201,CREATED,Employee Users 1-17,text,true,,304,301,31,51,http://127.0.0.1:8080/expenses/2781,6,0,0
+1785520770784,2,GET All Expenses Request,200,OK,Employee Users 1-22,text,true,,10364,162,31,51,http://127.0.0.1:8080/expenses,2,0,0
+1785520770799,4,POST Approval Request,201,CREATED,Employee Users 1-35,text,true,,321,319,31,51,http://127.0.0.1:8080/approvals,4,0,1
+1785520770808,2,GET All User Request,200,OK,Employee Users 1-40,text,true,,644,159,31,51,http://127.0.0.1:8080/users,2,0,0
+1785520770816,2,GET Approval By Id Request,200,,Manager Users 2-32,text,true,,386,165,21,52,http://127.0.0.1:9090/approvals/1,2,0,0
+1785520770818,3,GET All Expenses Request,200,OK,Employee Users 1-25,text,true,,10364,162,31,52,http://127.0.0.1:8080/expenses,3,0,1
+1785520770821,3,GET All Approvals Request,200,OK,Employee Users 1-33,text,true,,5530,163,31,52,http://127.0.0.1:8080/approvals,3,0,0
+1785520770821,4,GET Expense By User Request,200,OK,Employee Users 1-18,text,true,,9603,169,31,52,http://127.0.0.1:8080/expenses/user/1,4,0,0
+1785520770829,2,GET User By Id Request,200,OK,Employee Users 1-39,text,true,,268,161,31,52,http://127.0.0.1:8080/users/1,2,0,0
+1785520770832,3,Login Request,200,OK,Employee Users 1-43,text,true,,268,243,31,52,http://127.0.0.1:8080/users/login,3,0,1
+1785520770843,2,GET All Approvals Request,200,,Manager Users 2-35,text,true,,5570,163,21,52,http://127.0.0.1:9090/approvals,2,0,0
+1785520770846,2,GET Approval by Expense Id Request,200,OK,Employee Users 1-28,text,true,,316,176,31,52,http://127.0.0.1:8080/approvals/expense/2794,2,0,0
+1785520770846,3,GET Expense By User Non Pending Request,200,OK,Employee Users 1-19,text,true,,456,177,31,52,http://127.0.0.1:8080/expenses/user/1/history,3,0,0
+1785520770853,3,GET Expense by Status,200,,Manager Users 2-24,text,true,,768,178,21,52,http://127.0.0.1:9090/expenses/status/approved,3,0,0
+1785520770853,3,GET Expense By User Request,200,,Manager Users 2-25,text,true,,9674,169,21,52,http://127.0.0.1:9090/expenses/user/1,3,0,0
+1785520770862,3,GET Approval By Id Request,200,OK,Employee Users 1-29,text,true,,316,168,31,52,http://127.0.0.1:8080/approvals/2779,3,0,1
+1785520770863,2,GET User By Id Request,200,,Manager Users 2-40,text,true,,332,161,21,52,http://127.0.0.1:9090/users/1,2,0,0
+1785520770866,2,GET All Approvals Request,200,,Manager Users 2-34,text,true,,5570,163,21,52,http://127.0.0.1:9090/approvals,2,0,0
+1785520770866,2,GET Approval by Expense Id Request,200,OK,Employee Users 1-30,text,true,,316,176,31,52,http://127.0.0.1:8080/approvals/expense/2792,2,0,0
+1785520770878,2,GET One Expense Request,200,,Manager Users 2-30,text,true,,346,164,21,53,http://127.0.0.1:9090/expenses/1,2,0,0
+1785520770879,2,GET All Expenses Request,200,OK,Employee Users 1-24,text,true,,10364,162,32,53,http://127.0.0.1:8080/expenses,2,0,0
+1785520770881,3,GET All Expenses Request,200,OK,Employee Users 1-27,text,true,,10364,162,32,53,http://127.0.0.1:8080/expenses,3,0,0
+1785520770883,2,GET User By Username Request,200,,Manager Users 2-39,text,true,,332,174,21,53,http://127.0.0.1:9090/users/username/alice,2,0,0
+1785520770889,2,GET Approval By Id Request,200,OK,Employee Users 1-31,text,true,,316,168,32,53,http://127.0.0.1:8080/approvals/2781,2,0,0
+1785520770892,5,PUT Expense Request,201,CREATED,Employee Users 1-16,text,true,,304,301,32,53,http://127.0.0.1:8080/expenses/2780,5,0,1
+1785520770898,4,POST Approval Request,201,CREATED,Employee Users 1-34,text,true,,321,319,32,53,http://127.0.0.1:8080/approvals,4,0,1
+1785520770905,2,GET Expense By User Non Pending Request,200,OK,Employee Users 1-20,text,true,,456,177,32,53,http://127.0.0.1:8080/expenses/user/1/history,2,0,0
+1785520770907,2,GET Expense By User Request,200,OK,Employee Users 1-23,text,true,,9610,169,32,53,http://127.0.0.1:8080/expenses/user/1,2,0,0
+1785520770918,2,GET Expense By User Request,200,,Manager Users 2-29,text,true,,9681,169,22,54,http://127.0.0.1:9090/expenses/user/1,2,0,0
+1785520770923,2,Login Request,200,,Manager Users 2-37,text,true,,330,242,22,54,http://127.0.0.1:9090/users/login,2,0,0
+1785520770925,3,GET All Approvals Request,200,OK,Employee Users 1-35,text,true,,5648,163,32,54,http://127.0.0.1:8080/approvals,3,0,1
+1785520770927,2,GET Expense by Date,200,,Manager Users 2-26,text,true,,348,178,22,54,http://127.0.0.1:9090/expenses/date/2026-06-01,2,0,0
+1785520770935,2,GET One Expense Request,200,,Manager Users 2-27,text,true,,346,164,21,53,http://127.0.0.1:9090/expenses/1,2,0,0
+1785520770925,15,Login Request,200,OK,Employee Users 1-44,text,true,,268,243,32,53,http://127.0.0.1:8080/users/login,15,0,1
+1785520770939,2,GET User By Id Request,200,,Manager Users 2-41,text,true,,332,161,21,53,http://127.0.0.1:9090/users/1,2,0,0
+1785520770941,2,GET All User Request,200,OK,Employee Users 1-42,text,true,,644,159,32,53,http://127.0.0.1:8080/users,2,0,1
+1785520770949,2,GET Approval By Id Request,200,,Manager Users 2-31,text,true,,386,165,21,53,http://127.0.0.1:9090/approvals/1,2,0,0
+1785520770948,4,DELETE Expense Request,201,CREATED,Employee Users 1-14,text,true,,250,189,32,53,http://127.0.0.1:8080/expenses/2779,4,0,1
+1785520770954,2,GET One Expense Request,200,OK,Employee Users 1-21,text,true,,291,167,31,52,http://127.0.0.1:8080/expenses/2785,2,0,0
+1785520770956,2,GET One Expense Request,200,OK,Employee Users 1-25,text,true,,291,167,31,52,http://127.0.0.1:8080/expenses/2790,2,0,1
+1785520770958,2,Login Request,200,,Manager Users 2-36,text,true,,330,242,21,52,http://127.0.0.1:9090/users/login,2,0,0
+1785520770974,2,GET All Expenses Request,200,,Manager Users 2-32,text,true,,10340,162,21,53,http://127.0.0.1:9090/expenses,2,0,0
+1785520770978,2,GET User By Id Request,200,,Manager Users 2-42,text,true,,332,161,21,53,http://127.0.0.1:9090/users/1,2,0,0
+1785520770981,5,POST Approval Request,201,CREATED,Employee Users 1-36,text,true,,321,319,32,53,http://127.0.0.1:8080/approvals,5,0,1
+1785520770983,3,GET All User Request,200,OK,Employee Users 1-41,text,true,,644,159,32,53,http://127.0.0.1:8080/users,3,0,1
+1785520770988,2,GET Approval By Id Request,200,,Manager Users 2-33,text,true,,386,165,21,53,http://127.0.0.1:9090/approvals/1,2,0,0
+1785520770991,2,GET Expense by Date,200,,Manager Users 2-24,text,true,,348,178,21,53,http://127.0.0.1:9090/expenses/date/2026-06-01,2,0,0
+1785520770991,2,GET All User Request,200,,Manager Users 2-44,text,true,,708,159,20,52,http://127.0.0.1:9090/users,2,0,1
+1785520770991,3,GET All Expenses Request,200,OK,Employee Users 1-26,text,true,,10270,162,32,52,http://127.0.0.1:8080/expenses,2,0,0
+1785520770995,2,Login Request,200,,Manager Users 2-39,text,true,,330,242,20,52,http://127.0.0.1:9090/users/login,2,0,0
+1785520770993,5,DELETE Expense Request,201,CREATED,Employee Users 1-13,text,true,,250,189,32,52,http://127.0.0.1:8080/expenses/2778,5,0,1
+1785520770998,2,GET Approval by Expense Id Request,200,OK,Employee Users 1-31,text,true,,316,176,31,51,http://127.0.0.1:8080/approvals/expense/2795,2,0,0
+1785520771001,2,GET One Expense Request,200,OK,Employee Users 1-22,text,true,,291,167,31,51,http://127.0.0.1:8080/expenses/2788,2,0,0
+1785520771003,2,GET Approval By Id Request,200,,Manager Users 2-34,text,true,,386,165,20,51,http://127.0.0.1:9090/approvals/1,2,0,0
+1785520771007,2,GET All User Request,200,,Manager Users 2-43,text,true,,708,159,20,51,http://127.0.0.1:9090/users,2,0,0
+1785520771010,2,GET Expense By User Non Pending Request,200,OK,Employee Users 1-18,text,true,,456,177,31,52,http://127.0.0.1:8080/expenses/user/1/history,2,0,0
+1785520771009,4,POST Approval Request,201,CREATED,Employee Users 1-37,text,true,,321,319,31,52,http://127.0.0.1:8080/approvals,4,0,0
+1785520771013,4,POST Create Expense Request,201,CREATED,Employee Users 1-38,text,true,,296,291,31,52,http://127.0.0.1:8080/expenses,4,0,1
+1785520771015,5,GET Expense By User Non Pending Request,200,OK,Employee Users 1-23,text,true,,456,177,31,52,http://127.0.0.1:8080/expenses/user/1/history,5,0,0
+1785520771013,7,PUT Expense Request,201,CREATED,Employee Users 1-20,text,true,,304,301,31,52,http://127.0.0.1:8080/expenses/2784,7,0,1
+1785520771018,6,DELETE Approval Request,200,OK,Employee Users 1-28,text,true,,252,190,31,52,http://127.0.0.1:8080/approvals/2778,5,0,1
+1785520771025,2,Login Request,200,,Manager Users 2-38,text,true,,330,242,21,52,http://127.0.0.1:9090/users/login,2,0,0
+1785520771009,28,DELETE Expense Request,201,CREATED,Employee Users 1-17,text,true,,250,189,31,52,http://127.0.0.1:8080/expenses/2781,28,0,0
+1785520771036,3,GET Approval By Id Request,200,OK,Employee Users 1-32,text,true,,316,168,30,51,http://127.0.0.1:8080/approvals/2780,3,0,1
+1785520771050,2,GET Expense By User Request,200,,Manager Users 2-30,text,true,,9479,169,21,51,http://127.0.0.1:9090/expenses/user/1,2,0,0
+1785520771052,3,GET Approval by Expense Id Request,200,OK,Employee Users 1-29,text,true,,316,176,30,51,http://127.0.0.1:8080/approvals/expense/2793,3,0,1
+1785520771053,4,POST Create Expense Request,201,CREATED,Employee Users 1-39,text,true,,296,291,30,51,http://127.0.0.1:8080/expenses,4,0,1
+1785520771061,2,GET Approval By Id Request,200,OK,Employee Users 1-33,text,true,,316,168,30,51,http://127.0.0.1:8080/approvals/2782,2,0,0
+1785520771071,2,GET Expense By User Request,200,,Manager Users 2-28,text,true,,9573,169,21,51,http://127.0.0.1:9090/expenses/user/1,2,0,0
+1785520771071,5,GET Expense By User Request,200,OK,Employee Users 1-21,text,true,,9502,169,31,52,http://127.0.0.1:8080/expenses/user/1,5,0,0
+1785520771074,5,GET All User Request,200,,Manager Users 2-45,text,true,,708,159,21,52,http://127.0.0.1:9090/users,5,0,0
+1785520771082,3,GET User By Username Request,200,,Manager Users 2-41,text,true,,332,174,21,52,http://127.0.0.1:9090/users/username/alice,3,0,0
+1785520771086,3,GET All User Request,200,OK,Employee Users 1-43,text,true,,644,159,31,52,http://127.0.0.1:8080/users,3,0,1
+1785520771087,4,GET Approval By Id Request,200,OK,Employee Users 1-35,text,true,,316,168,31,52,http://127.0.0.1:8080/approvals/2783,4,0,0
+1785520771089,3,GET One Expense Request,200,,Manager Users 2-32,text,true,,346,164,21,52,http://127.0.0.1:9090/expenses/1,3,0,0
+1785520771095,3,GET One Expense Request,200,OK,Employee Users 1-24,text,true,,291,167,31,52,http://127.0.0.1:8080/expenses/2786,3,0,1
+1785520771097,3,GET One Expense Request,200,OK,Employee Users 1-27,text,true,,291,167,31,52,http://127.0.0.1:8080/expenses/2791,3,0,0
+1785520771089,11,PUT Expense Request,201,CREATED,Employee Users 1-19,text,true,,304,301,31,52,http://127.0.0.1:8080/expenses/2783,11,0,0
+1785520771101,4,DELETE Expense Request,201,CREATED,Employee Users 1-16,text,true,,250,189,31,52,http://127.0.0.1:8080/expenses/2780,4,0,1
+1785520771105,3,GET Approval By Id Request,200,,Manager Users 2-35,text,true,,386,165,21,51,http://127.0.0.1:9090/approvals/1,3,0,0
+1785520771107,2,GET User By Id Request,200,OK,Employee Users 1-40,text,true,,268,161,30,51,http://127.0.0.1:8080/users/1,2,0,1
+1785520771110,2,GET All Approvals Request,200,,Manager Users 2-36,text,true,,5806,163,22,52,http://127.0.0.1:9090/approvals,2,0,0
+1785520771115,1,GET Expense by Status,200,,Manager Users 2-25,text,true,,768,178,22,52,http://127.0.0.1:9090/expenses/status/approved,1,0,0
+1785520771117,4,DELETE Approval Request,200,OK,Employee Users 1-30,text,true,,252,190,30,52,http://127.0.0.1:8080/approvals/2777,4,0,0
+1785520771120,1,GET User By Username Request,200,,Manager Users 2-40,text,true,,332,174,22,52,http://127.0.0.1:9090/users/username/alice,1,0,0
+1785520771125,2,GET All Expenses Request,200,,Manager Users 2-33,text,true,,10239,162,22,52,http://127.0.0.1:9090/expenses,2,0,0
+1785520771132,2,GET All Approvals Request,200,OK,Employee Users 1-34,text,true,,5648,163,30,52,http://127.0.0.1:8080/approvals,2,0,0
+1785520771140,2,Login Request,200,OK,Employee Users 1-45,text,true,,268,243,30,52,http://127.0.0.1:8080/users/login,2,0,1
+1785520771144,2,GET Expense By User Request,200,OK,Employee Users 1-22,text,true,,9408,169,30,52,http://127.0.0.1:8080/expenses/user/1,2,0,0
+1785520771145,2,GET All Approvals Request,200,,Manager Users 2-39,text,true,,5688,163,22,52,http://127.0.0.1:9090/approvals,2,0,0
+1785520771146,2,GET All Approvals Request,200,,Manager Users 2-37,text,true,,5688,163,22,52,http://127.0.0.1:9090/approvals,2,0,0
+1785520771146,3,GET One Expense Request,200,OK,Employee Users 1-26,text,true,,291,167,30,52,http://127.0.0.1:8080/expenses/2789,3,0,1
+1785520771151,2,GET User By Username Request,200,,Manager Users 2-42,text,true,,332,174,22,52,http://127.0.0.1:9090/users/username/alice,2,0,0
+1785520771176,3,GET Approval by Expense Id Request,200,OK,Employee Users 1-33,text,true,,316,176,31,53,http://127.0.0.1:8080/approvals/expense/2797,3,0,1
+1785520771180,2,GET All Approvals Request,200,OK,Employee Users 1-37,text,true,,5648,163,31,53,http://127.0.0.1:8080/approvals,2,0,0
+1785520771186,2,GET Approval by Expense Id Request,200,OK,Employee Users 1-32,text,true,,316,176,31,53,http://127.0.0.1:8080/approvals/expense/2796,2,0,1
+1785520771195,2,GET All User Request,200,OK,Employee Users 1-44,text,true,,644,159,31,53,http://127.0.0.1:8080/users,2,0,0
+1785520771199,2,GET All Expenses Request,200,,Manager Users 2-31,text,true,,10239,162,22,53,http://127.0.0.1:9090/expenses,2,0,0
+1785520771203,2,GET Expense by Status,200,,Manager Users 2-30,text,true,,768,178,22,53,http://127.0.0.1:9090/expenses/status/approved,2,0,0
+1785520771203,3,GET User By Id Request,200,OK,Employee Users 1-42,text,true,,268,161,31,53,http://127.0.0.1:8080/users/1,3,0,1
+1785520771216,2,GET Expense By User Request,200,,Manager Users 2-27,text,true,,9479,169,23,54,http://127.0.0.1:9090/expenses/user/1,2,0,0
+1785520771215,4,POST Approval Request,201,CREATED,Employee Users 1-38,text,true,,321,319,31,54,http://127.0.0.1:8080/approvals,4,0,1
+1785520771218,2,GET All Expenses Request,200,,Manager Users 2-35,text,true,,10239,162,23,54,http://127.0.0.1:9090/expenses,2,0,0
+1785520771220,2,GET Expense by Status,200,,Manager Users 2-29,text,true,,768,178,23,54,http://127.0.0.1:9090/expenses/status/approved,2,0,0
+1785520771226,2,GET Expense By User Request,200,,Manager Users 2-32,text,true,,9479,169,23,54,http://127.0.0.1:9090/expenses/user/1,2,0,0
+1785520771227,1,GET User By Id Request,200,,Manager Users 2-44,text,true,,332,161,23,54,http://127.0.0.1:9090/users/1,1,0,0
+1785520771229,2,GET Approval by Expense Id Request,200,OK,Employee Users 1-35,text,true,,316,176,31,54,http://127.0.0.1:8080/approvals/expense/2798,2,0,0
+1785520771233,3,GET One Expense Request,200,,Manager Users 2-33,text,true,,346,164,23,54,http://127.0.0.1:9090/expenses/1,3,0,0
+1785520771232,4,DELETE Approval Request,200,OK,Employee Users 1-31,text,true,,252,190,31,54,http://127.0.0.1:8080/approvals/2781,4,0,1
+1785520771235,5,DELETE Approval Request,200,OK,Employee Users 1-29,text,true,,252,190,31,54,http://127.0.0.1:8080/approvals/2779,5,0,0
+1785520771249,2,GET Approval By Id Request,200,OK,Employee Users 1-34,text,true,,316,168,31,54,http://127.0.0.1:8080/approvals/2784,2,0,0
+1785520771255,2,GET Expense By User Request,200,OK,Employee Users 1-25,text,true,,9408,169,31,54,http://127.0.0.1:8080/expenses/user/1,2,0,0
+1785520771264,2,Login Request,200,OK,Employee Users 1-46,text,true,,268,243,31,54,http://127.0.0.1:8080/users/login,2,0,0
+1785520771263,4,POST Create Expense Request,201,CREATED,Employee Users 1-40,text,true,,296,291,31,54,http://127.0.0.1:8080/expenses,4,0,1
+1785520771267,3,GET Approval By Id Request,200,,Manager Users 2-36,text,true,,386,165,23,54,http://127.0.0.1:9090/approvals/1,3,0,0
+1785520771268,2,GET Approval By Id Request,200,,Manager Users 2-37,text,true,,386,165,23,54,http://127.0.0.1:9090/approvals/1,2,0,0
+1785520771267,3,GET User By Id Request,200,OK,Employee Users 1-41,text,true,,268,161,31,54,http://127.0.0.1:8080/users/1,3,0,1
+1785520771269,2,GET Expense by Date,200,,Manager Users 2-25,text,true,,348,178,23,54,http://127.0.0.1:9090/expenses/date/2026-06-01,2,0,0
+1785520771277,2,GET All Approvals Request,200,OK,Employee Users 1-36,text,true,,5530,163,32,54,http://127.0.0.1:8080/approvals,2,0,1
+1785520771275,6,PUT Expense Request,201,CREATED,Employee Users 1-18,text,true,,304,301,32,54,http://127.0.0.1:8080/expenses/2782,6,0,1
+1785520771279,3,GET User By Id Request,200,,Manager Users 2-45,text,true,,332,161,22,54,http://127.0.0.1:9090/users/1,3,0,0
+1785520771279,5,POST Approval Request,201,CREATED,Employee Users 1-39,text,true,,321,319,32,54,http://127.0.0.1:8080/approvals,5,0,1
+1785520771285,3,GET Expense By User Request,200,OK,Employee Users 1-26,text,true,,9509,169,32,54,http://127.0.0.1:8080/expenses/user/1,3,0,1
+1785520771288,3,GET Expense By User Non Pending Request,200,OK,Employee Users 1-21,text,true,,456,177,32,54,http://127.0.0.1:8080/expenses/user/1/history,2,0,0
+1785520771287,5,DELETE Expense Request,201,CREATED,Employee Users 1-20,text,true,,250,189,32,54,http://127.0.0.1:8080/expenses/2784,5,0,1
+1785520771294,1,GET User By Id Request,200,,Manager Users 2-43,text,true,,332,161,22,53,http://127.0.0.1:9090/users/1,1,0,0
+1785520771296,2,GET Expense by Status,200,,Manager Users 2-28,text,true,,768,178,22,53,http://127.0.0.1:9090/expenses/status/approved,2,0,0
+1785520771298,2,Login Request,200,,Manager Users 2-40,text,true,,330,242,22,53,http://127.0.0.1:9090/users/login,2,0,0
+1785520771300,2,GET All Expenses Request,200,,Manager Users 2-34,text,true,,10239,162,22,53,http://127.0.0.1:9090/expenses,2,0,0
+1785520771303,3,GET All Expenses Request,200,OK,Employee Users 1-28,text,true,,10168,162,31,53,http://127.0.0.1:8080/expenses,3,0,1
+1785520771307,2,GET All User Request,200,,Manager Users 2-46,text,true,,708,159,22,53,http://127.0.0.1:9090/users,2,0,0
+1785520771311,1,GET All Approvals Request,200,,Manager Users 2-38,text,true,,5688,163,23,54,http://127.0.0.1:9090/approvals,1,0,0
+1785520771319,3,Login Request,200,OK,Employee Users 1-47,text,true,,268,243,31,54,http://127.0.0.1:8080/users/login,3,0,1
+1785520771319,6,PUT Expense Request,201,CREATED,Employee Users 1-23,text,true,,304,301,31,54,http://127.0.0.1:8080/expenses/2787,6,0,1
+1785520771323,4,GET Expense By User Request,200,OK,Employee Users 1-27,text,true,,9408,169,31,54,http://127.0.0.1:8080/expenses/user/1,4,0,1
+1785520771326,2,Login Request,200,,Manager Users 2-41,text,true,,330,242,23,54,http://127.0.0.1:9090/users/login,2,0,0
+1785520771325,5,DELETE Expense Request,201,CREATED,Employee Users 1-19,text,true,,250,189,31,54,http://127.0.0.1:8080/expenses/2783,5,0,0
+1785520771328,2,GET Approval By Id Request,200,OK,Employee Users 1-37,text,true,,316,168,31,54,http://127.0.0.1:8080/approvals/2786,2,0,0
+1785520771321,14,DELETE Approval Request,200,OK,Employee Users 1-33,text,true,,252,190,30,53,http://127.0.0.1:8080/approvals/2782,14,0,1
+1785520771338,2,GET All User Request,200,OK,Employee Users 1-45,text,true,,644,159,30,53,http://127.0.0.1:8080/users,2,0,0
+1785520771348,2,GET User By Id Request,200,OK,Employee Users 1-43,text,true,,268,161,30,53,http://127.0.0.1:8080/users/1,2,0,0
+1785520771350,2,GET Expense By User Request,200,OK,Employee Users 1-24,text,true,,9314,169,30,53,http://127.0.0.1:8080/expenses/user/1,2,0,0
+1785520771358,2,GET One Expense Request,200,,Manager Users 2-35,text,true,,346,164,23,53,http://127.0.0.1:9090/expenses/1,2,0,0
+1785520771376,3,GET All User Request,200,,Manager Users 2-47,text,true,,708,159,23,54,http://127.0.0.1:9090/users,3,0,1
+1785520771378,2,GET Expense by Date,200,,Manager Users 2-30,text,true,,348,178,23,54,http://127.0.0.1:9090/expenses/date/2026-06-01,2,0,0
+1785520771379,4,DELETE Approval Request,200,OK,Employee Users 1-32,text,true,,252,190,31,53,http://127.0.0.1:8080/approvals/2780,4,0,0
+1785520771386,2,GET User By Username Request,200,,Manager Users 2-44,text,true,,332,174,22,53,http://127.0.0.1:9090/users/username/alice,2,0,0
+1785520771386,2,GET User By Id Request,200,OK,Employee Users 1-44,text,true,,268,161,31,53,http://127.0.0.1:8080/users/1,2,0,0
+1785520771393,2,GET Expense by Status,200,,Manager Users 2-32,text,true,,768,178,22,53,http://127.0.0.1:9090/expenses/status/approved,2,0,0
+1785520771395,2,GET All Approvals Request,200,OK,Employee Users 1-38,text,true,,5412,163,31,53,http://127.0.0.1:8080/approvals,2,0,0
+1785520771405,2,GET One Expense Request,200,,Manager Users 2-34,text,true,,346,164,22,53,http://127.0.0.1:9090/expenses/1,2,0,0
+1785520771405,8,GET Expense By User Request,200,,Manager Users 2-33,text,true,,9385,169,23,54,http://127.0.0.1:9090/expenses/user/1,8,0,0
+1785520771419,3,GET All Expenses Request,200,OK,Employee Users 1-30,text,true,,10074,162,31,54,http://127.0.0.1:8080/expenses,3,0,1
+1785520771419,4,GET One Expense Request,200,OK,Employee Users 1-28,text,true,,291,167,31,54,http://127.0.0.1:8080/expenses/2794,4,0,1
+1785520771419,4,GET Expense By User Non Pending Request,200,OK,Employee Users 1-22,text,true,,456,177,31,54,http://127.0.0.1:8080/expenses/user/1/history,4,0,1
+1785520771422,3,GET Approval By Id Request,200,,Manager Users 2-39,text,true,,386,165,23,54,http://127.0.0.1:9090/approvals/1,3,0,0
+1785520771422,6,GET Expense by Date,200,,Manager Users 2-29,text,true,,348,178,23,54,http://127.0.0.1:9090/expenses/date/2026-06-01,6,0,0
+1785520771437,2,GET One Expense Request,200,,Manager Users 2-31,text,true,,346,164,22,53,http://127.0.0.1:9090/expenses/1,2,0,0
+1785520771437,2,GET All Expenses Request,200,,Manager Users 2-37,text,true,,10145,162,22,53,http://127.0.0.1:9090/expenses,2,0,0
+1785520771441,1,GET Expense by Date,200,,Manager Users 2-28,text,true,,348,178,22,53,http://127.0.0.1:9090/expenses/date/2026-06-01,1,0,0
+1785520771442,3,Login Request,200,OK,Employee Users 1-48,text,true,,268,243,31,52,http://127.0.0.1:8080/users/login,3,0,1
+1785520771444,2,GET All Approvals Request,200,OK,Employee Users 1-39,text,true,,5412,163,31,52,http://127.0.0.1:8080/approvals,2,0,0
+1785520771449,2,Login Request,200,,Manager Users 2-42,text,true,,330,242,21,52,http://127.0.0.1:9090/users/login,2,0,0
+1785520771461,2,GET Approval By Id Request,200,,Manager Users 2-38,text,true,,386,165,21,52,http://127.0.0.1:9090/approvals/1,2,0,0
+1785520771463,3,GET All User Request,200,OK,Employee Users 1-46,text,true,,644,159,31,52,http://127.0.0.1:8080/users,3,0,1
+1785520771469,4,DELETE Expense Request,201,CREATED,Employee Users 1-23,text,true,,250,189,31,52,http://127.0.0.1:8080/expenses/2787,4,0,0
+1785520771480,3,POST Create Expense Request,201,CREATED,Employee Users 1-42,text,true,,296,291,30,51,http://127.0.0.1:8080/expenses,3,0,0
+1785520771486,3,POST Approval Request,201,CREATED,Employee Users 1-40,text,true,,321,319,30,51,http://127.0.0.1:8080/approvals,3,0,0
+1785520771488,2,GET Expense By User Request,200,,Manager Users 2-35,text,true,,9378,169,21,51,http://127.0.0.1:9090/expenses/user/1,2,0,0
+1785520771495,2,GET All Expenses Request,200,OK,Employee Users 1-32,text,true,,10067,162,30,51,http://127.0.0.1:8080/expenses,2,0,0
+1785520771498,3,GET Expense by Date,200,,Manager Users 2-32,text,true,,348,178,21,51,http://127.0.0.1:9090/expenses/date/2026-06-01,3,0,0
+1785520771498,3,GET Expense by Status,200,,Manager Users 2-27,text,true,,768,178,21,51,http://127.0.0.1:9090/expenses/status/approved,3,0,0
+1785520771498,5,DELETE Approval Request,200,OK,Employee Users 1-35,text,true,,252,190,30,50,http://127.0.0.1:8080/approvals/2783,5,0,1
+1785520771501,2,GET All User Request,200,,Manager Users 2-48,text,true,,708,159,20,50,http://127.0.0.1:9090/users,2,0,1
+1785520771503,2,GET Expense By User Non Pending Request,200,OK,Employee Users 1-25,text,true,,456,177,30,50,http://127.0.0.1:8080/expenses/user/1/history,2,0,1
+1785520771505,2,GET User By Id Request,200,,Manager Users 2-47,text,true,,332,161,20,50,http://127.0.0.1:9090/users/1,2,0,0
+1785520771512,2,GET Approval by Expense Id Request,200,OK,Employee Users 1-34,text,true,,316,176,30,50,http://127.0.0.1:8080/approvals/expense/2799,2,0,1
+1785520771521,2,GET All Expenses Request,200,OK,Employee Users 1-29,text,true,,10067,162,30,50,http://127.0.0.1:8080/expenses,2,0,1
+1785520771523,3,GET Expense By User Non Pending Request,200,OK,Employee Users 1-27,text,true,,456,177,30,50,http://127.0.0.1:8080/expenses/user/1/history,3,0,1
+1785520771525,5,PUT Expense Request,201,CREATED,Employee Users 1-22,text,true,,304,301,30,50,http://127.0.0.1:8080/expenses/2788,5,0,0
+1785520771528,3,GET All User Request,200,,Manager Users 2-49,text,true,,708,159,20,50,http://127.0.0.1:9090/users,3,0,1
+1785520771531,2,GET Approval by Expense Id Request,200,OK,Employee Users 1-37,text,true,,316,176,30,50,http://127.0.0.1:8080/approvals/expense/2801,2,0,1
+1785520771534,2,GET All Approvals Request,200,,Manager Users 2-41,text,true,,5452,163,20,50,http://127.0.0.1:9090/approvals,2,0,0
+1785520771534,2,GET All Expenses Request,200,OK,Employee Users 1-31,text,true,,10074,162,30,50,http://127.0.0.1:8080/expenses,2,0,1
+1785520771537,2,GET User By Username Request,200,,Manager Users 2-45,text,true,,332,174,20,50,http://127.0.0.1:9090/users/username/alice,2,0,0
+1785520771537,2,GET User By Id Request,200,OK,Employee Users 1-45,text,true,,268,161,30,50,http://127.0.0.1:8080/users/1,2,0,0
+1785520771537,3,GET Expense By User Request,200,,Manager Users 2-34,text,true,,9385,169,20,50,http://127.0.0.1:9090/expenses/user/1,3,0,0
+1785520771540,2,GET Expense By User Non Pending Request,200,OK,Employee Users 1-26,text,true,,456,177,30,50,http://127.0.0.1:8080/expenses/user/1/history,2,0,0
+1785520771543,2,GET Approval By Id Request,200,OK,Employee Users 1-36,text,true,,316,168,30,50,http://127.0.0.1:8080/approvals/2785,2,0,0
+1785520771546,2,GET All Expenses Request,200,,Manager Users 2-36,text,true,,10145,162,20,50,http://127.0.0.1:9090/expenses,2,0,0
+1785520771546,2,GET One Expense Request,200,OK,Employee Users 1-30,text,true,,291,167,30,50,http://127.0.0.1:8080/expenses/2792,2,0,0
+1785520771550,1,Login Request,200,OK,Employee Users 1-49,text,true,,268,243,30,50,http://127.0.0.1:8080/users/login,1,0,0
+1785520771547,5,DELETE Expense Request,201,CREATED,Employee Users 1-18,text,true,,250,189,30,50,http://127.0.0.1:8080/expenses/2782,5,0,0
+1785520771537,17,GET User By Id Request,200,,Manager Users 2-46,text,true,,332,161,20,49,http://127.0.0.1:9090/users/1,17,0,0
+1785520771551,3,GET All User Request,200,OK,Employee Users 1-47,text,true,,644,159,29,49,http://127.0.0.1:8080/users,3,0,0
+1785520771549,6,POST Create Expense Request,201,CREATED,Employee Users 1-41,text,true,,296,291,29,49,http://127.0.0.1:8080/expenses,6,0,1
+1785520771554,3,Login Request,200,,Manager Users 2-44,text,true,,330,242,20,49,http://127.0.0.1:9090/users/login,3,0,0
+1785520771559,2,GET User By Username Request,200,,Manager Users 2-43,text,true,,332,174,20,49,http://127.0.0.1:9090/users/username/alice,2,0,0
+1785520771561,2,GET All Approvals Request,200,,Manager Users 2-40,text,true,,5452,163,20,49,http://127.0.0.1:9090/approvals,2,0,0
+1785520771569,2,GET Approval By Id Request,200,OK,Employee Users 1-38,text,true,,316,168,29,49,http://127.0.0.1:8080/approvals/2787,2,0,0
+1785520771592,2,GET All Expenses Request,200,,Manager Users 2-38,text,true,,10138,162,20,49,http://127.0.0.1:9090/expenses,2,0,0
+1785520771590,5,PUT Expense Request,201,CREATED,Employee Users 1-21,text,true,,304,301,29,49,http://127.0.0.1:8080/expenses/2785,5,0,0
+1785520771596,2,GET Expense by Status,200,,Manager Users 2-33,text,true,,768,178,20,49,http://127.0.0.1:9090/expenses/status/approved,2,0,0
+1785520771596,3,POST Create Expense Request,201,CREATED,Employee Users 1-43,text,true,,296,291,29,49,http://127.0.0.1:8080/expenses,3,0,1
+1785520771611,3,GET Expense By User Non Pending Request,200,OK,Employee Users 1-24,text,true,,456,177,29,49,http://127.0.0.1:8080/expenses/user/1/history,3,0,1
+1785520771611,4,GET All Expenses Request,200,OK,Employee Users 1-33,text,true,,10168,162,29,49,http://127.0.0.1:8080/expenses,4,0,1
+1785520771615,3,Login Request,200,OK,Employee Users 1-50,text,true,,268,243,29,49,http://127.0.0.1:8080/users/login,3,0,1
+1785520771625,2,GET All Approvals Request,200,OK,Employee Users 1-40,text,true,,5412,163,29,49,http://127.0.0.1:8080/approvals,2,0,0
+1785520771626,2,GET User By Id Request,200,OK,Employee Users 1-46,text,true,,268,161,29,49,http://127.0.0.1:8080/users/1,2,0,0
+1785520771630,4,DELETE Approval Request,200,OK,Employee Users 1-34,text,true,,252,190,29,49,http://127.0.0.1:8080/approvals/2784,4,0,0
+1785520771635,3,GET User By Id Request,200,,Manager Users 2-49,text,true,,332,161,20,49,http://127.0.0.1:9090/users/1,3,0,0
+1785520771633,5,DELETE Expense Request,201,CREATED,Employee Users 1-22,text,true,,250,189,29,49,http://127.0.0.1:8080/expenses/2788,5,0,1
+1785520771639,4,POST Approval Request,201,CREATED,Employee Users 1-42,text,true,,321,319,28,48,http://127.0.0.1:8080/approvals,4,0,1
+1785520771644,3,GET All User Request,200,,Manager Users 2-50,text,true,,708,159,20,48,http://127.0.0.1:9090/users,3,0,1
+1785520771645,2,GET Expense By User Request,200,OK,Employee Users 1-28,text,true,,9307,169,28,48,http://127.0.0.1:8080/expenses/user/1,2,0,0
+1785520771667,4,POST Approval Request,201,CREATED,Employee Users 1-41,text,true,,321,319,28,48,http://127.0.0.1:8080/approvals,4,0,1
+1785520771678,2,GET User By Id Request,200,,Manager Users 2-48,text,true,,332,161,20,48,http://127.0.0.1:9090/users/1,2,0,0
+1785520771679,4,POST Create Expense Request,201,CREATED,Employee Users 1-44,text,true,,296,291,28,48,http://127.0.0.1:8080/expenses,4,0,0
+1785520771686,2,GET One Expense Request,200,OK,Employee Users 1-32,text,true,,291,167,28,48,http://127.0.0.1:8080/expenses/2796,2,0,0
+1785520771692,2,GET All Approvals Request,200,,Manager Users 2-42,text,true,,5570,163,20,48,http://127.0.0.1:9090/approvals,2,0,0
+1785520771692,4,GET Expense By User Request,200,,Manager Users 2-31,text,true,,9472,169,20,48,http://127.0.0.1:9090/expenses/user/1,4,0,0
+1785520771697,2,GET Approval by Expense Id Request,200,OK,Employee Users 1-36,text,true,,316,176,28,48,http://127.0.0.1:8080/approvals/expense/2800,2,0,0
+1785520771698,2,GET All User Request,200,OK,Employee Users 1-48,text,true,,644,159,28,48,http://127.0.0.1:8080/users,2,0,0
+1785520771700,2,GET All Expenses Request,200,,Manager Users 2-39,text,true,,10232,162,20,48,http://127.0.0.1:9090/expenses,2,0,0
+1785520771708,2,GET Expense by Date,200,,Manager Users 2-33,text,true,,348,178,20,48,http://127.0.0.1:9090/expenses/date/2026-06-01,2,0,0
+1785520771708,2,GET Approval By Id Request,200,OK,Employee Users 1-39,text,true,,316,168,28,47,http://127.0.0.1:8080/approvals/2788,2,0,0
+1785520771715,2,GET One Expense Request,200,,Manager Users 2-37,text,true,,346,164,19,47,http://127.0.0.1:9090/expenses/1,2,0,0
+1785520771719,2,GET Expense by Status,200,,Manager Users 2-34,text,true,,768,178,19,47,http://127.0.0.1:9090/expenses/status/approved,2,0,0
+1785520771720,1,GET One Expense Request,200,,Manager Users 2-36,text,true,,346,164,19,47,http://127.0.0.1:9090/expenses/1,1,0,0
+1785520771720,5,PUT Expense Request,201,CREATED,Employee Users 1-25,text,true,,304,301,28,47,http://127.0.0.1:8080/expenses/2790,5,0,0
+1785520771733,3,GET User By Username Request,200,,Manager Users 2-47,text,true,,332,174,19,47,http://127.0.0.1:9090/users/username/alice,3,0,0
+1785520771739,1,GET Expense by Status,200,,Manager Users 2-35,text,true,,768,178,19,47,http://127.0.0.1:9090/expenses/status/approved,1,0,0
+1785520771733,9,GET One Expense Request,200,,Manager Users 2-38,text,true,,346,164,19,47,http://127.0.0.1:9090/expenses/1,9,0,0
+1785520771741,2,Login Request,200,,Manager Users 2-45,text,true,,330,242,19,47,http://127.0.0.1:9090/users/login,2,0,0
+1785520771740,3,GET Expense By User Request,200,OK,Employee Users 1-30,text,true,,9408,169,28,47,http://127.0.0.1:8080/expenses/user/1,3,0,0
+1785520771755,5,PUT Expense Request,201,CREATED,Employee Users 1-27,text,true,,304,301,28,47,http://127.0.0.1:8080/expenses/2791,5,0,1
+1785520771760,3,GET Approval By Id Request,200,,Manager Users 2-40,text,true,,386,165,19,47,http://127.0.0.1:9090/approvals/1,3,0,0
+1785520771762,2,Login Request,200,,Manager Users 2-43,text,true,,330,242,19,47,http://127.0.0.1:9090/users/login,2,0,0
+1785520771762,5,PUT Expense Request,201,CREATED,Employee Users 1-24,text,true,,304,301,28,47,http://127.0.0.1:8080/expenses/2786,5,0,1
+1785520771775,3,GET One Expense Request,200,OK,Employee Users 1-29,text,true,,291,167,28,47,http://127.0.0.1:8080/expenses/2793,3,0,1
+1785520771775,3,GET All Approvals Request,200,,Manager Users 2-44,text,true,,5570,163,19,47,http://127.0.0.1:9090/approvals,3,0,0
+1785520771780,3,GET One Expense Request,200,OK,Employee Users 1-31,text,true,,291,167,28,47,http://127.0.0.1:8080/expenses/2795,3,0,1
+1785520771782,3,GET User By Username Request,200,,Manager Users 2-48,text,true,,332,174,19,47,http://127.0.0.1:9090/users/username/alice,2,0,0
+1785520771781,5,DELETE Approval Request,200,OK,Employee Users 1-37,text,true,,252,190,28,47,http://127.0.0.1:8080/approvals/2786,5,0,1
+1785520771785,3,GET Approval By Id Request,200,OK,Employee Users 1-40,text,true,,316,168,28,47,http://127.0.0.1:8080/approvals/2789,3,0,1
+1785520771781,10,POST Approval Request,201,CREATED,Employee Users 1-43,text,true,,321,319,28,47,http://127.0.0.1:8080/approvals,10,0,1
+1785520771795,2,GET Expense By User Non Pending Request,200,OK,Employee Users 1-28,text,true,,456,177,28,47,http://127.0.0.1:8080/expenses/user/1/history,2,0,1
+1785520771801,2,GET Approval By Id Request,200,,Manager Users 2-41,text,true,,386,165,19,47,http://127.0.0.1:9090/approvals/1,2,0,0
+1785520771802,2,GET User By Username Request,200,,Manager Users 2-46,text,true,,332,174,19,47,http://127.0.0.1:9090/users/username/alice,2,0,0
+1785520771802,2,GET All Expenses Request,200,OK,Employee Users 1-35,text,true,,10182,162,28,47,http://127.0.0.1:8080/expenses,2,0,0
+1785520771801,5,GET Expense by Date,200,,Manager Users 2-27,text,true,,348,178,19,47,http://127.0.0.1:9090/expenses/date/2026-06-01,5,0,0
+1785520771805,4,POST Create Expense Request,201,CREATED,Employee Users 1-45,text,true,,296,291,28,46,http://127.0.0.1:8080/expenses,4,0,1
+1785520771822,3,GET User By Id Request,200,OK,Employee Users 1-48,text,true,,268,161,28,46,http://127.0.0.1:8080/users/1,3,0,1
+1785520771825,3,GET Approval by Expense Id Request,200,OK,Employee Users 1-38,text,true,,316,176,28,46,http://127.0.0.1:8080/approvals/expense/2802,3,0,0
+1785520771829,2,GET All User Request,200,OK,Employee Users 1-49,text,true,,644,159,28,46,http://127.0.0.1:8080/users,2,0,1
+1785520771827,5,POST Approval Request,201,CREATED,Employee Users 1-44,text,true,,321,319,28,46,http://127.0.0.1:8080/approvals,5,0,1
+1785520771832,3,GET User By Username Request,200,,Manager Users 2-49,text,true,,332,174,18,46,http://127.0.0.1:9090/users/username/alice,3,0,0
+1785520771836,2,GET One Expense Request,200,,Manager Users 2-39,text,true,,346,164,18,46,http://127.0.0.1:9090/expenses/1,2,0,0
+1785520771837,3,GET All Approvals Request,200,OK,Employee Users 1-41,text,true,,5648,163,28,46,http://127.0.0.1:8080/approvals,3,0,0
+1785520771840,3,GET All Approvals Request,200,OK,Employee Users 1-42,text,true,,5648,163,28,46,http://127.0.0.1:8080/approvals,3,0,1
+1785520771822,21,DELETE Expense Request,201,CREATED,Employee Users 1-21,text,true,,250,189,28,46,http://127.0.0.1:8080/expenses/2785,21,0,1
+1785520771843,6,PUT Expense Request,201,CREATED,Employee Users 1-26,text,true,,304,301,27,45,http://127.0.0.1:8080/expenses/2789,6,0,1
+1785520771840,12,GET Approval By Id Request,200,,Manager Users 2-42,text,true,,386,165,18,45,http://127.0.0.1:9090/approvals/1,12,0,0
+1785520771852,3,GET User By Id Request,200,OK,Employee Users 1-47,text,true,,268,161,27,45,http://127.0.0.1:8080/users/1,3,0,1
+1785520771859,2,Login Request,200,,Manager Users 2-47,text,true,,330,242,18,45,http://127.0.0.1:9090/users/login,2,0,0
+1785520771875,2,GET All Approvals Request,200,,Manager Users 2-45,text,true,,5688,163,18,45,http://127.0.0.1:9090/approvals,2,0,0
+1785520771878,2,GET One Expense Request,200,OK,Employee Users 1-33,text,true,,291,167,27,45,http://127.0.0.1:8080/expenses/2797,2,0,1
+1785520771881,2,GET All User Request,200,OK,Employee Users 1-50,text,true,,644,159,27,45,http://127.0.0.1:8080/users,2,0,1
+1785520771879,5,DELETE Expense Request,201,CREATED,Employee Users 1-25,text,true,,250,189,27,45,http://127.0.0.1:8080/expenses/2790,5,0,0
+1785520771883,3,GET User By Id Request,200,,Manager Users 2-50,text,true,,332,161,18,44,http://127.0.0.1:9090/users/1,3,0,0
+1785520771883,4,GET Expense By User Request,200,OK,Employee Users 1-32,text,true,,9321,169,26,44,http://127.0.0.1:8080/expenses/user/1,4,0,1
+1785520771888,2,GET All Expenses Request,200,OK,Employee Users 1-34,text,true,,10081,162,26,44,http://127.0.0.1:8080/expenses,2,0,1
+1785520771890,2,GET All Expenses Request,200,,Manager Users 2-40,text,true,,10152,162,18,44,http://127.0.0.1:9090/expenses,2,0,0
+1785520771903,3,Login Request,200,,Manager Users 2-48,text,true,,330,242,18,44,http://127.0.0.1:9090/users/login,3,0,0
+1785520771905,2,GET Expense By User Request,200,,Manager Users 2-36,text,true,,9392,169,18,44,http://127.0.0.1:9090/expenses/user/1,2,0,0
+1785520771911,3,GET Expense By User Non Pending Request,200,OK,Employee Users 1-30,text,true,,456,177,26,44,http://127.0.0.1:8080/expenses/user/1/history,3,0,1
+1785520771905,12,GET All Expenses Request,200,OK,Employee Users 1-37,text,true,,10081,162,26,44,http://127.0.0.1:8080/expenses,12,0,1
+1785520771913,6,POST Approval Request,201,CREATED,Employee Users 1-45,text,true,,321,319,26,44,http://127.0.0.1:8080/approvals,6,0,1
+1785520771918,3,GET Expense by Date,200,,Manager Users 2-34,text,true,,348,178,18,44,http://127.0.0.1:9090/expenses/date/2026-06-01,3,0,0
+1785520771923,2,GET Expense by Date,200,,Manager Users 2-35,text,true,,348,178,17,43,http://127.0.0.1:9090/expenses/date/2026-06-01,2,0,0
+1785520771928,4,POST Create Expense Request,201,CREATED,Employee Users 1-46,text,true,,296,291,26,42,http://127.0.0.1:8080/expenses,4,0,1
+1785520771931,5,DELETE Approval Request,200,OK,Employee Users 1-36,text,true,,252,190,26,42,http://127.0.0.1:8080/approvals/2785,5,0,0
+1785520771940,2,Login Request,200,,Manager Users 2-49,text,true,,330,242,16,42,http://127.0.0.1:9090/users/login,2,0,0
+1785520771928,20,DELETE Expense Request,201,CREATED,Employee Users 1-24,text,true,,250,189,26,42,http://127.0.0.1:8080/expenses/2786,20,0,1
+1785520771970,2,GET Expense By User Request,200,,Manager Users 2-38,text,true,,9385,169,16,41,http://127.0.0.1:9090/expenses/user/1,2,0,0
+1785520771971,2,GET User By Id Request,200,OK,Employee Users 1-49,text,true,,268,161,25,41,http://127.0.0.1:8080/users/1,2,0,0
+1785520771976,2,GET All Expenses Request,200,,Manager Users 2-41,text,true,,10145,162,16,41,http://127.0.0.1:9090/expenses,2,0,0
+1785520771977,3,GET Expense By User Request,200,OK,Employee Users 1-31,text,true,,9314,169,25,41,http://127.0.0.1:8080/expenses/user/1,3,0,0
+1785520771977,4,POST Create Expense Request,201,CREATED,Employee Users 1-47,text,true,,296,291,25,41,http://127.0.0.1:8080/expenses,4,0,0
+1785520771980,2,GET All Approvals Request,200,,Manager Users 2-47,text,true,,5688,163,16,41,http://127.0.0.1:9090/approvals,2,0,0
+1785520771988,2,GET Expense by Status,200,,Manager Users 2-31,text,true,,768,178,16,41,http://127.0.0.1:9090/expenses/status/approved,2,0,0
+1785520772002,2,GET Expense By User Request,200,,Manager Users 2-37,text,true,,9479,169,16,41,http://127.0.0.1:9090/expenses/user/1,2,0,0
+1785520772005,3,GET Approval by Expense Id Request,200,OK,Employee Users 1-39,text,true,,316,176,25,41,http://127.0.0.1:8080/approvals/expense/2803,3,0,1
+1785520772007,2,GET Approval By Id Request,200,OK,Employee Users 1-42,text,true,,316,168,25,41,http://127.0.0.1:8080/approvals/2790,2,0,0
+1785520772021,2,GET All Approvals Request,200,OK,Employee Users 1-43,text,true,,5648,163,25,41,http://127.0.0.1:8080/approvals,2,0,0
+1785520772023,3,GET All Approvals Request,200,,Manager Users 2-43,text,true,,5688,163,16,41,http://127.0.0.1:9090/approvals,3,0,0
+1785520772035,2,GET Expense By User Request,200,OK,Employee Users 1-33,text,true,,9408,169,25,41,http://127.0.0.1:8080/expenses/user/1,2,0,0
+1785520772039,2,GET All Approvals Request,200,OK,Employee Users 1-45,text,true,,5648,163,25,41,http://127.0.0.1:8080/approvals,2,0,0
+1785520772040,2,GET Approval By Id Request,200,OK,Employee Users 1-41,text,true,,316,168,25,41,http://127.0.0.1:8080/approvals/2791,2,0,0
+1785520772043,4,DELETE Expense Request,201,CREATED,Employee Users 1-27,text,true,,250,189,25,41,http://127.0.0.1:8080/expenses/2791,4,0,1
+1785520772045,2,GET One Expense Request,200,OK,Employee Users 1-35,text,true,,291,167,25,41,http://127.0.0.1:8080/expenses/2798,2,0,0
+1785520772045,4,GET Expense By User Request,200,OK,Employee Users 1-29,text,true,,9307,169,24,40,http://127.0.0.1:8080/expenses/user/1,4,0,0
+1785520772058,2,GET Approval By Id Request,200,,Manager Users 2-44,text,true,,386,165,16,40,http://127.0.0.1:9090/approvals/1,2,0,0
+1785520772069,2,Login Request,200,,Manager Users 2-46,text,true,,330,242,16,40,http://127.0.0.1:9090/users/login,2,0,0
+1785520772072,1,GET Approval By Id Request,200,,Manager Users 2-45,text,true,,386,165,16,40,http://127.0.0.1:9090/approvals/1,1,0,0
+1785520772070,3,POST Create Expense Request,201,CREATED,Employee Users 1-48,text,true,,296,291,24,40,http://127.0.0.1:8080/expenses,3,0,0
+1785520772082,2,GET Approval by Expense Id Request,200,OK,Employee Users 1-40,text,true,,316,176,24,40,http://127.0.0.1:8080/approvals/expense/2804,2,0,0
+1785520772085,3,GET All Expenses Request,200,OK,Employee Users 1-36,text,true,,10161,162,24,40,http://127.0.0.1:8080/expenses,3,0,0
+1785520772088,5,PUT Expense Request,201,CREATED,Employee Users 1-28,text,true,,304,301,24,40,http://127.0.0.1:8080/expenses/2794,5,0,0
+1785520772095,2,GET User By Id Request,200,OK,Employee Users 1-50,text,true,,268,161,24,40,http://127.0.0.1:8080/users/1,2,0,0
+1785520772097,2,GET One Expense Request,200,,Manager Users 2-41,text,true,,346,164,16,40,http://127.0.0.1:9090/expenses/1,2,0,0
+1785520772096,5,PUT Expense Request,201,CREATED,Employee Users 1-30,text,true,,304,301,24,40,http://127.0.0.1:8080/expenses/2792,5,0,0
+1785520772105,2,GET Expense By User Request,200,,Manager Users 2-39,text,true,,9486,169,16,40,http://127.0.0.1:9090/expenses/user/1,2,0,0
+1785520772112,2,GET All Expenses Request,200,,Manager Users 2-42,text,true,,10246,162,16,40,http://127.0.0.1:9090/expenses,2,0,0
+1785520772122,2,GET All Approvals Request,200,,Manager Users 2-49,text,true,,5688,163,16,40,http://127.0.0.1:9090/approvals,2,0,0
+1785520772126,1,GET One Expense Request,200,,Manager Users 2-40,text,true,,346,164,16,40,http://127.0.0.1:9090/expenses/1,1,0,0
+1785520772128,1,GET All Approvals Request,200,,Manager Users 2-48,text,true,,5688,163,16,40,http://127.0.0.1:9090/approvals,1,0,0
+1785520772129,1,GET User By Username Request,200,,Manager Users 2-50,text,true,,332,174,16,40,http://127.0.0.1:9090/users/username/alice,1,0,0
+1785520772130,2,GET All Approvals Request,200,OK,Employee Users 1-44,text,true,,5648,163,24,40,http://127.0.0.1:8080/approvals,2,0,0
+1785520772128,5,DELETE Approval Request,200,OK,Employee Users 1-38,text,true,,252,190,24,40,http://127.0.0.1:8080/approvals/2787,4,0,0
+1785520772146,2,GET Expense By User Non Pending Request,200,OK,Employee Users 1-31,text,true,,456,177,24,40,http://127.0.0.1:8080/expenses/user/1/history,2,0,1
+1785520772148,4,DELETE Expense Request,201,CREATED,Employee Users 1-26,text,true,,250,189,24,40,http://127.0.0.1:8080/expenses/2789,4,0,0
+1785520772158,2,GET Expense by Status,200,,Manager Users 2-38,text,true,,768,178,16,39,http://127.0.0.1:9090/expenses/status/approved,2,0,0
+1785520772162,2,GET Approval by Expense Id Request,200,OK,Employee Users 1-42,text,true,,316,176,23,39,http://127.0.0.1:8080/approvals/expense/2805,2,0,0
+1785520772173,3,GET Expense By User Non Pending Request,200,OK,Employee Users 1-32,text,true,,456,177,23,39,http://127.0.0.1:8080/expenses/user/1/history,3,0,1
+1785520772175,2,GET One Expense Request,200,OK,Employee Users 1-34,text,true,,291,167,23,39,http://127.0.0.1:8080/expenses/2799,2,0,0
+1785520772189,2,GET Expense by Status,200,,Manager Users 2-36,text,true,,768,178,16,39,http://127.0.0.1:9090/expenses/status/approved,2,0,0
+1785520772192,4,POST Approval Request,201,CREATED,Employee Users 1-47,text,true,,321,319,23,39,http://127.0.0.1:8080/approvals,4,0,1
+1785520772193,6,POST Approval Request,201,CREATED,Employee Users 1-46,text,true,,321,319,23,39,http://127.0.0.1:8080/approvals,6,0,1
+1785520772215,2,GET One Expense Request,200,OK,Employee Users 1-37,text,true,,291,167,23,39,http://127.0.0.1:8080/expenses/2801,2,0,1
+1785520772220,2,GET All Approvals Request,200,,Manager Users 2-46,text,true,,5806,163,16,39,http://127.0.0.1:9090/approvals,2,0,0
+1785520772222,2,GET Approval By Id Request,200,OK,Employee Users 1-43,text,true,,316,168,23,39,http://127.0.0.1:8080/approvals/2792,2,0,1
+1785520772231,1,GET Expense by Status,200,,Manager Users 2-37,text,true,,768,178,16,39,http://127.0.0.1:9090/expenses/status/approved,1,0,0
+1785520772234,2,GET Expense By User Non Pending Request,200,OK,Employee Users 1-33,text,true,,456,177,23,39,http://127.0.0.1:8080/expenses/user/1/history,2,0,0
+1785520772233,5,DELETE Approval Request,200,OK,Employee Users 1-40,text,true,,252,190,23,39,http://127.0.0.1:8080/approvals/2789,5,0,1
+1785520772242,2,GET Approval By Id Request,200,OK,Employee Users 1-45,text,true,,316,168,23,39,http://127.0.0.1:8080/approvals/2794,2,0,0
+1785520772242,2,GET Expense By User Non Pending Request,200,OK,Employee Users 1-29,text,true,,456,177,23,39,http://127.0.0.1:8080/expenses/user/1/history,2,0,0
+1785520772247,2,GET Approval By Id Request,200,,Manager Users 2-48,text,true,,386,165,16,39,http://127.0.0.1:9090/approvals/1,2,0,0
+1785520772252,3,GET Expense By User Request,200,OK,Employee Users 1-35,text,true,,9314,169,23,39,http://127.0.0.1:8080/expenses/user/1,2,0,1
+1785520772256,1,GET Approval By Id Request,200,,Manager Users 2-47,text,true,,386,165,16,39,http://127.0.0.1:9090/approvals/1,1,0,0
+1785520772257,4,DELETE Approval Request,200,OK,Employee Users 1-39,text,true,,252,190,23,39,http://127.0.0.1:8080/approvals/2788,3,0,0
+1785520772262,3,POST Create Expense Request,201,CREATED,Employee Users 1-49,text,true,,296,291,23,39,http://127.0.0.1:8080/expenses,3,0,0
+1785520772265,2,GET One Expense Request,200,,Manager Users 2-42,text,true,,346,164,16,39,http://127.0.0.1:9090/expenses/1,2,0,0
+1785520772265,3,GET Expense By User Request,200,,Manager Users 2-41,text,true,,9479,169,16,39,http://127.0.0.1:9090/expenses/user/1,3,0,0
+1785520772270,1,GET Expense by Date,200,,Manager Users 2-31,text,true,,348,178,16,39,http://127.0.0.1:9090/expenses/date/2026-06-01,1,0,0
+1785520772272,1,GET All Expenses Request,200,,Manager Users 2-44,text,true,,10239,162,15,38,http://127.0.0.1:9090/expenses,1,0,0
+1785520772273,4,DELETE Expense Request,201,CREATED,Employee Users 1-28,text,true,,250,189,23,38,http://127.0.0.1:8080/expenses/2794,4,0,1
+1785520772279,3,POST Approval Request,201,CREATED,Employee Users 1-48,text,true,,321,319,22,37,http://127.0.0.1:8080/approvals,3,0,0
+1785520772281,2,GET All Expenses Request,200,OK,Employee Users 1-38,text,true,,10067,162,22,37,http://127.0.0.1:8080/expenses,2,0,0
+1785520772295,2,GET Approval By Id Request,200,,Manager Users 2-43,text,true,,386,165,15,37,http://127.0.0.1:9090/approvals/1,2,0,0
+1785520772298,2,GET One Expense Request,200,OK,Employee Users 1-36,text,true,,291,167,22,37,http://127.0.0.1:8080/expenses/2800,2,0,0
+1785520772305,4,PUT Expense Request,201,CREATED,Employee Users 1-32,text,true,,304,301,22,37,http://127.0.0.1:8080/expenses/2796,4,0,0
+1785520772312,2,GET Expense by Date,200,,Manager Users 2-38,text,true,,348,178,15,37,http://127.0.0.1:9090/expenses/date/2026-06-01,2,0,0
+1785520772312,3,GET Approval by Expense Id Request,200,OK,Employee Users 1-41,text,true,,316,176,22,36,http://127.0.0.1:8080/approvals/expense/2806,3,0,0
+1785520772313,2,Login Request,200,,Manager Users 2-50,text,true,,330,242,14,36,http://127.0.0.1:9090/users/login,2,0,0
+1785520772313,3,GET All Expenses Request,200,,Manager Users 2-45,text,true,,10145,162,14,36,http://127.0.0.1:9090/expenses,3,0,0
+1785520772313,4,GET Expense By User Request,200,OK,Employee Users 1-34,text,true,,9314,169,22,36,http://127.0.0.1:8080/expenses/user/1,3,0,1
+1785520772323,4,POST Create Expense Request,201,CREATED,Employee Users 1-50,text,true,,296,291,22,36,http://127.0.0.1:8080/expenses,4,0,1
+1785520772342,2,GET Approval by Expense Id Request,200,OK,Employee Users 1-43,text,true,,316,176,22,36,http://127.0.0.1:8080/approvals/expense/2807,2,0,0
+1785520772352,2,GET Approval By Id Request,200,OK,Employee Users 1-44,text,true,,316,168,22,36,http://127.0.0.1:8080/approvals/2793,2,0,0
+1785520772361,4,DELETE Approval Request,200,OK,Employee Users 1-42,text,true,,252,190,22,36,http://127.0.0.1:8080/approvals/2790,4,0,1
+1785520772371,2,GET Approval By Id Request,200,,Manager Users 2-46,text,true,,386,165,14,36,http://127.0.0.1:9090/approvals/1,2,0,0
+1785520772383,3,GET All Expenses Request,200,,Manager Users 2-48,text,true,,10239,162,14,36,http://127.0.0.1:9090/expenses,3,0,0
+1785520772371,19,PUT Expense Request,201,CREATED,Employee Users 1-31,text,true,,304,301,22,36,http://127.0.0.1:8080/expenses/2795,19,0,0
+1785520772384,5,GET All Expenses Request,200,OK,Employee Users 1-39,text,true,,10168,162,22,36,http://127.0.0.1:8080/expenses,5,0,3
+1785520772392,2,GET Expense By User Request,200,,Manager Users 2-40,text,true,,9486,169,14,36,http://127.0.0.1:9090/expenses/user/1,2,0,0
+1785520772395,1,GET Expense by Status,200,,Manager Users 2-39,text,true,,768,178,14,36,http://127.0.0.1:9090/expenses/status/approved,1,0,0
+1785520772396,4,DELETE Expense Request,201,CREATED,Employee Users 1-30,text,true,,250,189,22,36,http://127.0.0.1:8080/expenses/2792,4,0,0
+1785520772402,1,GET Expense by Date,200,,Manager Users 2-36,text,true,,348,178,14,35,http://127.0.0.1:9090/expenses/date/2026-06-01,1,0,0
+1785520772415,2,GET Approval By Id Request,200,,Manager Users 2-49,text,true,,386,165,13,34,http://127.0.0.1:9090/approvals/1,2,0,0
+1785520772419,1,GET Expense By User Request,200,,Manager Users 2-42,text,true,,9385,169,13,34,http://127.0.0.1:9090/expenses/user/1,1,0,0
+1785520772426,1,GET One Expense Request,200,,Manager Users 2-45,text,true,,346,164,13,34,http://127.0.0.1:9090/expenses/1,1,0,0
+1785520772432,5,PUT Expense Request,201,CREATED,Employee Users 1-29,text,true,,304,301,21,34,http://127.0.0.1:8080/expenses/2793,5,0,0
+1785520772437,3,GET Expense By User Request,200,OK,Employee Users 1-36,text,true,,9321,169,21,34,http://127.0.0.1:8080/expenses/user/1,3,0,0
+1785520772441,2,GET All Approvals Request,200,OK,Employee Users 1-46,text,true,,5530,163,21,34,http://127.0.0.1:8080/approvals,2,0,0
+1785520772441,2,GET All Expenses Request,200,,Manager Users 2-43,text,true,,10152,162,13,34,http://127.0.0.1:9090/expenses,2,0,0
+1785520772442,4,DELETE Approval Request,200,OK,Employee Users 1-41,text,true,,252,190,21,34,http://127.0.0.1:8080/approvals/2791,4,0,0
+1785520772446,2,GET All Approvals Request,200,OK,Employee Users 1-47,text,true,,5412,163,21,34,http://127.0.0.1:8080/approvals,2,0,0
+1785520772447,3,GET Expense By User Request,200,OK,Employee Users 1-37,text,true,,9321,169,21,34,http://127.0.0.1:8080/expenses/user/1,3,0,0
+1785520772453,3,GET All Expenses Request,200,OK,Employee Users 1-40,text,true,,10081,162,21,34,http://127.0.0.1:8080/expenses,3,0,1
+1785520772465,2,GET Expense by Status,200,,Manager Users 2-41,text,true,,768,178,13,34,http://127.0.0.1:9090/expenses/status/approved,2,0,0
+1785520772471,4,DELETE Approval Request,200,OK,Employee Users 1-43,text,true,,252,190,21,34,http://127.0.0.1:8080/approvals/2792,4,0,0
+1785520772475,2,GET Expense By User Non Pending Request,200,OK,Employee Users 1-35,text,true,,456,177,21,34,http://127.0.0.1:8080/expenses/user/1/history,2,0,0
+1785520772483,4,POST Approval Request,201,CREATED,Employee Users 1-49,text,true,,321,319,21,34,http://127.0.0.1:8080/approvals,4,0,1
+1785520772500,2,GET All Expenses Request,200,OK,Employee Users 1-42,text,true,,10081,162,21,34,http://127.0.0.1:8080/expenses,2,0,0
+1785520772505,2,GET Expense by Date,200,,Manager Users 2-37,text,true,,348,178,13,34,http://127.0.0.1:9090/expenses/date/2026-06-01,2,0,0
+1785520772508,2,GET One Expense Request,200,OK,Employee Users 1-39,text,true,,291,167,21,33,http://127.0.0.1:8080/expenses/2803,2,0,0
+1785520772507,6,PUT Expense Request,201,CREATED,Employee Users 1-33,text,true,,304,301,21,33,http://127.0.0.1:8080/expenses/2797,5,0,1
+1785520772498,16,DELETE Expense Request,201,CREATED,Employee Users 1-32,text,true,,250,189,21,33,http://127.0.0.1:8080/expenses/2796,16,0,1
+1785520772516,2,GET All Expenses Request,200,,Manager Users 2-46,text,true,,10058,162,12,32,http://127.0.0.1:9090/expenses,2,0,0
+1785520772519,2,GET One Expense Request,200,,Manager Users 2-48,text,true,,346,164,12,32,http://127.0.0.1:9090/expenses/1,2,0,0
+1785520772521,2,GET Expense by Status,200,,Manager Users 2-40,text,true,,768,178,12,32,http://127.0.0.1:9090/expenses/status/approved,2,0,0
+1785520772512,18,GET Approval by Expense Id Request,200,OK,Employee Users 1-45,text,true,,316,176,20,32,http://127.0.0.1:8080/approvals/expense/2809,18,0,0
+1785520772530,2,GET Expense By User Request,200,,Manager Users 2-45,text,true,,9298,169,12,32,http://127.0.0.1:9090/expenses/user/1,2,0,0
+1785520772533,2,GET All Expenses Request,200,,Manager Users 2-47,text,true,,10058,162,12,32,http://127.0.0.1:9090/expenses,2,0,0
+1785520772534,3,GET One Expense Request,200,OK,Employee Users 1-38,text,true,,291,167,20,32,http://127.0.0.1:8080/expenses/2802,3,0,1
+1785520772535,3,GET All Approvals Request,200,OK,Employee Users 1-48,text,true,,5412,163,20,32,http://127.0.0.1:8080/approvals,3,0,0
+1785520772538,4,DELETE Expense Request,201,CREATED,Employee Users 1-29,text,true,,250,189,20,32,http://127.0.0.1:8080/expenses/2793,4,0,0
+1785520772550,2,GET One Expense Request,200,,Manager Users 2-44,text,true,,346,164,12,31,http://127.0.0.1:9090/expenses/1,2,0,0
+1785520772550,2,GET All Approvals Request,200,,Manager Users 2-50,text,true,,5452,163,12,31,http://127.0.0.1:9090/approvals,2,0,0
+1785520772590,3,GET Expense By User Non Pending Request,200,OK,Employee Users 1-34,text,true,,456,177,19,31,http://127.0.0.1:8080/expenses/user/1/history,3,0,1
+1785520772592,5,PUT Expense Request,201,CREATED,Employee Users 1-35,text,true,,304,301,19,31,http://127.0.0.1:8080/expenses/2798,5,0,0
+1785520772606,2,GET All Approvals Request,200,OK,Employee Users 1-49,text,true,,5412,163,19,31,http://127.0.0.1:8080/approvals,2,0,0
+1785520772605,3,POST Approval Request,201,CREATED,Employee Users 1-50,text,true,,321,319,19,31,http://127.0.0.1:8080/approvals,3,0,0
+1785520772593,18,DELETE Expense Request,201,CREATED,Employee Users 1-31,text,true,,250,189,19,31,http://127.0.0.1:8080/expenses/2795,18,0,1
+1785520772608,3,GET Approval by Expense Id Request,200,OK,Employee Users 1-44,text,true,,316,176,18,30,http://127.0.0.1:8080/approvals/expense/2808,3,0,0
+1785520772642,2,GET All Expenses Request,200,,Manager Users 2-49,text,true,,9863,162,12,30,http://127.0.0.1:9090/expenses,2,0,0
+1785520772646,3,GET Approval By Id Request,200,OK,Employee Users 1-46,text,true,,316,168,18,30,http://127.0.0.1:8080/approvals/2796,3,0,1
+1785520772649,2,GET Expense By User Request,200,OK,Employee Users 1-39,text,true,,9032,169,18,30,http://127.0.0.1:8080/expenses/user/1,2,0,1
+1785520772665,2,GET Expense By User Non Pending Request,200,OK,Employee Users 1-36,text,true,,456,177,18,30,http://127.0.0.1:8080/expenses/user/1/history,2,0,0
+1785520772667,2,GET One Expense Request,200,OK,Employee Users 1-40,text,true,,291,167,18,30,http://127.0.0.1:8080/expenses/2804,2,0,0
+1785520772677,2,GET Expense by Date,200,,Manager Users 2-39,text,true,,348,178,12,30,http://127.0.0.1:9090/expenses/date/2026-06-01,2,0,0
+1785520772681,1,GET Expense by Status,200,,Manager Users 2-42,text,true,,768,178,11,29,http://127.0.0.1:9090/expenses/status/approved,1,0,0
+1785520772691,1,GET Expense by Date,200,,Manager Users 2-41,text,true,,348,178,11,29,http://127.0.0.1:9090/expenses/date/2026-06-01,1,0,0
+1785520772699,4,DELETE Expense Request,201,CREATED,Employee Users 1-35,text,true,,250,189,18,28,http://127.0.0.1:8080/expenses/2798,4,0,1
+1785520772706,2,GET All Expenses Request,200,OK,Employee Users 1-41,text,true,,9691,162,17,27,http://127.0.0.1:8080/expenses,2,0,0
+1785520772709,2,GET Expense by Date,200,,Manager Users 2-40,text,true,,348,178,10,27,http://127.0.0.1:9090/expenses/date/2026-06-01,2,0,0
+1785520772710,2,GET Expense By User Non Pending Request,200,OK,Employee Users 1-37,text,true,,456,177,17,26,http://127.0.0.1:8080/expenses/user/1/history,2,0,1
+1785520772708,5,DELETE Approval Request,200,OK,Employee Users 1-45,text,true,,252,190,17,26,http://127.0.0.1:8080/approvals/2794,5,0,0
+1785520772728,2,GET One Expense Request,200,,Manager Users 2-46,text,true,,346,164,9,26,http://127.0.0.1:9090/expenses/1,2,0,0
+1785520772728,3,GET Approval By Id Request,200,OK,Employee Users 1-47,text,true,,316,168,17,26,http://127.0.0.1:8080/approvals/2795,3,0,1
+1785520772729,7,GET All Expenses Request,200,OK,Employee Users 1-43,text,true,,9691,162,17,26,http://127.0.0.1:8080/expenses,7,0,0
+1785520772735,3,GET Expense by Status,200,,Manager Users 2-45,text,true,,768,178,9,26,http://127.0.0.1:9090/expenses/status/approved,3,0,0
+1785520772742,3,GET One Expense Request,200,,Manager Users 2-43,text,true,,346,164,9,26,http://127.0.0.1:9090/expenses/1,3,0,0
+1785520772745,3,GET One Expense Request,200,OK,Employee Users 1-42,text,true,,291,167,17,26,http://127.0.0.1:8080/expenses/2805,3,0,1
+1785520772748,3,GET Approval By Id Request,200,OK,Employee Users 1-48,text,true,,316,168,17,26,http://127.0.0.1:8080/approvals/2797,3,0,0
+1785520772746,10,DELETE Approval Request,200,OK,Employee Users 1-44,text,true,,252,190,17,26,http://127.0.0.1:8080/approvals/2793,10,0,1
+1785520772760,3,GET Expense By User Request,200,,Manager Users 2-44,text,true,,9002,169,9,26,http://127.0.0.1:9090/expenses/user/1,3,0,0
+1785520772772,2,GET One Expense Request,200,,Manager Users 2-47,text,true,,346,164,9,26,http://127.0.0.1:9090/expenses/1,2,0,0
+1785520772789,10,DELETE Expense Request,201,CREATED,Employee Users 1-33,text,true,,250,189,17,26,http://127.0.0.1:8080/expenses/2797,10,0,1
+1785520772813,3,GET Expense By User Request,200,,Manager Users 2-48,text,true,,8901,169,9,25,http://127.0.0.1:9090/expenses/user/1,3,0,0
+1785520772815,4,GET Expense By User Request,200,OK,Employee Users 1-38,text,true,,8830,169,16,25,http://127.0.0.1:8080/expenses/user/1,4,0,1
+1785520772824,3,GET Approval By Id Request,200,,Manager Users 2-50,text,true,,386,165,9,25,http://127.0.0.1:9090/approvals/1,3,0,0
+1785520772825,5,GET Expense by Date,200,,Manager Users 2-42,text,true,,348,178,9,25,http://127.0.0.1:9090/expenses/date/2026-06-01,5,0,0
+1785520772828,4,GET All Approvals Request,200,OK,Employee Users 1-50,text,true,,5294,163,16,24,http://127.0.0.1:8080/approvals,4,0,1
+1785520772845,4,GET One Expense Request,200,OK,Employee Users 1-43,text,true,,291,167,16,24,http://127.0.0.1:8080/expenses/2807,4,0,1
+1785520772845,5,GET Expense By User Request,200,OK,Employee Users 1-40,text,true,,8830,169,16,24,http://127.0.0.1:8080/expenses/user/1,5,0,1
+1785520772859,3,GET Expense by Date,200,,Manager Users 2-45,text,true,,348,178,8,24,http://127.0.0.1:9090/expenses/date/2026-06-01,3,0,0
+1785520772870,4,GET Approval by Expense Id Request,200,OK,Employee Users 1-46,text,true,,316,176,16,23,http://127.0.0.1:8080/approvals/expense/2810,3,0,0
+1785520772873,10,PUT Expense Request,201,CREATED,Employee Users 1-34,text,true,,304,301,16,23,http://127.0.0.1:8080/expenses/2799,10,0,1
+1785520772885,2,GET Expense by Status,200,,Manager Users 2-44,text,true,,768,178,7,23,http://127.0.0.1:9090/expenses/status/approved,2,0,0
+1785520772885,3,GET Expense By User Non Pending Request,200,OK,Employee Users 1-39,text,true,,456,177,16,23,http://127.0.0.1:8080/expenses/user/1/history,3,0,0
+1785520772885,3,GET Approval By Id Request,200,OK,Employee Users 1-49,text,true,,316,168,16,23,http://127.0.0.1:8080/approvals/2798,3,0,0
+1785520772892,2,GET All Expenses Request,200,OK,Employee Users 1-44,text,true,,9597,162,16,23,http://127.0.0.1:8080/expenses,2,0,0
+1785520772893,3,GET Expense By User Request,200,OK,Employee Users 1-42,text,true,,8837,169,16,23,http://127.0.0.1:8080/expenses/user/1,3,0,1
+1785520772905,5,PUT Expense Request,201,CREATED,Employee Users 1-36,text,true,,304,301,16,23,http://127.0.0.1:8080/expenses/2800,5,0,0
+1785520772920,2,GET One Expense Request,200,,Manager Users 2-49,text,true,,346,164,7,23,http://127.0.0.1:9090/expenses/1,2,0,0
+1785520772905,22,PUT Expense Request,201,CREATED,Employee Users 1-37,text,true,,304,301,16,23,http://127.0.0.1:8080/expenses/2801,22,0,0
+1785520772925,3,GET Expense By User Non Pending Request,200,OK,Employee Users 1-38,text,true,,456,177,16,23,http://127.0.0.1:8080/expenses/user/1/history,3,0,1
+1785520772930,2,GET All Expenses Request,200,,Manager Users 2-50,text,true,,9682,162,7,23,http://127.0.0.1:9090/expenses,2,0,0
+1785520772952,2,GET One Expense Request,200,OK,Employee Users 1-41,text,true,,291,167,16,23,http://127.0.0.1:8080/expenses/2806,2,0,0
+1785520772956,2,GET All Expenses Request,200,OK,Employee Users 1-45,text,true,,9611,162,16,23,http://127.0.0.1:8080/expenses,2,0,0
+1785520772978,2,GET Approval By Id Request,200,OK,Employee Users 1-50,text,true,,316,168,16,23,http://127.0.0.1:8080/approvals/2799,2,0,1
+1785520772986,2,GET Expense By User Request,200,,Manager Users 2-46,text,true,,8922,169,7,23,http://127.0.0.1:9090/expenses/user/1,2,0,0
+1785520772987,2,GET Expense By User Request,200,,Manager Users 2-47,text,true,,8922,169,7,23,http://127.0.0.1:9090/expenses/user/1,2,0,0
+1785520772996,2,GET Approval by Expense Id Request,200,OK,Employee Users 1-48,text,true,,316,176,16,23,http://127.0.0.1:8080/approvals/expense/2812,2,0,1
+1785520772998,2,GET Expense By User Request,200,,Manager Users 2-43,text,true,,8922,169,7,23,http://127.0.0.1:9090/expenses/user/1,2,0,0
+1785520773008,2,GET Approval by Expense Id Request,200,OK,Employee Users 1-47,text,true,,316,176,16,23,http://127.0.0.1:8080/approvals/expense/2811,2,0,1
+1785520773011,3,GET Expense By User Request,200,OK,Employee Users 1-43,text,true,,8851,169,16,23,http://127.0.0.1:8080/expenses/user/1,2,0,1
+1785520773013,4,DELETE Expense Request,201,CREATED,Employee Users 1-36,text,true,,250,189,16,23,http://127.0.0.1:8080/expenses/2800,4,0,1
+1785520773017,2,GET Approval by Expense Id Request,200,OK,Employee Users 1-49,text,true,,316,176,15,22,http://127.0.0.1:8080/approvals/expense/2813,2,0,0
+1785520773025,4,DELETE Expense Request,201,CREATED,Employee Users 1-34,text,true,,250,189,15,22,http://127.0.0.1:8080/expenses/2799,4,0,0
+1785520773040,2,GET Expense By User Non Pending Request,200,OK,Employee Users 1-42,text,true,,456,177,14,21,http://127.0.0.1:8080/expenses/user/1/history,2,0,0
+1785520773047,2,GET Expense By User Request,200,,Manager Users 2-49,text,true,,8720,169,7,21,http://127.0.0.1:9090/expenses/user/1,2,0,0
+1785520773058,2,GET Expense by Status,200,,Manager Users 2-48,text,true,,768,178,7,21,http://127.0.0.1:9090/expenses/status/approved,2,0,0
+1785520773070,5,PUT Expense Request,201,CREATED,Employee Users 1-38,text,true,,304,301,14,21,http://127.0.0.1:8080/expenses/2802,5,0,1
+1785520773110,3,GET Expense by Date,200,,Manager Users 2-44,text,true,,348,178,7,21,http://127.0.0.1:9090/expenses/date/2026-06-01,3,0,0
+1785520773130,2,GET One Expense Request,200,,Manager Users 2-50,text,true,,346,164,6,20,http://127.0.0.1:9090/expenses/1,2,0,0
+1785520773131,2,GET Expense By User Non Pending Request,200,OK,Employee Users 1-40,text,true,,456,177,14,20,http://127.0.0.1:8080/expenses/user/1/history,2,0,0
+1785520773136,1,GET Expense by Status,200,,Manager Users 2-43,text,true,,768,178,6,20,http://127.0.0.1:9090/expenses/status/approved,1,0,0
+1785520773137,2,GET One Expense Request,200,OK,Employee Users 1-44,text,true,,291,167,14,20,http://127.0.0.1:8080/expenses/2808,2,0,0
+1785520773140,4,DELETE Approval Request,200,OK,Employee Users 1-46,text,true,,252,190,14,20,http://127.0.0.1:8080/approvals/2796,4,0,0
+1785520773155,6,PUT Expense Request,201,CREATED,Employee Users 1-39,text,true,,304,301,14,20,http://127.0.0.1:8080/expenses/2803,6,0,1
+1785520773156,5,GET Expense by Status,200,,Manager Users 2-49,text,true,,768,178,6,20,http://127.0.0.1:9090/expenses/status/approved,5,0,0
+1785520773162,2,GET One Expense Request,200,OK,Employee Users 1-45,text,true,,291,167,14,20,http://127.0.0.1:8080/expenses/2809,2,0,1
+1785520773170,5,PUT Expense Request,201,CREATED,Employee Users 1-42,text,true,,304,301,14,20,http://127.0.0.1:8080/expenses/2805,5,0,0
+1785520773174,3,GET Expense By User Non Pending Request,200,OK,Employee Users 1-43,text,true,,456,177,14,20,http://127.0.0.1:8080/expenses/user/1/history,3,0,1
+1785520773184,4,DELETE Expense Request,201,CREATED,Employee Users 1-37,text,true,,250,189,14,20,http://127.0.0.1:8080/expenses/2801,4,0,1
+1785520773210,2,GET Approval by Expense Id Request,200,OK,Employee Users 1-50,text,true,,316,176,13,19,http://127.0.0.1:8080/approvals/expense/2814,2,0,0
+1785520773225,4,DELETE Approval Request,200,OK,Employee Users 1-47,text,true,,252,190,13,19,http://127.0.0.1:8080/approvals/2795,4,0,0
+1785520773236,2,GET Expense by Status,200,,Manager Users 2-46,text,true,,768,178,6,19,http://127.0.0.1:9090/expenses/status/approved,2,0,0
+1785520773241,2,GET Expense By User Request,200,OK,Employee Users 1-41,text,true,,8569,169,13,19,http://127.0.0.1:8080/expenses/user/1,2,0,0
+1785520773248,4,DELETE Approval Request,200,OK,Employee Users 1-48,text,true,,252,190,13,19,http://127.0.0.1:8080/approvals/2797,4,0,0
+1785520773259,2,GET Expense by Status,200,,Manager Users 2-47,text,true,,768,178,6,19,http://127.0.0.1:9090/expenses/status/approved,2,0,0
+1785520773260,4,DELETE Expense Request,201,CREATED,Employee Users 1-38,text,true,,250,189,13,19,http://127.0.0.1:8080/expenses/2802,4,0,0
+1785520773263,2,GET Expense by Date,200,,Manager Users 2-49,text,true,,348,178,6,18,http://127.0.0.1:9090/expenses/date/2026-06-01,2,0,0
+1785520773267,2,GET Expense By User Request,200,,Manager Users 2-50,text,true,,8538,169,5,17,http://127.0.0.1:9090/expenses/user/1,2,0,0
+1785520773273,3,GET Expense By User Request,200,OK,Employee Users 1-45,text,true,,8468,169,12,17,http://127.0.0.1:8080/expenses/user/1,3,0,1
+1785520773314,5,DELETE Approval Request,200,OK,Employee Users 1-49,text,true,,252,190,12,17,http://127.0.0.1:8080/approvals/2798,5,0,1
+1785520773332,3,GET All Expenses Request,200,OK,Employee Users 1-46,text,true,,9228,162,12,17,http://127.0.0.1:8080/expenses,3,0,1
+1785520773341,2,GET Expense by Date,200,,Manager Users 2-48,text,true,,348,178,5,17,http://127.0.0.1:9090/expenses/date/2026-06-01,2,0,0
+1785520773359,2,GET Expense by Date,200,,Manager Users 2-43,text,true,,348,178,4,16,http://127.0.0.1:9090/expenses/date/2026-06-01,2,0,0
+1785520773363,3,GET All Expenses Request,200,OK,Employee Users 1-47,text,true,,9228,162,12,15,http://127.0.0.1:8080/expenses,3,0,1
+1785520773368,2,GET Expense by Date,200,,Manager Users 2-46,text,true,,348,178,3,15,http://127.0.0.1:9090/expenses/date/2026-06-01,2,0,0
+1785520773368,4,PUT Expense Request,201,CREATED,Employee Users 1-40,text,true,,304,301,12,14,http://127.0.0.1:8080/expenses/2804,4,0,0
+1785520773386,6,PUT Expense Request,201,CREATED,Employee Users 1-43,text,true,,304,301,12,14,http://127.0.0.1:8080/expenses/2807,6,0,1
+1785520773410,5,DELETE Expense Request,201,CREATED,Employee Users 1-42,text,true,,250,189,12,14,http://127.0.0.1:8080/expenses/2805,5,0,1
+1785520773420,4,DELETE Approval Request,200,OK,Employee Users 1-50,text,true,,252,190,11,13,http://127.0.0.1:8080/approvals/2799,4,0,0
+1785520773425,4,DELETE Expense Request,201,CREATED,Employee Users 1-39,text,true,,250,189,11,13,http://127.0.0.1:8080/expenses/2803,4,0,1
+1785520773438,2,GET Expense By User Request,200,OK,Employee Users 1-44,text,true,,8280,169,10,12,http://127.0.0.1:8080/expenses/user/1,2,0,0
+1785520773451,2,GET One Expense Request,200,OK,Employee Users 1-46,text,true,,291,167,10,12,http://127.0.0.1:8080/expenses/2810,2,0,1
+1785520773496,3,GET One Expense Request,200,OK,Employee Users 1-47,text,true,,291,167,10,12,http://127.0.0.1:8080/expenses/2811,3,0,1
+1785520773498,3,GET Expense by Status,200,,Manager Users 2-50,text,true,,768,178,2,12,http://127.0.0.1:9090/expenses/status/approved,3,0,0
+1785520773513,3,GET Expense By User Non Pending Request,200,OK,Employee Users 1-45,text,true,,456,177,10,12,http://127.0.0.1:8080/expenses/user/1/history,3,0,1
+1785520773525,2,GET Expense By User Non Pending Request,200,OK,Employee Users 1-41,text,true,,456,177,10,12,http://127.0.0.1:8080/expenses/user/1/history,2,0,0
+1785520773529,2,GET Expense by Date,200,,Manager Users 2-47,text,true,,348,178,2,12,http://127.0.0.1:9090/expenses/date/2026-06-01,2,0,0
+1785520773549,3,GET All Expenses Request,200,OK,Employee Users 1-48,text,true,,9040,162,10,11,http://127.0.0.1:8080/expenses,3,0,0
+1785520773609,3,GET All Expenses Request,200,OK,Employee Users 1-49,text,true,,9040,162,10,11,http://127.0.0.1:8080/expenses,3,0,1
+1785520773635,5,DELETE Expense Request,201,CREATED,Employee Users 1-40,text,true,,250,189,10,11,http://127.0.0.1:8080/expenses/2804,5,0,1
+1785520773645,5,PUT Expense Request,201,CREATED,Employee Users 1-45,text,true,,304,301,9,10,http://127.0.0.1:8080/expenses/2809,5,0,0
+1785520773650,3,GET Expense By User Non Pending Request,200,OK,Employee Users 1-44,text,true,,456,177,9,10,http://127.0.0.1:8080/expenses/user/1/history,3,0,1
+1785520773659,3,GET All Expenses Request,200,OK,Employee Users 1-50,text,true,,8946,162,9,10,http://127.0.0.1:8080/expenses,3,0,1
+1785520773665,5,PUT Expense Request,201,CREATED,Employee Users 1-41,text,true,,304,301,9,10,http://127.0.0.1:8080/expenses/2806,5,0,0
+1785520773672,2,GET Expense by Date,200,,Manager Users 2-50,text,true,,348,178,1,10,http://127.0.0.1:9090/expenses/date/2026-06-01,2,0,0
+1785520773678,4,DELETE Expense Request,201,CREATED,Employee Users 1-43,text,true,,250,189,9,9,http://127.0.0.1:8080/expenses/2807,4,0,0
+1785520773706,3,GET Expense By User Request,200,OK,Employee Users 1-47,text,true,,8092,169,8,8,http://127.0.0.1:8080/expenses/user/1,3,0,0
+1785520773722,3,GET Expense By User Request,200,OK,Employee Users 1-46,text,true,,8092,169,8,8,http://127.0.0.1:8080/expenses/user/1,2,0,0
+1785520773740,2,GET One Expense Request,200,OK,Employee Users 1-49,text,true,,291,167,8,8,http://127.0.0.1:8080/expenses/2813,2,0,1
+1785520773770,2,GET One Expense Request,200,OK,Employee Users 1-50,text,true,,291,167,8,8,http://127.0.0.1:8080/expenses/2814,2,0,1
+1785520773787,4,DELETE Expense Request,201,CREATED,Employee Users 1-45,text,true,,250,189,8,8,http://127.0.0.1:8080/expenses/2809,4,0,0
+1785520773832,2,GET One Expense Request,200,OK,Employee Users 1-48,text,true,,291,167,7,7,http://127.0.0.1:8080/expenses/2812,2,0,0
+1785520773853,6,PUT Expense Request,201,CREATED,Employee Users 1-44,text,true,,304,301,7,7,http://127.0.0.1:8080/expenses/2808,6,0,1
+1785520773858,3,GET Expense By User Request,200,OK,Employee Users 1-49,text,true,,7998,169,7,7,http://127.0.0.1:8080/expenses/user/1,3,0,0
+1785520773886,4,DELETE Expense Request,201,CREATED,Employee Users 1-41,text,true,,250,189,7,7,http://127.0.0.1:8080/expenses/2806,4,0,1
+1785520773915,3,GET Expense By User Request,200,OK,Employee Users 1-50,text,true,,7897,169,6,6,http://127.0.0.1:8080/expenses/user/1,3,0,1
+1785520773965,3,GET Expense By User Non Pending Request,200,OK,Employee Users 1-47,text,true,,456,177,6,6,http://127.0.0.1:8080/expenses/user/1/history,3,0,1
+1785520774009,3,GET Expense By User Non Pending Request,200,OK,Employee Users 1-46,text,true,,456,177,6,6,http://127.0.0.1:8080/expenses/user/1/history,3,0,1
+1785520774050,3,GET Expense By User Non Pending Request,200,OK,Employee Users 1-49,text,true,,456,177,6,6,http://127.0.0.1:8080/expenses/user/1/history,3,0,1
+1785520774107,3,GET Expense By User Request,200,OK,Employee Users 1-48,text,true,,7897,169,6,6,http://127.0.0.1:8080/expenses/user/1,3,0,1
+1785520774120,2,GET Expense By User Non Pending Request,200,OK,Employee Users 1-50,text,true,,456,177,6,6,http://127.0.0.1:8080/expenses/user/1/history,2,0,0
+1785520774129,7,DELETE Expense Request,201,CREATED,Employee Users 1-44,text,true,,250,189,6,6,http://127.0.0.1:8080/expenses/2808,7,0,0
+1785520774190,5,PUT Expense Request,201,CREATED,Employee Users 1-46,text,true,,304,301,5,5,http://127.0.0.1:8080/expenses/2810,5,0,1
+1785520774192,5,PUT Expense Request,201,CREATED,Employee Users 1-47,text,true,,304,301,5,5,http://127.0.0.1:8080/expenses/2811,5,0,0
+1785520774268,3,GET Expense By User Non Pending Request,200,OK,Employee Users 1-48,text,true,,456,177,5,5,http://127.0.0.1:8080/expenses/user/1/history,3,0,1
+1785520774299,4,DELETE Expense Request,201,CREATED,Employee Users 1-46,text,true,,250,189,5,5,http://127.0.0.1:8080/expenses/2810,4,0,1
+1785520774311,5,PUT Expense Request,201,CREATED,Employee Users 1-49,text,true,,304,301,4,4,http://127.0.0.1:8080/expenses/2813,5,0,1
+1785520774351,6,PUT Expense Request,201,CREATED,Employee Users 1-50,text,true,,304,301,4,4,http://127.0.0.1:8080/expenses/2814,6,0,1
+1785520774390,5,DELETE Expense Request,201,CREATED,Employee Users 1-47,text,true,,250,189,4,4,http://127.0.0.1:8080/expenses/2811,5,0,0
+1785520774413,6,PUT Expense Request,201,CREATED,Employee Users 1-48,text,true,,304,301,3,3,http://127.0.0.1:8080/expenses/2812,6,0,1
+1785520774590,5,DELETE Expense Request,201,CREATED,Employee Users 1-48,text,true,,250,189,3,3,http://127.0.0.1:8080/expenses/2812,5,0,0
+1785520774591,5,DELETE Expense Request,201,CREATED,Employee Users 1-49,text,true,,250,189,2,2,http://127.0.0.1:8080/expenses/2813,5,0,1
+1785520774592,8,DELETE Expense Request,201,CREATED,Employee Users 1-50,text,true,,250,189,1,1,http://127.0.0.1:8080/expenses/2814,8,0,0
