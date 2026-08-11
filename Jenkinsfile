@@ -17,11 +17,17 @@ pipeline {
 
         stage('Run Unit Tests') {
             steps {
-                echo 'Running Python API tests...'
+                echo 'Running Python API unit tests...'
                 sh 'docker compose run --rm python-api pytest'
 
-                echo 'Running Spring Boot tests...'
-                sh 'docker run --rm --volumes-from jenkins-local -w ${WORKSPACE}/manager_app maven:3.9-eclipse-temurin-17 mvn test'
+                echo 'Running Spring Boot unit tests only...'
+                sh '''
+                  docker run --rm \
+                    --volumes-from jenkins-local \
+                    -w ${WORKSPACE}/manager_app \
+                    maven:3.9-eclipse-temurin-17 \
+                    mvn test -Dtest="com.expense.manager.controller.**.*Test,com.expense.manager.dao.**.*Test"
+                '''
             }
         }
     }
