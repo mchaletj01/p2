@@ -17,10 +17,11 @@ pipeline {
 
         stage('Run Unit Tests') {
             steps {
-                echo 'Running tests across services...'
+                echo 'Running Python tests...'
                 sh 'docker compose run --rm python-api pytest'
 
-                sh 'docker compose run --rm --entrypoint "mvn test" spring-backend'
+                echo 'Running Spring Boot tests...'
+                sh 'docker run --rm -v ${WORKSPACE}/spring-backend:/app -w /app maven:3.9-eclipse-temurin-17 mvn test'
             }
         }
     }
