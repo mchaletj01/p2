@@ -21,7 +21,7 @@ pipeline {
                 sh 'docker compose run --rm python-api pytest'
 
                 echo 'Running Spring Boot tests...'
-                sh 'docker run --rm -v ${WORKSPACE}/spring-backend:/app -w /app maven:3.9-eclipse-temurin-17 mvn test'
+                sh 'docker run --rm -v ${WORKSPACE}/manager_app:/app -w /app maven:3.9-eclipse-temurin-17 mvn test'
             }
         }
     }
