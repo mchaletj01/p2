@@ -20,7 +20,7 @@ pipeline {
                 echo 'Running tests across services...'
                 sh 'docker compose run --rm python-api pytest'
 
-                sh 'docker compose run --rm spring-backend mvn test'
+                sh 'docker compose run --rm --entrypoint "mvn test" spring-backend'
             }
         }
     }
